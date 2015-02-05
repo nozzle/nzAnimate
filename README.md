@@ -41,7 +41,7 @@ See [the demo](http://nozzle.github.io/nzAnimate/) for more examples
 
 Are coming soon.  It will be as easy as:
 
-*custom.json*
+**custom.json**
 ```javascript
 {
   animations: ['bounceDownIn', 'bounceUpOut', '...'],
@@ -57,5 +57,5 @@ Are coming soon.  It will be as easy as:
   }
 }
 ```
-
-`gulp build custom'
+ 
+Then `$ gulp build custom`
