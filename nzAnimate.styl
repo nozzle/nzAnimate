@@ -26,9 +26,6 @@ animations = ( bombLeftOut bombRightOut bounce bounceIn bounceInDown bounceInLef
 			&.ng-enter
 				-webkit-animation-name: animation_name;
 				animation-name: animation_name;
-			&-reverse
-				-webkit-animation-direction: reverse
-				animation-direction: reverse
 .exit
 	for animation_name in animations
 		&-{animation_name}
@@ -37,9 +34,6 @@ animations = ( bombLeftOut bombRightOut bounce bounceIn bounceInDown bounceInLef
 			&.ng-leave
 				-webkit-animation-name: animation_name;
 				animation-name: animation_name;
-			&-reverse
-				-webkit-animation-direction: reverse
-				animation-direction: reverse
 .stagger
 	for stagger in (0..20)
 		&-{stagger * 50}
