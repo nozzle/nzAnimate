@@ -4,6 +4,19 @@ vendors = (webkit official)
 
 animations = ( bombLeftOut bombRightOut bounce bounceIn bounceInDown bounceInLeft bounceInRight bounceInUp bounceOut bounceOutDown bounceOutLeft bounceOutRight bounceOutUp fadeIn fadeInDown fadeInDownBig fadeInLeft fadeInLeftBig fadeInRight fadeInRightBig fadeInUp fadeInUpBig fadeOut fadeOutDown fadeOutDownBig fadeOutLeft fadeOutLeftBig fadeOutRight fadeOutRightBig fadeOutUp fadeOutUpBig flash flip flipInX flipInY flipOutX flipOutY foolishIn foolishOut hinge holeOut lightSpeedIn lightSpeedOut magic openDownLeft openDownLeftOut openDownLeftReturn openDownRight openDownRightOut openDownRightReturn openUpLeft openUpLeftOut openUpLeftReturn openUpRight openUpRightOut openUpRightReturn perspectiveDown perspectiveDownReturn perspectiveLeft perspectiveLeftReturn perspectiveRight perspectiveRightReturn perspectiveUp perspectiveUpReturn puffIn puffOut pulse rollIn rollOut rotateDown rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight rotateLeft rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight rotateRight rotateUp rubberBand shake slideDown slideDownReturn slideInDown slideInLeft slideInRight slideInUp slideLeft slideLeftReturn slideOutDown slideOutLeft slideOutRight slideOutUp slideRight slideRightReturn slideUp slideUpReturn swap swashIn swashOut swing tada tinDownIn tinDownOut tinLeftIn tinLeftOut tinRightIn tinRightOut tinUpIn tinUpOut twisterInDown twisterInUp vanishIn vanishOut wobble)
 
+.animate
+	-webkit-animation-duration: .7s
+	animation-duration: .7s
+	&.infinite
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+	&.reverse
+		-webkit-animation-direction: reverse
+		animation-direction: reverse
+	for animation_name in animations
+		&.{animation_name}
+			-webkit-animation-name: animation_name;
+			animation-name: animation_name;
 
 .enter
 	for animation_name in animations
