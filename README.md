@@ -5,3 +5,10 @@ Derived from Animate.css and animate-stylus, nzAnimate provides an easy class-ba
 
 ## Usage
 
+See nz-animate.github.io for details
+
+```html
+<div class="enter-bounceInDown exit-bounceOutUp stagger-100 speed-700" ng-repeat="thing in things">
+  {{thing}}
+</div>
+```
