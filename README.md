@@ -36,3 +36,26 @@ Out of the box, nzAnimate supports any stagger from `stagger-0` to `stagger-1000
 #### More info
 
 See [the demo](http://nozzle.github.io/nzAnimate/) for more examples
+
+### Custom Builds
+
+Are coming soon.  It will be as easy as:
+
+*custom.json*
+```javascript
+{
+  animations: ['bounceDownIn', 'bounceUpOut', '...'],
+  speed: {
+    start: 0,
+    end: 6000,
+    increment: 100
+  }
+  stagger: {
+    start: 0,
+    end: 500,
+    increment: 25
+  }
+}
+```
+
+`gulp build custom'
