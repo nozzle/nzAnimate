@@ -1,0 +1,22 @@
+{
+  "name": "nzAnimate",
+  "version": "1.0.0",
+  "description": "Sickly simple animations and staggering for Angular",
+  "main": "nzAnimate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tannerlinsley",
+  "license": "ISC",
+  "dependencies": {
+    "animate-stylus": "git://github.com/tannerlinsley/animate-stylus",
+    "beepbeep": "^1.2.0",
+    "bower": "^1.3.12",
+    "gulp": "^3.8.10",
+    "gulp-plumber": "^0.6.6",
+    "gulp-stylus": "^2.0.0",
+    "gulp-uglifyjs": "^0.5.0",
+    "gulp-util": "^3.0.3",
+    "nib": "^1.1.0"
+  }
+}

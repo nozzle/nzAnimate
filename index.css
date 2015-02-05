@@ -1,0 +1,11 @@
+.card {
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+.card .inner {
+    background: #007FAD;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/nzAnimate.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular-animate.min.js"></script>
+    <script src="dist/nzAnimate.min.js"></script>
+    <script src="nzAnimate.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="mainController">
+    <div class="container-fluid">
+        <br>
+        <br>
+        <form class="form-inline">
+
+            <div class="row">
+                <div class="col-xs-6 text-right">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+   							<button class="btn btn-success" ng-click="get()">Enter</button>
+  						</span>
+                        <select class="form-control" ng-model="enter">
+                            <option ng-repeat="choice in choices | filter:'in'" value="{{choice}}">{{choice}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="input-group">
+                        <select class="form-control" ng-model="exit">
+                            <option ng-repeat="choice in choices | filter:'out'" value="{{choice}}">{{choice}}</option>
+                        </select>
+                        <span class="input-group-btn">
+   							<button class="btn btn-danger" ng-click="clear()">Exit</button>
+  						</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-6 text-right">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+   							<button class="btn disabled" ng-click="clear()">Animation Speed</button>
+  						</span>
+                        <select class="form-control" ng-model="speed">
+                            <option value="1000" selected>1000ms (default)</option>
+                            <option value="0" disabled>----</option>
+                            <option ng-repeat="s in speeds" value="{{s}}">{{s}}ms</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+   							<button class="btn disabled" ng-click="get()">Stagger</button>
+  						</span>
+                        <select class="form-control" ng-model="stagger">
+                            <option value="100" selected>100ms (default)</option>
+                            <option value="0" disabled>----</option>
+                            <option ng-repeat="s in staggers" value="{{s}}">{{s}}ms</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-6">
+                    <pre ng-bind="html"></pre>
+                </div>
+                <div class="col-xs-6">
+                    <div class="input-group form-group">
+                        <div class="input-group-addon">Filter</div>
+                        <input class="form-control" placeholder="Enter 1 - 20" ng-model="search">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="card enter-{{enter}} exit-{{exit}} stagger-{{stagger}} speed-{{speed}}" ng-repeat="box in boxes | filter:search">
+            <div class="inner">
+                <h3 class="text-center">Card #{{box}}</h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
