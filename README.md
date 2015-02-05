@@ -40,9 +40,8 @@ See [the demo](http://nozzle.github.io/nzAnimate/) for more examples
 ### Custom Builds
 
 Are coming soon.  It will be as easy as:
-
-**custom.json**
 ```javascript
+// custom.json
 {
   animations: ['bounceDownIn', 'bounceUpOut', '...'],
   speed: {
