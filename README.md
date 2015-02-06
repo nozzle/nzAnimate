@@ -11,10 +11,10 @@ Built on [Animate.css](http://daneden.github.io/animate.css/) and [animate-stylu
 
 ## Usage
 
-#### Plain ol' Animate (good for page/view loading)
+#### Plain ol' Animate
 
 ```html
-<div class="animate bounceInDown speed-400"></div>
+<div class="animate bounceInDown"></div>
 ```
 
 #### Enter & Exit
