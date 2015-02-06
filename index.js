@@ -3,6 +3,18 @@
         'ngAnimate',
     ]);
 
+    app.filter('containsExact', function() {
+        return function(input, value) {
+            var values = [];
+            angular.forEach(input, function(item) {
+                if (item.indexOf(value) > -1) {
+                    values.push(item);
+                }
+            });
+            return values;
+        };
+    });
+
     app.controller('mainController', function($scope) {
 
         $scope.boxes = [];
@@ -163,10 +175,12 @@
 
         function makeHtml() {
             $scope.html = [
-                '<div ng-repeat="box in boxes | filter:search" class="enter-' + $scope.enter + ' exit-' + $scope.exit + ' speed-' + $scope.speed + ' stagger-' + $scope.stagger + ' ">',
+                '<div ng-repeat="box in boxes | filter:search" class="' + $scope.enter + ' enter-' + $scope.enter + ' exit-' + $scope.exit + ' speed-' + $scope.speed + ' stagger-' + $scope.stagger + ' ">',
                 '   <h3 class="text-center">Card Number {{box}}</h3>',
                 '</div>'
             ].join('\n');
+            clear();
+            get();
         }
 
 
