@@ -6,24 +6,10 @@ var uglify = require('gulp-uglifyjs');
 var stylus = require('gulp-stylus');
 var nib = require('nib');
 
-gulp.task('js', jsTask);
 gulp.task('stylus', stylusTask);
 gulp.task('watch', watchTask);
-gulp.task('build', ['js', 'stylus']);
-gulp.task('default', ['js', 'stylus', 'watch']);
-
-function jsTask() {
-    return gulp.src([
-            './nzAnimate.js'
-        ])
-        .pipe(plumber({
-            errorHandler: onError
-        }))
-        .pipe(uglify('dist/nzAnimate.min.js', {
-            compress: false
-        }))
-        .pipe(gulp.dest('./'));
-}
+gulp.task('build', ['stylus']);
+gulp.task('default', ['build', 'watch']);
 
 function stylusTask() {
 
@@ -36,21 +22,8 @@ function stylusTask() {
         .pipe(gulp.dest('./dist/'));
 }
 
-function buildTask() {
-    return gulp.src([
-            './nzAnimate.js'
-        ])
-        .pipe(plumber({
-            errorHandler: onError
-        }))
-        .pipe(uglify('nzAnimate.min.js', {
-            compress: true
-        }))
-        .pipe(gulp.dest('./'));
-}
-
 function watchTask() {
-    gulp.watch(['./**.styl', './**.js'], ['build']);
+    gulp.watch('./**.styl', ['build']);
 }
 
 

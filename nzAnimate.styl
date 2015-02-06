@@ -21,16 +21,12 @@ animations = ( bombLeftOut bombRightOut bounce bounceIn bounceInDown bounceInLef
 .enter
 	for animation_name in animations
 		&-{animation_name}
-			-webkit-animation-duration: .7s
-			animation-duration: .7s
 			&.ng-enter
 				-webkit-animation-name: animation_name;
 				animation-name: animation_name;
 .exit
 	for animation_name in animations
 		&-{animation_name}
-			-webkit-animation-duration: .7s
-			animation-duration: .7s
 			&.ng-leave
 				-webkit-animation-name: animation_name;
 				animation-name: animation_name;
