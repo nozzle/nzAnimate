@@ -1,7 +1,7 @@
 # nzAnimate
 A sickly simple class-based library for Angular animations.
 
-Built on [Animate.css](http://daneden.github.io/animate.css/) and [animate-stylus](https://github.com/slang800/animate-stylus), nzAnimate not only provides the regular functionality of Animate.css, but also provides easier classes for animations on directives like ng-repeat (ng-enter, ng-leave), ng-hide, ng-show, or any other directives that leverage the ngAnimate module.
+Built on [Animate.css](http://daneden.github.io/animate.css/) and [animate-stylus](https://github.com/slang800/animate-stylus), nzAnimate not only provides the regular functionality of Animate.css, but also provides easier classes for Angular animations on directives like ng-repeat (ng-enter, ng-leave), ng-hide, ng-show, or any other directives that leverage the ngAnimate module while barely adding any size to the library.
 
 ## [Awesome Demo](http://nozzle.github.io/nzAnimate/)
 
@@ -10,19 +10,26 @@ Built on [Animate.css](http://daneden.github.io/animate.css/) and [animate-stylu
 `$ bower/npm install nz-animate --save`
 
 ## Usage
-```html
-<div class="enter-bounceInDown exit-bounceOutUp speed-700 stagger-100" ng-repeat="thing in things">
-  {{thing}}
-</div>
-```
 
-See [Animate.css](https://github.com/daneden/animate.css) for traditional animation usage.
+#### Plain ol' Animate (good for page/view loading)
+
+```html
+<div class="animate bounceInDown speed-400"></div>
+```
 
 #### Enter & Exit
 
-Replace `bounceInDown` or `bounceOutUp` with any animation from [this list](http://nozzle.github.io/nzAnimate/)
+```html
+<div class="enter-bounceInDown exit-bounceOutUp">Stuff</div>
+```
+
+Replace `bounceInDown` or `bounceOutUp` with any animation you see in [the demo](http://nozzle.github.io/nzAnimate/).
 
 #### Speed
+
+```html
+<div class="enter-bounceInDown exit-bounceOutUp speed-300">Stuff</div>
+```
 
 Default Speed: 700ms
 
@@ -30,17 +37,29 @@ Out of the box, nzAnimate supports any speed from `speed-0` to `speed-4000` in i
 
 #### Stagger
 
+```html
+<div class="enter-bounceInDown exit-bounceOutUp stagger-100" ng-repeat="thing in things">
+  {{thing}}
+</div>
+```
+
 Default Stagger: 100ms
 
 Out of the box, nzAnimate supports any stagger from `stagger-0` to `stagger-1000` in increments of `50`.
 
-#### More info
+#### Put it all together...
 
-See [the demo](http://nozzle.github.io/nzAnimate/) for more examples
+Using all of these together, everything will animate on creation, exit, re-entry, show, hide, move, etc...
 
-## Custom Builds
+```html
+<div class="animate bounceInDown enter-bounceInDown exit-bounceOutUp speed-500 stagger-100" ng-repeat="thing in things">
+  {{thing}}
+</div>
+```
 
-Are coming soon.  It will be as easy as:
+## Custom Builds...
+
+Are coming soon!  It will be as easy as:
 ```javascript
 // custom.json
 {
