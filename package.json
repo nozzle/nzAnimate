@@ -1,8 +1,7 @@
 {
-  "name": "nzAnimate",
+  "name": "nz-animate",
   "version": "1.0.0",
   "description": "Sickly simple animations and staggering for Angular",
-  "main": "nzAnimate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +17,21 @@
     "gulp-uglifyjs": "^0.5.0",
     "gulp-util": "^3.0.3",
     "nib": "^1.1.0"
-  }
+  },
+  "main": "gulpfile.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nozzle/nzAnimate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nozzle/nzAnimate/issues"
+  },
+  "homepage": "https://github.com/nozzle/nzAnimate",
+  "keywords": [
+    "angular",
+    "animate.css",
+    "animation",
+    "ngAnimate"
+  ]
 }
