@@ -80,7 +80,9 @@ Simply edit `/src/config.hjson` to your liking!
 }
 ```
  
-Then `$ gulp build`
+Then:
+`$ npm install`
+`$ gulp build`
 
 ## Roadmap & Contributing
 
