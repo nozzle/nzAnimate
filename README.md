@@ -43,8 +43,6 @@ Out of the box, nzAnimate supports any speed from `speed-0` to `speed-4000` in i
 </div>
 ```
 
-Default Stagger: 100ms
-
 Out of the box, nzAnimate supports any stagger from `stagger-0` to `stagger-1000` in increments of `50`.
 
 #### Put it all together...
