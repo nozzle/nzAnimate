@@ -81,3 +81,12 @@ Simply edit `/src/config.hjson` to your liking!
 ```
  
 Then `$ gulp build`
+
+## Roadmap & Contributing
+
+1. Integrate the rest of the animations availabe from Animate.css (not too many). 
+Our animate-stylus repo is currently forked at https://github.com/tannerlinsley/animate-stylus, 
+
+2. Lessen the size of the default build.
+
+All PR's and contributions are more than welcome!
