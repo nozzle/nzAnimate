@@ -20,14 +20,14 @@ gulp.task('build', ['stylus']);
 gulp.task('default', ['build', 'watch']);
 
 function optsTask() {
-    return gulp.src('./custom.hjson')
+    return gulp.src('./src/config.hjson')
         .pipe(tap(function(file) {
             config = hjson.parse(String(file.contents));
         }));
 }
 
 function replaceOptsTask() {
-    return gulp.src('./nzAnimate.styl')
+    return gulp.src('./src/nzAnimate.styl')
         .pipe(tap(function(file) {
             var contents = String(file.contents);
             contents = contents.replace(/\{\{([\d\D\s]+?)\}\}/g, function(match, inner) {

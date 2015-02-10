@@ -59,22 +59,25 @@ Using all of these together, everything will animate on creation, exit, re-entry
 
 ## Custom Builds...
 
-Are coming soon!  It will be as easy as:
+Simply edit `/src/config.hjson` to your liking!
+
 ```javascript
-// custom.json
 {
-  animations: ['bounceDownIn', 'bounceUpOut', '...'],
   speed: {
+    default: 1000,
     start: 0,
     end: 6000,
     increment: 100
-  }
+  },
   stagger: {
     start: 0,
     end: 500,
     increment: 25
-  }
+  },
+  ieSupport: true,
+  vendors: ['official', 'webkit', 'moz', '...']
+  animations: ['bounceDownIn', 'bounceUpOut', '...'],
 }
 ```
  
-Then `$ gulp build custom`
+Then `$ gulp build`
