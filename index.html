@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="dist/nzAnimate.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="dist/nzAnimate.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular-animate.min.js"></script>
@@ -24,10 +24,8 @@
             <h4><em>A sickly simple animate.css adaptation for Angular animations</em></h4>
 
             <section id="downloads">
-                <a href="https://github.com/nozzle/nzAnimate/zipball/master" class="btn btn-primary">Download as .zip</a>
-                <a href="https://github.com/nozzle/nzAnimate/tarball/master" class="btn btn-primary">Download as .tar.gz</a>
-                <a href="https://github.com/nozzle/nzAnimate" class="btn btn-success">
-                    </span>View on GitHub</a>
+                <a href="https://github.com/nozzle/nzAnimate/releases" class="btn btn-primary">Download</a>
+                <a href="https://github.com/nozzle/nzAnimate" class="btn btn-success">View on GitHub</a>
             </section>
         </div>
     </header>
@@ -39,8 +37,7 @@
             <p>Built on <a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a> and <a href="https://github.com/slang800/animate-stylus">animate-stylus</a>, nzAnimate not only provides the regular functionality of Animate.css, but also provides easier classes for animations on directives like ng-repeat (ng-enter, ng-leave), ng-hide, ng-show, or any other directives that leverage the ngAnimate module.</p>
 
             <h3>Installation</h3>
-            <pre>$ bower install nz-animate</pre>
-            <pre>$ npm install nz-animate</pre>
+            <pre>$ bower/npm install nz-animate</pre>
 
             <strong>Include Files:</strong>
             <pre><code ng-bind='"<link type=\"text/css\" href=\"bower_components/nz-animate/dist/nzAnimate.min.css\"/>"'></code></pre>
@@ -62,7 +59,9 @@
                                 <button class="btn btn-success" ng-click="get()">Enter</button>
                             </span>
                             <span class="input-group-btn">
-                                <select class="form-control" ng-model="enter">
+                                <select class="form-control" ng-model="current.enter">
+                                    <option selected value="bounceInDown">bounceInDown</option>
+                                    <option disabled>---</option>
                                     <option ng-repeat="choice in choices | containsExact:'In'" value="{{choice}}">{{choice}}</option>
                                 </select>
                             </span>
@@ -71,7 +70,9 @@
                     <div class="col-xs-6">
                         <div class="input-group">
                             <span class="input-group-btn">
-                                <select class="form-control" ng-model="exit">
+                                <select class="form-control" ng-model="current.exit">
+                                    <option selected value="bounceOutUp">bounceOutUp</option>
+                                    <option disabled>---</option>
                                     <option ng-repeat="choice in choices | containsExact:'Out'" value="{{choice}}">{{choice}}</option>
                                 </select>
                             </span>
@@ -89,7 +90,7 @@
                                 <button class="btn disabled" ng-click="clear()">Animation Speed</button>
                             </span>
                             <span class="input-group-btn">
-                                <select class="form-control" ng-model="speed">
+                                <select class="form-control" ng-model="current.speed">
                                     <option value="1000" selected>1000ms (default)</option>
                                     <option value="0" disabled>----</option>
                                     <option ng-repeat="s in speeds" value="{{s}}">{{s}}ms</option>
@@ -103,7 +104,7 @@
                                 <button class="btn disabled" ng-click="get()">Stagger</button>
                             </span>
                             <span class="input-group-btn">
-                                <select class="form-control" ng-model="stagger">
+                                <select class="form-control" ng-model="current.stagger">
                                     <option value="100" selected>100ms (default)</option>
                                     <option value="0" disabled>----</option>
                                     <option ng-repeat="s in staggers" value="{{s}}">{{s}}ms</option>
@@ -125,8 +126,7 @@
                     </div>
                 </div>
             </form>
-            <br>
-            <div class="card animate {{enter}} enter-{{enter}} exit-{{exit}} stagger-{{stagger}} speed-{{speed}}" ng-repeat="box in boxes | filter:search">
+            <div class="card animate {{current.enter}} enter-{{current.enter}} exit-{{current.exit}} stagger-{{current.stagger}} speed-{{current.speed}}" ng-repeat="box in boxes | filter:search">
                 <div class="inner">
                     <h3 class="text-center">Card #{{box}}</h3>
                 </div>

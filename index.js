@@ -15,7 +15,7 @@
         };
     });
 
-    app.controller('mainController', function($scope) {
+    app.controller('mainController', function($scope, $timeout) {
 
         $scope.boxes = [];
 
@@ -155,18 +155,22 @@
         $scope.get = get;
         $scope.clear = clear;
 
-        // Init
-        $scope.enter = 'bounceInDown';
-        $scope.exit = 'bounceOutUp';
-        $scope.stagger = 100;
-        $scope.speed = 1000;
-
         // Watchers
-        $scope.$watch(function() {
-            return [$scope.enter, $scope.exit, $scope.stagger];
-        }, makeHtml, true);
+
+        // Init
+        $scope.current = {
+            enter: 'bounceInDown',
+            exit: 'bounceOutUp',
+            stagger: 100,
+            speed: 700,
+        };
 
         get();
+
+        $scope.$watch(function() {
+            return [$scope.current.enter, $scope.current.exit, $scope.current.stagger];
+        }, makeHtml, true);
+
 
 
 
@@ -175,7 +179,7 @@
 
         function makeHtml() {
             $scope.html = [
-                '<div ng-repeat="box in boxes | filter:search" class="' + $scope.enter + ' enter-' + $scope.enter + ' exit-' + $scope.exit + ' speed-' + $scope.speed + ' stagger-' + $scope.stagger + ' ">',
+                '<div ng-repeat="box in boxes | filter:search" class="' + $scope.current.enter + ' enter-' + $scope.current.enter + ' exit-' + $scope.current.exit + ' speed-' + $scope.current.speed + ' stagger-' + $scope.current.stagger + ' ">',
                 '   <h3 class="text-center">Card Number {{box}}</h3>',
                 '</div>'
             ].join('\n');
@@ -185,9 +189,11 @@
 
 
         function get() {
-            for (var i = 1; i <= 20; i++) {
-                $scope.boxes.push(i);
-            }
+            $timeout(function() {
+                for (var i = 1; i <= 20; i++) {
+                    $scope.boxes.push(i);
+                }
+            });
         }
 
         function clear() {
