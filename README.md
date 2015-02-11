@@ -35,7 +35,7 @@ Default Speed: 700ms
 
 Out of the box, nzAnimate supports any speed from `speed-0` to `speed-4000` in increments of `50`.
 
-#### Stagger
+#### Enter, Exit & Stagger
 
 ```html
 <div class="animate enter-bounceInDown exit-bounceOutUp stagger-100" ng-repeat="thing in things">
