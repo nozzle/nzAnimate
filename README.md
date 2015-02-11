@@ -17,18 +17,18 @@ Built on [Animate.css](http://daneden.github.io/animate.css/) and [animate-stylu
 <div class="animate bounceInDown"></div>
 ```
 
-#### Enter & Exit
+#### Show / Hide
 
 ```html
-<div class="enter-bounceInDown exit-bounceOutUp">Stuff</div>
+<div class="animate enter-bounceInDown exit-bounceOutUp" ng-show="isShowing">Stuff</div>
 ```
 
 Replace `bounceInDown` or `bounceOutUp` with any animation you see in [the demo](http://nozzle.github.io/nzAnimate/).
 
-#### Speed
+#### Animation Speed
 
 ```html
-<div class="enter-bounceInDown exit-bounceOutUp speed-300">Stuff</div>
+<div class="animate enter-bounceInDown exit-bounceOutUp speed-300" ng-hide="!isShowing">Stuff</div>
 ```
 
 Default Speed: 700ms
@@ -38,7 +38,7 @@ Out of the box, nzAnimate supports any speed from `speed-0` to `speed-4000` in i
 #### Stagger
 
 ```html
-<div class="enter-bounceInDown exit-bounceOutUp stagger-100" ng-repeat="thing in things">
+<div class="animate enter-bounceInDown exit-bounceOutUp stagger-100" ng-repeat="thing in things">
   {{thing}}
 </div>
 ```

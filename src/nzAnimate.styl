@@ -7,25 +7,21 @@ support-for-ie = {{ieSupport}}
 animations = {{animations}}
 
 .animate
-	-webkit-animation-duration: {{defaultSpeed}}ms
 	animation-duration: {{defaultSpeed}}ms
 	&.infinite
 		animation-iteration-count: infinite;
-	&.reverse
-		animation-direction: reverse
-	for animation_name in animations
-		&.{animation_name}
-			animation-name: animation_name;
 
 .enter
 	for animation_name in animations
 		&-{animation_name}
-			&.ng-enter
+			&.ng-enter,
+			&.ng-hide-remove
 				animation-name: animation_name;
 .exit
 	for animation_name in animations
 		&-{animation_name}
-			&.ng-leave
+			&.ng-leave,
+			&.ng-hide-add
 				animation-name: animation_name;
 .stagger
 	for stagger in ({{staggerStart}}..{{staggerEnd}})

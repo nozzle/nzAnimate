@@ -3939,7 +3939,6 @@
   }
 }
 .animate {
-  -webkit-animation-duration: 700ms;
   animation-duration: 700ms;
   -webkit-animation-duration: 700ms;
 }
@@ -3947,1435 +3946,1193 @@
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
 }
-.animate.reverse {
-  animation-direction: reverse;
-  -webkit-animation-direction: reverse;
-}
-.animate.bounce {
+.enter-bounce.ng-enter,
+.enter-bounce.ng-hide-remove {
   animation-name: bounce;
   -webkit-animation-name: bounce;
 }
-.animate.flash {
+.enter-flash.ng-enter,
+.enter-flash.ng-hide-remove {
   animation-name: flash;
   -webkit-animation-name: flash;
 }
-.animate.flip {
+.enter-flip.ng-enter,
+.enter-flip.ng-hide-remove {
   animation-name: flip;
   -webkit-animation-name: flip;
 }
-.animate.hinge {
+.enter-hinge.ng-enter,
+.enter-hinge.ng-hide-remove {
   animation-name: hinge;
   -webkit-animation-name: hinge;
 }
-.animate.magic {
+.enter-magic.ng-enter,
+.enter-magic.ng-hide-remove {
   animation-name: magic;
   -webkit-animation-name: magic;
 }
-.animate.openDownLeft {
+.enter-openDownLeft.ng-enter,
+.enter-openDownLeft.ng-hide-remove {
   animation-name: openDownLeft;
   -webkit-animation-name: openDownLeft;
 }
-.animate.openDownLeftReturn {
+.enter-openDownLeftReturn.ng-enter,
+.enter-openDownLeftReturn.ng-hide-remove {
   animation-name: openDownLeftReturn;
   -webkit-animation-name: openDownLeftReturn;
 }
-.animate.openDownRight {
+.enter-openDownRight.ng-enter,
+.enter-openDownRight.ng-hide-remove {
   animation-name: openDownRight;
   -webkit-animation-name: openDownRight;
 }
-.animate.openDownRightReturn {
+.enter-openDownRightReturn.ng-enter,
+.enter-openDownRightReturn.ng-hide-remove {
   animation-name: openDownRightReturn;
   -webkit-animation-name: openDownRightReturn;
 }
-.animate.openUpLeft {
+.enter-openUpLeft.ng-enter,
+.enter-openUpLeft.ng-hide-remove {
   animation-name: openUpLeft;
   -webkit-animation-name: openUpLeft;
 }
-.animate.openUpLeftReturn {
+.enter-openUpLeftReturn.ng-enter,
+.enter-openUpLeftReturn.ng-hide-remove {
   animation-name: openUpLeftReturn;
   -webkit-animation-name: openUpLeftReturn;
 }
-.animate.openUpRight {
+.enter-openUpRight.ng-enter,
+.enter-openUpRight.ng-hide-remove {
   animation-name: openUpRight;
   -webkit-animation-name: openUpRight;
 }
-.animate.openUpRightReturn {
+.enter-openUpRightReturn.ng-enter,
+.enter-openUpRightReturn.ng-hide-remove {
   animation-name: openUpRightReturn;
   -webkit-animation-name: openUpRightReturn;
 }
-.animate.perspectiveDown {
+.enter-perspectiveDown.ng-enter,
+.enter-perspectiveDown.ng-hide-remove {
   animation-name: perspectiveDown;
   -webkit-animation-name: perspectiveDown;
 }
-.animate.perspectiveDownReturn {
+.enter-perspectiveDownReturn.ng-enter,
+.enter-perspectiveDownReturn.ng-hide-remove {
   animation-name: perspectiveDownReturn;
   -webkit-animation-name: perspectiveDownReturn;
 }
-.animate.perspectiveLeft {
+.enter-perspectiveLeft.ng-enter,
+.enter-perspectiveLeft.ng-hide-remove {
   animation-name: perspectiveLeft;
   -webkit-animation-name: perspectiveLeft;
 }
-.animate.perspectiveLeftReturn {
+.enter-perspectiveLeftReturn.ng-enter,
+.enter-perspectiveLeftReturn.ng-hide-remove {
   animation-name: perspectiveLeftReturn;
   -webkit-animation-name: perspectiveLeftReturn;
 }
-.animate.perspectiveRight {
+.enter-perspectiveRight.ng-enter,
+.enter-perspectiveRight.ng-hide-remove {
   animation-name: perspectiveRight;
   -webkit-animation-name: perspectiveRight;
 }
-.animate.perspectiveRightReturn {
+.enter-perspectiveRightReturn.ng-enter,
+.enter-perspectiveRightReturn.ng-hide-remove {
   animation-name: perspectiveRightReturn;
   -webkit-animation-name: perspectiveRightReturn;
 }
-.animate.perspectiveUp {
+.enter-perspectiveUp.ng-enter,
+.enter-perspectiveUp.ng-hide-remove {
   animation-name: perspectiveUp;
   -webkit-animation-name: perspectiveUp;
 }
-.animate.perspectiveUpReturn {
+.enter-perspectiveUpReturn.ng-enter,
+.enter-perspectiveUpReturn.ng-hide-remove {
   animation-name: perspectiveUpReturn;
   -webkit-animation-name: perspectiveUpReturn;
 }
-.animate.pulse {
+.enter-pulse.ng-enter,
+.enter-pulse.ng-hide-remove {
   animation-name: pulse;
   -webkit-animation-name: pulse;
 }
-.animate.rotateDown {
+.enter-rotateDown.ng-enter,
+.enter-rotateDown.ng-hide-remove {
   animation-name: rotateDown;
   -webkit-animation-name: rotateDown;
 }
-.animate.rotateLeft {
+.enter-rotateLeft.ng-enter,
+.enter-rotateLeft.ng-hide-remove {
   animation-name: rotateLeft;
   -webkit-animation-name: rotateLeft;
 }
-.animate.rotateRight {
+.enter-rotateRight.ng-enter,
+.enter-rotateRight.ng-hide-remove {
   animation-name: rotateRight;
   -webkit-animation-name: rotateRight;
 }
-.animate.rotateUp {
+.enter-rotateUp.ng-enter,
+.enter-rotateUp.ng-hide-remove {
   animation-name: rotateUp;
   -webkit-animation-name: rotateUp;
 }
-.animate.rubberBand {
+.enter-rubberBand.ng-enter,
+.enter-rubberBand.ng-hide-remove {
   animation-name: rubberBand;
   -webkit-animation-name: rubberBand;
 }
-.animate.shake {
+.enter-shake.ng-enter,
+.enter-shake.ng-hide-remove {
   animation-name: shake;
   -webkit-animation-name: shake;
 }
-.animate.slideDown {
+.enter-slideDown.ng-enter,
+.enter-slideDown.ng-hide-remove {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
 }
-.animate.slideDownReturn {
+.enter-slideDownReturn.ng-enter,
+.enter-slideDownReturn.ng-hide-remove {
   animation-name: slideDownReturn;
   -webkit-animation-name: slideDownReturn;
 }
-.animate.slideLeft {
+.enter-slideLeft.ng-enter,
+.enter-slideLeft.ng-hide-remove {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
 }
-.animate.slideLeftReturn {
+.enter-slideLeftReturn.ng-enter,
+.enter-slideLeftReturn.ng-hide-remove {
   animation-name: slideLeftReturn;
   -webkit-animation-name: slideLeftReturn;
 }
-.animate.slideRight {
+.enter-slideRight.ng-enter,
+.enter-slideRight.ng-hide-remove {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
 }
-.animate.slideRightReturn {
+.enter-slideRightReturn.ng-enter,
+.enter-slideRightReturn.ng-hide-remove {
   animation-name: slideRightReturn;
   -webkit-animation-name: slideRightReturn;
 }
-.animate.slideUp {
+.enter-slideUp.ng-enter,
+.enter-slideUp.ng-hide-remove {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
 }
-.animate.slideUpReturn {
+.enter-slideUpReturn.ng-enter,
+.enter-slideUpReturn.ng-hide-remove {
   animation-name: slideUpReturn;
   -webkit-animation-name: slideUpReturn;
 }
-.animate.swap {
+.enter-swap.ng-enter,
+.enter-swap.ng-hide-remove {
   animation-name: swap;
   -webkit-animation-name: swap;
 }
-.animate.swing {
+.enter-swing.ng-enter,
+.enter-swing.ng-hide-remove {
   animation-name: swing;
   -webkit-animation-name: swing;
 }
-.animate.tada {
+.enter-tada.ng-enter,
+.enter-tada.ng-hide-remove {
   animation-name: tada;
   -webkit-animation-name: tada;
 }
-.animate.wobble {
+.enter-wobble.ng-enter,
+.enter-wobble.ng-hide-remove {
   animation-name: wobble;
   -webkit-animation-name: wobble;
 }
-.animate.bounceIn {
+.enter-bounceIn.ng-enter,
+.enter-bounceIn.ng-hide-remove {
   animation-name: bounceIn;
   -webkit-animation-name: bounceIn;
 }
-.animate.bounceInDown {
+.enter-bounceInDown.ng-enter,
+.enter-bounceInDown.ng-hide-remove {
   animation-name: bounceInDown;
   -webkit-animation-name: bounceInDown;
 }
-.animate.bounceInLeft {
+.enter-bounceInLeft.ng-enter,
+.enter-bounceInLeft.ng-hide-remove {
   animation-name: bounceInLeft;
   -webkit-animation-name: bounceInLeft;
 }
-.animate.bounceInRight {
+.enter-bounceInRight.ng-enter,
+.enter-bounceInRight.ng-hide-remove {
   animation-name: bounceInRight;
   -webkit-animation-name: bounceInRight;
 }
-.animate.bounceInUp {
+.enter-bounceInUp.ng-enter,
+.enter-bounceInUp.ng-hide-remove {
   animation-name: bounceInUp;
   -webkit-animation-name: bounceInUp;
 }
-.animate.fadeIn {
+.enter-fadeIn.ng-enter,
+.enter-fadeIn.ng-hide-remove {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
 }
-.animate.fadeInDown {
+.enter-fadeInDown.ng-enter,
+.enter-fadeInDown.ng-hide-remove {
   animation-name: fadeInDown;
   -webkit-animation-name: fadeInDown;
 }
-.animate.fadeInDownBig {
+.enter-fadeInDownBig.ng-enter,
+.enter-fadeInDownBig.ng-hide-remove {
   animation-name: fadeInDownBig;
   -webkit-animation-name: fadeInDownBig;
 }
-.animate.fadeInLeft {
+.enter-fadeInLeft.ng-enter,
+.enter-fadeInLeft.ng-hide-remove {
   animation-name: fadeInLeft;
   -webkit-animation-name: fadeInLeft;
 }
-.animate.fadeInLeftBig {
+.enter-fadeInLeftBig.ng-enter,
+.enter-fadeInLeftBig.ng-hide-remove {
   animation-name: fadeInLeftBig;
   -webkit-animation-name: fadeInLeftBig;
 }
-.animate.fadeInRight {
+.enter-fadeInRight.ng-enter,
+.enter-fadeInRight.ng-hide-remove {
   animation-name: fadeInRight;
   -webkit-animation-name: fadeInRight;
 }
-.animate.fadeInRightBig {
+.enter-fadeInRightBig.ng-enter,
+.enter-fadeInRightBig.ng-hide-remove {
   animation-name: fadeInRightBig;
   -webkit-animation-name: fadeInRightBig;
 }
-.animate.fadeInUp {
+.enter-fadeInUp.ng-enter,
+.enter-fadeInUp.ng-hide-remove {
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
 }
-.animate.fadeInUpBig {
+.enter-fadeInUpBig.ng-enter,
+.enter-fadeInUpBig.ng-hide-remove {
   animation-name: fadeInUpBig;
   -webkit-animation-name: fadeInUpBig;
 }
-.animate.flipInX {
+.enter-flipInX.ng-enter,
+.enter-flipInX.ng-hide-remove {
   animation-name: flipInX;
   -webkit-animation-name: flipInX;
 }
-.animate.flipInY {
+.enter-flipInY.ng-enter,
+.enter-flipInY.ng-hide-remove {
   animation-name: flipInY;
   -webkit-animation-name: flipInY;
 }
-.animate.foolishIn {
+.enter-foolishIn.ng-enter,
+.enter-foolishIn.ng-hide-remove {
   animation-name: foolishIn;
   -webkit-animation-name: foolishIn;
 }
-.animate.lightSpeedIn {
+.enter-lightSpeedIn.ng-enter,
+.enter-lightSpeedIn.ng-hide-remove {
   animation-name: lightSpeedIn;
   -webkit-animation-name: lightSpeedIn;
 }
-.animate.puffIn {
+.enter-puffIn.ng-enter,
+.enter-puffIn.ng-hide-remove {
   animation-name: puffIn;
   -webkit-animation-name: puffIn;
 }
-.animate.rollIn {
+.enter-rollIn.ng-enter,
+.enter-rollIn.ng-hide-remove {
   animation-name: rollIn;
   -webkit-animation-name: rollIn;
 }
-.animate.rotateIn {
+.enter-rotateIn.ng-enter,
+.enter-rotateIn.ng-hide-remove {
   animation-name: rotateIn;
   -webkit-animation-name: rotateIn;
 }
-.animate.rotateInDownLeft {
+.enter-rotateInDownLeft.ng-enter,
+.enter-rotateInDownLeft.ng-hide-remove {
   animation-name: rotateInDownLeft;
   -webkit-animation-name: rotateInDownLeft;
 }
-.animate.rotateInDownRight {
+.enter-rotateInDownRight.ng-enter,
+.enter-rotateInDownRight.ng-hide-remove {
   animation-name: rotateInDownRight;
   -webkit-animation-name: rotateInDownRight;
 }
-.animate.rotateInUpLeft {
+.enter-rotateInUpLeft.ng-enter,
+.enter-rotateInUpLeft.ng-hide-remove {
   animation-name: rotateInUpLeft;
   -webkit-animation-name: rotateInUpLeft;
 }
-.animate.rotateInUpRight {
+.enter-rotateInUpRight.ng-enter,
+.enter-rotateInUpRight.ng-hide-remove {
   animation-name: rotateInUpRight;
   -webkit-animation-name: rotateInUpRight;
 }
-.animate.slideInDown {
+.enter-slideInDown.ng-enter,
+.enter-slideInDown.ng-hide-remove {
   animation-name: slideInDown;
   -webkit-animation-name: slideInDown;
 }
-.animate.slideInLeft {
+.enter-slideInLeft.ng-enter,
+.enter-slideInLeft.ng-hide-remove {
   animation-name: slideInLeft;
   -webkit-animation-name: slideInLeft;
 }
-.animate.slideInRight {
+.enter-slideInRight.ng-enter,
+.enter-slideInRight.ng-hide-remove {
   animation-name: slideInRight;
   -webkit-animation-name: slideInRight;
 }
-.animate.slideInUp {
+.enter-slideInUp.ng-enter,
+.enter-slideInUp.ng-hide-remove {
   animation-name: slideInUp;
   -webkit-animation-name: slideInUp;
 }
-.animate.swashIn {
+.enter-swashIn.ng-enter,
+.enter-swashIn.ng-hide-remove {
   animation-name: swashIn;
   -webkit-animation-name: swashIn;
 }
-.animate.tinDownIn {
+.enter-tinDownIn.ng-enter,
+.enter-tinDownIn.ng-hide-remove {
   animation-name: tinDownIn;
   -webkit-animation-name: tinDownIn;
 }
-.animate.tinLeftIn {
+.enter-tinLeftIn.ng-enter,
+.enter-tinLeftIn.ng-hide-remove {
   animation-name: tinLeftIn;
   -webkit-animation-name: tinLeftIn;
 }
-.animate.tinRightIn {
+.enter-tinRightIn.ng-enter,
+.enter-tinRightIn.ng-hide-remove {
   animation-name: tinRightIn;
   -webkit-animation-name: tinRightIn;
 }
-.animate.tinUpIn {
+.enter-tinUpIn.ng-enter,
+.enter-tinUpIn.ng-hide-remove {
   animation-name: tinUpIn;
   -webkit-animation-name: tinUpIn;
 }
-.animate.twisterInDown {
+.enter-twisterInDown.ng-enter,
+.enter-twisterInDown.ng-hide-remove {
   animation-name: twisterInDown;
   -webkit-animation-name: twisterInDown;
 }
-.animate.twisterInUp {
+.enter-twisterInUp.ng-enter,
+.enter-twisterInUp.ng-hide-remove {
   animation-name: twisterInUp;
   -webkit-animation-name: twisterInUp;
 }
-.animate.vanishIn {
+.enter-vanishIn.ng-enter,
+.enter-vanishIn.ng-hide-remove {
   animation-name: vanishIn;
   -webkit-animation-name: vanishIn;
 }
-.animate.bombLeftOut {
+.enter-bombLeftOut.ng-enter,
+.enter-bombLeftOut.ng-hide-remove {
   animation-name: bombLeftOut;
   -webkit-animation-name: bombLeftOut;
 }
-.animate.bombRightOut {
+.enter-bombRightOut.ng-enter,
+.enter-bombRightOut.ng-hide-remove {
   animation-name: bombRightOut;
   -webkit-animation-name: bombRightOut;
 }
-.animate.bounceOut {
+.enter-bounceOut.ng-enter,
+.enter-bounceOut.ng-hide-remove {
   animation-name: bounceOut;
   -webkit-animation-name: bounceOut;
 }
-.animate.bounceOutDown {
+.enter-bounceOutDown.ng-enter,
+.enter-bounceOutDown.ng-hide-remove {
   animation-name: bounceOutDown;
   -webkit-animation-name: bounceOutDown;
 }
-.animate.bounceOutLeft {
+.enter-bounceOutLeft.ng-enter,
+.enter-bounceOutLeft.ng-hide-remove {
   animation-name: bounceOutLeft;
   -webkit-animation-name: bounceOutLeft;
 }
-.animate.bounceOutRight {
+.enter-bounceOutRight.ng-enter,
+.enter-bounceOutRight.ng-hide-remove {
   animation-name: bounceOutRight;
   -webkit-animation-name: bounceOutRight;
 }
-.animate.bounceOutUp {
+.enter-bounceOutUp.ng-enter,
+.enter-bounceOutUp.ng-hide-remove {
   animation-name: bounceOutUp;
   -webkit-animation-name: bounceOutUp;
 }
-.animate.fadeOut {
+.enter-fadeOut.ng-enter,
+.enter-fadeOut.ng-hide-remove {
   animation-name: fadeOut;
   -webkit-animation-name: fadeOut;
 }
-.animate.fadeOutDown {
+.enter-fadeOutDown.ng-enter,
+.enter-fadeOutDown.ng-hide-remove {
   animation-name: fadeOutDown;
   -webkit-animation-name: fadeOutDown;
 }
-.animate.fadeOutDownBig {
+.enter-fadeOutDownBig.ng-enter,
+.enter-fadeOutDownBig.ng-hide-remove {
   animation-name: fadeOutDownBig;
   -webkit-animation-name: fadeOutDownBig;
 }
-.animate.fadeOutLeft {
+.enter-fadeOutLeft.ng-enter,
+.enter-fadeOutLeft.ng-hide-remove {
   animation-name: fadeOutLeft;
   -webkit-animation-name: fadeOutLeft;
 }
-.animate.fadeOutLeftBig {
+.enter-fadeOutLeftBig.ng-enter,
+.enter-fadeOutLeftBig.ng-hide-remove {
   animation-name: fadeOutLeftBig;
   -webkit-animation-name: fadeOutLeftBig;
 }
-.animate.fadeOutRight {
+.enter-fadeOutRight.ng-enter,
+.enter-fadeOutRight.ng-hide-remove {
   animation-name: fadeOutRight;
   -webkit-animation-name: fadeOutRight;
 }
-.animate.fadeOutRightBig {
+.enter-fadeOutRightBig.ng-enter,
+.enter-fadeOutRightBig.ng-hide-remove {
   animation-name: fadeOutRightBig;
   -webkit-animation-name: fadeOutRightBig;
 }
-.animate.fadeOutUp {
+.enter-fadeOutUp.ng-enter,
+.enter-fadeOutUp.ng-hide-remove {
   animation-name: fadeOutUp;
   -webkit-animation-name: fadeOutUp;
 }
-.animate.fadeOutUpBig {
+.enter-fadeOutUpBig.ng-enter,
+.enter-fadeOutUpBig.ng-hide-remove {
   animation-name: fadeOutUpBig;
   -webkit-animation-name: fadeOutUpBig;
 }
-.animate.flipOutX {
+.enter-flipOutX.ng-enter,
+.enter-flipOutX.ng-hide-remove {
   animation-name: flipOutX;
   -webkit-animation-name: flipOutX;
 }
-.animate.flipOutY {
+.enter-flipOutY.ng-enter,
+.enter-flipOutY.ng-hide-remove {
   animation-name: flipOutY;
   -webkit-animation-name: flipOutY;
 }
-.animate.foolishOut {
+.enter-foolishOut.ng-enter,
+.enter-foolishOut.ng-hide-remove {
   animation-name: foolishOut;
   -webkit-animation-name: foolishOut;
 }
-.animate.holeOut {
+.enter-holeOut.ng-enter,
+.enter-holeOut.ng-hide-remove {
   animation-name: holeOut;
   -webkit-animation-name: holeOut;
 }
-.animate.lightSpeedOut {
+.enter-lightSpeedOut.ng-enter,
+.enter-lightSpeedOut.ng-hide-remove {
   animation-name: lightSpeedOut;
   -webkit-animation-name: lightSpeedOut;
 }
-.animate.openDownLeftOut {
+.enter-openDownLeftOut.ng-enter,
+.enter-openDownLeftOut.ng-hide-remove {
   animation-name: openDownLeftOut;
   -webkit-animation-name: openDownLeftOut;
 }
-.animate.openDownRightOut {
+.enter-openDownRightOut.ng-enter,
+.enter-openDownRightOut.ng-hide-remove {
   animation-name: openDownRightOut;
   -webkit-animation-name: openDownRightOut;
 }
-.animate.openUpLeftOut {
+.enter-openUpLeftOut.ng-enter,
+.enter-openUpLeftOut.ng-hide-remove {
   animation-name: openUpLeftOut;
   -webkit-animation-name: openUpLeftOut;
 }
-.animate.openUpRightOut {
+.enter-openUpRightOut.ng-enter,
+.enter-openUpRightOut.ng-hide-remove {
   animation-name: openUpRightOut;
   -webkit-animation-name: openUpRightOut;
 }
-.animate.puffOut {
+.enter-puffOut.ng-enter,
+.enter-puffOut.ng-hide-remove {
   animation-name: puffOut;
   -webkit-animation-name: puffOut;
 }
-.animate.rollOut {
+.enter-rollOut.ng-enter,
+.enter-rollOut.ng-hide-remove {
   animation-name: rollOut;
   -webkit-animation-name: rollOut;
 }
-.animate.rotateOut {
+.enter-rotateOut.ng-enter,
+.enter-rotateOut.ng-hide-remove {
   animation-name: rotateOut;
   -webkit-animation-name: rotateOut;
 }
-.animate.rotateOutDownLeft {
+.enter-rotateOutDownLeft.ng-enter,
+.enter-rotateOutDownLeft.ng-hide-remove {
   animation-name: rotateOutDownLeft;
   -webkit-animation-name: rotateOutDownLeft;
 }
-.animate.rotateOutDownRight {
+.enter-rotateOutDownRight.ng-enter,
+.enter-rotateOutDownRight.ng-hide-remove {
   animation-name: rotateOutDownRight;
   -webkit-animation-name: rotateOutDownRight;
 }
-.animate.rotateOutUpLeft {
+.enter-rotateOutUpLeft.ng-enter,
+.enter-rotateOutUpLeft.ng-hide-remove {
   animation-name: rotateOutUpLeft;
   -webkit-animation-name: rotateOutUpLeft;
 }
-.animate.rotateOutUpRight {
+.enter-rotateOutUpRight.ng-enter,
+.enter-rotateOutUpRight.ng-hide-remove {
   animation-name: rotateOutUpRight;
   -webkit-animation-name: rotateOutUpRight;
 }
-.animate.slideOutDown {
+.enter-slideOutDown.ng-enter,
+.enter-slideOutDown.ng-hide-remove {
   animation-name: slideOutDown;
   -webkit-animation-name: slideOutDown;
 }
-.animate.slideOutLeft {
+.enter-slideOutLeft.ng-enter,
+.enter-slideOutLeft.ng-hide-remove {
   animation-name: slideOutLeft;
   -webkit-animation-name: slideOutLeft;
 }
-.animate.slideOutRight {
+.enter-slideOutRight.ng-enter,
+.enter-slideOutRight.ng-hide-remove {
   animation-name: slideOutRight;
   -webkit-animation-name: slideOutRight;
 }
-.animate.slideOutUp {
+.enter-slideOutUp.ng-enter,
+.enter-slideOutUp.ng-hide-remove {
   animation-name: slideOutUp;
   -webkit-animation-name: slideOutUp;
 }
-.animate.swashOut {
+.enter-swashOut.ng-enter,
+.enter-swashOut.ng-hide-remove {
   animation-name: swashOut;
   -webkit-animation-name: swashOut;
 }
-.animate.tinDownOut {
+.enter-tinDownOut.ng-enter,
+.enter-tinDownOut.ng-hide-remove {
   animation-name: tinDownOut;
   -webkit-animation-name: tinDownOut;
 }
-.animate.tinLeftOut {
+.enter-tinLeftOut.ng-enter,
+.enter-tinLeftOut.ng-hide-remove {
   animation-name: tinLeftOut;
   -webkit-animation-name: tinLeftOut;
 }
-.animate.tinRightOut {
+.enter-tinRightOut.ng-enter,
+.enter-tinRightOut.ng-hide-remove {
   animation-name: tinRightOut;
   -webkit-animation-name: tinRightOut;
 }
-.animate.tinUpOut {
+.enter-tinUpOut.ng-enter,
+.enter-tinUpOut.ng-hide-remove {
   animation-name: tinUpOut;
   -webkit-animation-name: tinUpOut;
 }
-.animate.vanishOut {
+.enter-vanishOut.ng-enter,
+.enter-vanishOut.ng-hide-remove {
   animation-name: vanishOut;
   -webkit-animation-name: vanishOut;
 }
-.enter-bounce.ng-enter {
+.exit-bounce.ng-leave,
+.exit-bounce.ng-hide-add {
   animation-name: bounce;
   -webkit-animation-name: bounce;
 }
-.enter-flash.ng-enter {
+.exit-flash.ng-leave,
+.exit-flash.ng-hide-add {
   animation-name: flash;
   -webkit-animation-name: flash;
 }
-.enter-flip.ng-enter {
+.exit-flip.ng-leave,
+.exit-flip.ng-hide-add {
   animation-name: flip;
   -webkit-animation-name: flip;
 }
-.enter-hinge.ng-enter {
+.exit-hinge.ng-leave,
+.exit-hinge.ng-hide-add {
   animation-name: hinge;
   -webkit-animation-name: hinge;
 }
-.enter-magic.ng-enter {
+.exit-magic.ng-leave,
+.exit-magic.ng-hide-add {
   animation-name: magic;
   -webkit-animation-name: magic;
 }
-.enter-openDownLeft.ng-enter {
+.exit-openDownLeft.ng-leave,
+.exit-openDownLeft.ng-hide-add {
   animation-name: openDownLeft;
   -webkit-animation-name: openDownLeft;
 }
-.enter-openDownLeftReturn.ng-enter {
+.exit-openDownLeftReturn.ng-leave,
+.exit-openDownLeftReturn.ng-hide-add {
   animation-name: openDownLeftReturn;
   -webkit-animation-name: openDownLeftReturn;
 }
-.enter-openDownRight.ng-enter {
+.exit-openDownRight.ng-leave,
+.exit-openDownRight.ng-hide-add {
   animation-name: openDownRight;
   -webkit-animation-name: openDownRight;
 }
-.enter-openDownRightReturn.ng-enter {
+.exit-openDownRightReturn.ng-leave,
+.exit-openDownRightReturn.ng-hide-add {
   animation-name: openDownRightReturn;
   -webkit-animation-name: openDownRightReturn;
 }
-.enter-openUpLeft.ng-enter {
+.exit-openUpLeft.ng-leave,
+.exit-openUpLeft.ng-hide-add {
   animation-name: openUpLeft;
   -webkit-animation-name: openUpLeft;
 }
-.enter-openUpLeftReturn.ng-enter {
+.exit-openUpLeftReturn.ng-leave,
+.exit-openUpLeftReturn.ng-hide-add {
   animation-name: openUpLeftReturn;
   -webkit-animation-name: openUpLeftReturn;
 }
-.enter-openUpRight.ng-enter {
+.exit-openUpRight.ng-leave,
+.exit-openUpRight.ng-hide-add {
   animation-name: openUpRight;
   -webkit-animation-name: openUpRight;
 }
-.enter-openUpRightReturn.ng-enter {
+.exit-openUpRightReturn.ng-leave,
+.exit-openUpRightReturn.ng-hide-add {
   animation-name: openUpRightReturn;
   -webkit-animation-name: openUpRightReturn;
 }
-.enter-perspectiveDown.ng-enter {
+.exit-perspectiveDown.ng-leave,
+.exit-perspectiveDown.ng-hide-add {
   animation-name: perspectiveDown;
   -webkit-animation-name: perspectiveDown;
 }
-.enter-perspectiveDownReturn.ng-enter {
+.exit-perspectiveDownReturn.ng-leave,
+.exit-perspectiveDownReturn.ng-hide-add {
   animation-name: perspectiveDownReturn;
   -webkit-animation-name: perspectiveDownReturn;
 }
-.enter-perspectiveLeft.ng-enter {
+.exit-perspectiveLeft.ng-leave,
+.exit-perspectiveLeft.ng-hide-add {
   animation-name: perspectiveLeft;
   -webkit-animation-name: perspectiveLeft;
 }
-.enter-perspectiveLeftReturn.ng-enter {
+.exit-perspectiveLeftReturn.ng-leave,
+.exit-perspectiveLeftReturn.ng-hide-add {
   animation-name: perspectiveLeftReturn;
   -webkit-animation-name: perspectiveLeftReturn;
 }
-.enter-perspectiveRight.ng-enter {
+.exit-perspectiveRight.ng-leave,
+.exit-perspectiveRight.ng-hide-add {
   animation-name: perspectiveRight;
   -webkit-animation-name: perspectiveRight;
 }
-.enter-perspectiveRightReturn.ng-enter {
+.exit-perspectiveRightReturn.ng-leave,
+.exit-perspectiveRightReturn.ng-hide-add {
   animation-name: perspectiveRightReturn;
   -webkit-animation-name: perspectiveRightReturn;
 }
-.enter-perspectiveUp.ng-enter {
+.exit-perspectiveUp.ng-leave,
+.exit-perspectiveUp.ng-hide-add {
   animation-name: perspectiveUp;
   -webkit-animation-name: perspectiveUp;
 }
-.enter-perspectiveUpReturn.ng-enter {
+.exit-perspectiveUpReturn.ng-leave,
+.exit-perspectiveUpReturn.ng-hide-add {
   animation-name: perspectiveUpReturn;
   -webkit-animation-name: perspectiveUpReturn;
 }
-.enter-pulse.ng-enter {
+.exit-pulse.ng-leave,
+.exit-pulse.ng-hide-add {
   animation-name: pulse;
   -webkit-animation-name: pulse;
 }
-.enter-rotateDown.ng-enter {
+.exit-rotateDown.ng-leave,
+.exit-rotateDown.ng-hide-add {
   animation-name: rotateDown;
   -webkit-animation-name: rotateDown;
 }
-.enter-rotateLeft.ng-enter {
+.exit-rotateLeft.ng-leave,
+.exit-rotateLeft.ng-hide-add {
   animation-name: rotateLeft;
   -webkit-animation-name: rotateLeft;
 }
-.enter-rotateRight.ng-enter {
+.exit-rotateRight.ng-leave,
+.exit-rotateRight.ng-hide-add {
   animation-name: rotateRight;
   -webkit-animation-name: rotateRight;
 }
-.enter-rotateUp.ng-enter {
+.exit-rotateUp.ng-leave,
+.exit-rotateUp.ng-hide-add {
   animation-name: rotateUp;
   -webkit-animation-name: rotateUp;
 }
-.enter-rubberBand.ng-enter {
+.exit-rubberBand.ng-leave,
+.exit-rubberBand.ng-hide-add {
   animation-name: rubberBand;
   -webkit-animation-name: rubberBand;
 }
-.enter-shake.ng-enter {
+.exit-shake.ng-leave,
+.exit-shake.ng-hide-add {
   animation-name: shake;
   -webkit-animation-name: shake;
 }
-.enter-slideDown.ng-enter {
+.exit-slideDown.ng-leave,
+.exit-slideDown.ng-hide-add {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
 }
-.enter-slideDownReturn.ng-enter {
+.exit-slideDownReturn.ng-leave,
+.exit-slideDownReturn.ng-hide-add {
   animation-name: slideDownReturn;
   -webkit-animation-name: slideDownReturn;
 }
-.enter-slideLeft.ng-enter {
+.exit-slideLeft.ng-leave,
+.exit-slideLeft.ng-hide-add {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
 }
-.enter-slideLeftReturn.ng-enter {
+.exit-slideLeftReturn.ng-leave,
+.exit-slideLeftReturn.ng-hide-add {
   animation-name: slideLeftReturn;
   -webkit-animation-name: slideLeftReturn;
 }
-.enter-slideRight.ng-enter {
+.exit-slideRight.ng-leave,
+.exit-slideRight.ng-hide-add {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
 }
-.enter-slideRightReturn.ng-enter {
+.exit-slideRightReturn.ng-leave,
+.exit-slideRightReturn.ng-hide-add {
   animation-name: slideRightReturn;
   -webkit-animation-name: slideRightReturn;
 }
-.enter-slideUp.ng-enter {
+.exit-slideUp.ng-leave,
+.exit-slideUp.ng-hide-add {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
 }
-.enter-slideUpReturn.ng-enter {
+.exit-slideUpReturn.ng-leave,
+.exit-slideUpReturn.ng-hide-add {
   animation-name: slideUpReturn;
   -webkit-animation-name: slideUpReturn;
 }
-.enter-swap.ng-enter {
+.exit-swap.ng-leave,
+.exit-swap.ng-hide-add {
   animation-name: swap;
   -webkit-animation-name: swap;
 }
-.enter-swing.ng-enter {
+.exit-swing.ng-leave,
+.exit-swing.ng-hide-add {
   animation-name: swing;
   -webkit-animation-name: swing;
 }
-.enter-tada.ng-enter {
+.exit-tada.ng-leave,
+.exit-tada.ng-hide-add {
   animation-name: tada;
   -webkit-animation-name: tada;
 }
-.enter-wobble.ng-enter {
+.exit-wobble.ng-leave,
+.exit-wobble.ng-hide-add {
   animation-name: wobble;
   -webkit-animation-name: wobble;
 }
-.enter-bounceIn.ng-enter {
+.exit-bounceIn.ng-leave,
+.exit-bounceIn.ng-hide-add {
   animation-name: bounceIn;
   -webkit-animation-name: bounceIn;
 }
-.enter-bounceInDown.ng-enter {
+.exit-bounceInDown.ng-leave,
+.exit-bounceInDown.ng-hide-add {
   animation-name: bounceInDown;
   -webkit-animation-name: bounceInDown;
 }
-.enter-bounceInLeft.ng-enter {
+.exit-bounceInLeft.ng-leave,
+.exit-bounceInLeft.ng-hide-add {
   animation-name: bounceInLeft;
   -webkit-animation-name: bounceInLeft;
 }
-.enter-bounceInRight.ng-enter {
+.exit-bounceInRight.ng-leave,
+.exit-bounceInRight.ng-hide-add {
   animation-name: bounceInRight;
   -webkit-animation-name: bounceInRight;
 }
-.enter-bounceInUp.ng-enter {
+.exit-bounceInUp.ng-leave,
+.exit-bounceInUp.ng-hide-add {
   animation-name: bounceInUp;
   -webkit-animation-name: bounceInUp;
 }
-.enter-fadeIn.ng-enter {
+.exit-fadeIn.ng-leave,
+.exit-fadeIn.ng-hide-add {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
 }
-.enter-fadeInDown.ng-enter {
+.exit-fadeInDown.ng-leave,
+.exit-fadeInDown.ng-hide-add {
   animation-name: fadeInDown;
   -webkit-animation-name: fadeInDown;
 }
-.enter-fadeInDownBig.ng-enter {
+.exit-fadeInDownBig.ng-leave,
+.exit-fadeInDownBig.ng-hide-add {
   animation-name: fadeInDownBig;
   -webkit-animation-name: fadeInDownBig;
 }
-.enter-fadeInLeft.ng-enter {
+.exit-fadeInLeft.ng-leave,
+.exit-fadeInLeft.ng-hide-add {
   animation-name: fadeInLeft;
   -webkit-animation-name: fadeInLeft;
 }
-.enter-fadeInLeftBig.ng-enter {
+.exit-fadeInLeftBig.ng-leave,
+.exit-fadeInLeftBig.ng-hide-add {
   animation-name: fadeInLeftBig;
   -webkit-animation-name: fadeInLeftBig;
 }
-.enter-fadeInRight.ng-enter {
+.exit-fadeInRight.ng-leave,
+.exit-fadeInRight.ng-hide-add {
   animation-name: fadeInRight;
   -webkit-animation-name: fadeInRight;
 }
-.enter-fadeInRightBig.ng-enter {
+.exit-fadeInRightBig.ng-leave,
+.exit-fadeInRightBig.ng-hide-add {
   animation-name: fadeInRightBig;
   -webkit-animation-name: fadeInRightBig;
 }
-.enter-fadeInUp.ng-enter {
+.exit-fadeInUp.ng-leave,
+.exit-fadeInUp.ng-hide-add {
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
 }
-.enter-fadeInUpBig.ng-enter {
+.exit-fadeInUpBig.ng-leave,
+.exit-fadeInUpBig.ng-hide-add {
   animation-name: fadeInUpBig;
   -webkit-animation-name: fadeInUpBig;
 }
-.enter-flipInX.ng-enter {
+.exit-flipInX.ng-leave,
+.exit-flipInX.ng-hide-add {
   animation-name: flipInX;
   -webkit-animation-name: flipInX;
 }
-.enter-flipInY.ng-enter {
+.exit-flipInY.ng-leave,
+.exit-flipInY.ng-hide-add {
   animation-name: flipInY;
   -webkit-animation-name: flipInY;
 }
-.enter-foolishIn.ng-enter {
+.exit-foolishIn.ng-leave,
+.exit-foolishIn.ng-hide-add {
   animation-name: foolishIn;
   -webkit-animation-name: foolishIn;
 }
-.enter-lightSpeedIn.ng-enter {
+.exit-lightSpeedIn.ng-leave,
+.exit-lightSpeedIn.ng-hide-add {
   animation-name: lightSpeedIn;
   -webkit-animation-name: lightSpeedIn;
 }
-.enter-puffIn.ng-enter {
+.exit-puffIn.ng-leave,
+.exit-puffIn.ng-hide-add {
   animation-name: puffIn;
   -webkit-animation-name: puffIn;
 }
-.enter-rollIn.ng-enter {
+.exit-rollIn.ng-leave,
+.exit-rollIn.ng-hide-add {
   animation-name: rollIn;
   -webkit-animation-name: rollIn;
 }
-.enter-rotateIn.ng-enter {
+.exit-rotateIn.ng-leave,
+.exit-rotateIn.ng-hide-add {
   animation-name: rotateIn;
   -webkit-animation-name: rotateIn;
 }
-.enter-rotateInDownLeft.ng-enter {
+.exit-rotateInDownLeft.ng-leave,
+.exit-rotateInDownLeft.ng-hide-add {
   animation-name: rotateInDownLeft;
   -webkit-animation-name: rotateInDownLeft;
 }
-.enter-rotateInDownRight.ng-enter {
+.exit-rotateInDownRight.ng-leave,
+.exit-rotateInDownRight.ng-hide-add {
   animation-name: rotateInDownRight;
   -webkit-animation-name: rotateInDownRight;
 }
-.enter-rotateInUpLeft.ng-enter {
+.exit-rotateInUpLeft.ng-leave,
+.exit-rotateInUpLeft.ng-hide-add {
   animation-name: rotateInUpLeft;
   -webkit-animation-name: rotateInUpLeft;
 }
-.enter-rotateInUpRight.ng-enter {
+.exit-rotateInUpRight.ng-leave,
+.exit-rotateInUpRight.ng-hide-add {
   animation-name: rotateInUpRight;
   -webkit-animation-name: rotateInUpRight;
 }
-.enter-slideInDown.ng-enter {
+.exit-slideInDown.ng-leave,
+.exit-slideInDown.ng-hide-add {
   animation-name: slideInDown;
   -webkit-animation-name: slideInDown;
 }
-.enter-slideInLeft.ng-enter {
+.exit-slideInLeft.ng-leave,
+.exit-slideInLeft.ng-hide-add {
   animation-name: slideInLeft;
   -webkit-animation-name: slideInLeft;
 }
-.enter-slideInRight.ng-enter {
+.exit-slideInRight.ng-leave,
+.exit-slideInRight.ng-hide-add {
   animation-name: slideInRight;
   -webkit-animation-name: slideInRight;
 }
-.enter-slideInUp.ng-enter {
+.exit-slideInUp.ng-leave,
+.exit-slideInUp.ng-hide-add {
   animation-name: slideInUp;
   -webkit-animation-name: slideInUp;
 }
-.enter-swashIn.ng-enter {
+.exit-swashIn.ng-leave,
+.exit-swashIn.ng-hide-add {
   animation-name: swashIn;
   -webkit-animation-name: swashIn;
 }
-.enter-tinDownIn.ng-enter {
+.exit-tinDownIn.ng-leave,
+.exit-tinDownIn.ng-hide-add {
   animation-name: tinDownIn;
   -webkit-animation-name: tinDownIn;
 }
-.enter-tinLeftIn.ng-enter {
+.exit-tinLeftIn.ng-leave,
+.exit-tinLeftIn.ng-hide-add {
   animation-name: tinLeftIn;
   -webkit-animation-name: tinLeftIn;
 }
-.enter-tinRightIn.ng-enter {
+.exit-tinRightIn.ng-leave,
+.exit-tinRightIn.ng-hide-add {
   animation-name: tinRightIn;
   -webkit-animation-name: tinRightIn;
 }
-.enter-tinUpIn.ng-enter {
+.exit-tinUpIn.ng-leave,
+.exit-tinUpIn.ng-hide-add {
   animation-name: tinUpIn;
   -webkit-animation-name: tinUpIn;
 }
-.enter-twisterInDown.ng-enter {
+.exit-twisterInDown.ng-leave,
+.exit-twisterInDown.ng-hide-add {
   animation-name: twisterInDown;
   -webkit-animation-name: twisterInDown;
 }
-.enter-twisterInUp.ng-enter {
+.exit-twisterInUp.ng-leave,
+.exit-twisterInUp.ng-hide-add {
   animation-name: twisterInUp;
   -webkit-animation-name: twisterInUp;
 }
-.enter-vanishIn.ng-enter {
+.exit-vanishIn.ng-leave,
+.exit-vanishIn.ng-hide-add {
   animation-name: vanishIn;
   -webkit-animation-name: vanishIn;
 }
-.enter-bombLeftOut.ng-enter {
+.exit-bombLeftOut.ng-leave,
+.exit-bombLeftOut.ng-hide-add {
   animation-name: bombLeftOut;
   -webkit-animation-name: bombLeftOut;
 }
-.enter-bombRightOut.ng-enter {
+.exit-bombRightOut.ng-leave,
+.exit-bombRightOut.ng-hide-add {
   animation-name: bombRightOut;
   -webkit-animation-name: bombRightOut;
 }
-.enter-bounceOut.ng-enter {
+.exit-bounceOut.ng-leave,
+.exit-bounceOut.ng-hide-add {
   animation-name: bounceOut;
   -webkit-animation-name: bounceOut;
 }
-.enter-bounceOutDown.ng-enter {
+.exit-bounceOutDown.ng-leave,
+.exit-bounceOutDown.ng-hide-add {
   animation-name: bounceOutDown;
   -webkit-animation-name: bounceOutDown;
 }
-.enter-bounceOutLeft.ng-enter {
+.exit-bounceOutLeft.ng-leave,
+.exit-bounceOutLeft.ng-hide-add {
   animation-name: bounceOutLeft;
   -webkit-animation-name: bounceOutLeft;
 }
-.enter-bounceOutRight.ng-enter {
+.exit-bounceOutRight.ng-leave,
+.exit-bounceOutRight.ng-hide-add {
   animation-name: bounceOutRight;
   -webkit-animation-name: bounceOutRight;
 }
-.enter-bounceOutUp.ng-enter {
+.exit-bounceOutUp.ng-leave,
+.exit-bounceOutUp.ng-hide-add {
   animation-name: bounceOutUp;
   -webkit-animation-name: bounceOutUp;
 }
-.enter-fadeOut.ng-enter {
+.exit-fadeOut.ng-leave,
+.exit-fadeOut.ng-hide-add {
   animation-name: fadeOut;
   -webkit-animation-name: fadeOut;
 }
-.enter-fadeOutDown.ng-enter {
+.exit-fadeOutDown.ng-leave,
+.exit-fadeOutDown.ng-hide-add {
   animation-name: fadeOutDown;
   -webkit-animation-name: fadeOutDown;
 }
-.enter-fadeOutDownBig.ng-enter {
+.exit-fadeOutDownBig.ng-leave,
+.exit-fadeOutDownBig.ng-hide-add {
   animation-name: fadeOutDownBig;
   -webkit-animation-name: fadeOutDownBig;
 }
-.enter-fadeOutLeft.ng-enter {
+.exit-fadeOutLeft.ng-leave,
+.exit-fadeOutLeft.ng-hide-add {
   animation-name: fadeOutLeft;
   -webkit-animation-name: fadeOutLeft;
 }
-.enter-fadeOutLeftBig.ng-enter {
+.exit-fadeOutLeftBig.ng-leave,
+.exit-fadeOutLeftBig.ng-hide-add {
   animation-name: fadeOutLeftBig;
   -webkit-animation-name: fadeOutLeftBig;
 }
-.enter-fadeOutRight.ng-enter {
+.exit-fadeOutRight.ng-leave,
+.exit-fadeOutRight.ng-hide-add {
   animation-name: fadeOutRight;
   -webkit-animation-name: fadeOutRight;
 }
-.enter-fadeOutRightBig.ng-enter {
+.exit-fadeOutRightBig.ng-leave,
+.exit-fadeOutRightBig.ng-hide-add {
   animation-name: fadeOutRightBig;
   -webkit-animation-name: fadeOutRightBig;
 }
-.enter-fadeOutUp.ng-enter {
+.exit-fadeOutUp.ng-leave,
+.exit-fadeOutUp.ng-hide-add {
   animation-name: fadeOutUp;
   -webkit-animation-name: fadeOutUp;
 }
-.enter-fadeOutUpBig.ng-enter {
+.exit-fadeOutUpBig.ng-leave,
+.exit-fadeOutUpBig.ng-hide-add {
   animation-name: fadeOutUpBig;
   -webkit-animation-name: fadeOutUpBig;
 }
-.enter-flipOutX.ng-enter {
+.exit-flipOutX.ng-leave,
+.exit-flipOutX.ng-hide-add {
   animation-name: flipOutX;
   -webkit-animation-name: flipOutX;
 }
-.enter-flipOutY.ng-enter {
+.exit-flipOutY.ng-leave,
+.exit-flipOutY.ng-hide-add {
   animation-name: flipOutY;
   -webkit-animation-name: flipOutY;
 }
-.enter-foolishOut.ng-enter {
+.exit-foolishOut.ng-leave,
+.exit-foolishOut.ng-hide-add {
   animation-name: foolishOut;
   -webkit-animation-name: foolishOut;
 }
-.enter-holeOut.ng-enter {
+.exit-holeOut.ng-leave,
+.exit-holeOut.ng-hide-add {
   animation-name: holeOut;
   -webkit-animation-name: holeOut;
 }
-.enter-lightSpeedOut.ng-enter {
+.exit-lightSpeedOut.ng-leave,
+.exit-lightSpeedOut.ng-hide-add {
   animation-name: lightSpeedOut;
   -webkit-animation-name: lightSpeedOut;
 }
-.enter-openDownLeftOut.ng-enter {
+.exit-openDownLeftOut.ng-leave,
+.exit-openDownLeftOut.ng-hide-add {
   animation-name: openDownLeftOut;
   -webkit-animation-name: openDownLeftOut;
 }
-.enter-openDownRightOut.ng-enter {
+.exit-openDownRightOut.ng-leave,
+.exit-openDownRightOut.ng-hide-add {
   animation-name: openDownRightOut;
   -webkit-animation-name: openDownRightOut;
 }
-.enter-openUpLeftOut.ng-enter {
+.exit-openUpLeftOut.ng-leave,
+.exit-openUpLeftOut.ng-hide-add {
   animation-name: openUpLeftOut;
   -webkit-animation-name: openUpLeftOut;
 }
-.enter-openUpRightOut.ng-enter {
+.exit-openUpRightOut.ng-leave,
+.exit-openUpRightOut.ng-hide-add {
   animation-name: openUpRightOut;
   -webkit-animation-name: openUpRightOut;
 }
-.enter-puffOut.ng-enter {
+.exit-puffOut.ng-leave,
+.exit-puffOut.ng-hide-add {
   animation-name: puffOut;
   -webkit-animation-name: puffOut;
 }
-.enter-rollOut.ng-enter {
+.exit-rollOut.ng-leave,
+.exit-rollOut.ng-hide-add {
   animation-name: rollOut;
   -webkit-animation-name: rollOut;
 }
-.enter-rotateOut.ng-enter {
+.exit-rotateOut.ng-leave,
+.exit-rotateOut.ng-hide-add {
   animation-name: rotateOut;
   -webkit-animation-name: rotateOut;
 }
-.enter-rotateOutDownLeft.ng-enter {
+.exit-rotateOutDownLeft.ng-leave,
+.exit-rotateOutDownLeft.ng-hide-add {
   animation-name: rotateOutDownLeft;
   -webkit-animation-name: rotateOutDownLeft;
 }
-.enter-rotateOutDownRight.ng-enter {
+.exit-rotateOutDownRight.ng-leave,
+.exit-rotateOutDownRight.ng-hide-add {
   animation-name: rotateOutDownRight;
   -webkit-animation-name: rotateOutDownRight;
 }
-.enter-rotateOutUpLeft.ng-enter {
+.exit-rotateOutUpLeft.ng-leave,
+.exit-rotateOutUpLeft.ng-hide-add {
   animation-name: rotateOutUpLeft;
   -webkit-animation-name: rotateOutUpLeft;
 }
-.enter-rotateOutUpRight.ng-enter {
+.exit-rotateOutUpRight.ng-leave,
+.exit-rotateOutUpRight.ng-hide-add {
   animation-name: rotateOutUpRight;
   -webkit-animation-name: rotateOutUpRight;
 }
-.enter-slideOutDown.ng-enter {
+.exit-slideOutDown.ng-leave,
+.exit-slideOutDown.ng-hide-add {
   animation-name: slideOutDown;
   -webkit-animation-name: slideOutDown;
 }
-.enter-slideOutLeft.ng-enter {
+.exit-slideOutLeft.ng-leave,
+.exit-slideOutLeft.ng-hide-add {
   animation-name: slideOutLeft;
   -webkit-animation-name: slideOutLeft;
 }
-.enter-slideOutRight.ng-enter {
+.exit-slideOutRight.ng-leave,
+.exit-slideOutRight.ng-hide-add {
   animation-name: slideOutRight;
   -webkit-animation-name: slideOutRight;
 }
-.enter-slideOutUp.ng-enter {
+.exit-slideOutUp.ng-leave,
+.exit-slideOutUp.ng-hide-add {
   animation-name: slideOutUp;
   -webkit-animation-name: slideOutUp;
 }
-.enter-swashOut.ng-enter {
+.exit-swashOut.ng-leave,
+.exit-swashOut.ng-hide-add {
   animation-name: swashOut;
   -webkit-animation-name: swashOut;
 }
-.enter-tinDownOut.ng-enter {
+.exit-tinDownOut.ng-leave,
+.exit-tinDownOut.ng-hide-add {
   animation-name: tinDownOut;
   -webkit-animation-name: tinDownOut;
 }
-.enter-tinLeftOut.ng-enter {
+.exit-tinLeftOut.ng-leave,
+.exit-tinLeftOut.ng-hide-add {
   animation-name: tinLeftOut;
   -webkit-animation-name: tinLeftOut;
 }
-.enter-tinRightOut.ng-enter {
+.exit-tinRightOut.ng-leave,
+.exit-tinRightOut.ng-hide-add {
   animation-name: tinRightOut;
   -webkit-animation-name: tinRightOut;
 }
-.enter-tinUpOut.ng-enter {
+.exit-tinUpOut.ng-leave,
+.exit-tinUpOut.ng-hide-add {
   animation-name: tinUpOut;
   -webkit-animation-name: tinUpOut;
 }
-.enter-vanishOut.ng-enter {
-  animation-name: vanishOut;
-  -webkit-animation-name: vanishOut;
-}
-.exit-bounce.ng-leave {
-  animation-name: bounce;
-  -webkit-animation-name: bounce;
-}
-.exit-flash.ng-leave {
-  animation-name: flash;
-  -webkit-animation-name: flash;
-}
-.exit-flip.ng-leave {
-  animation-name: flip;
-  -webkit-animation-name: flip;
-}
-.exit-hinge.ng-leave {
-  animation-name: hinge;
-  -webkit-animation-name: hinge;
-}
-.exit-magic.ng-leave {
-  animation-name: magic;
-  -webkit-animation-name: magic;
-}
-.exit-openDownLeft.ng-leave {
-  animation-name: openDownLeft;
-  -webkit-animation-name: openDownLeft;
-}
-.exit-openDownLeftReturn.ng-leave {
-  animation-name: openDownLeftReturn;
-  -webkit-animation-name: openDownLeftReturn;
-}
-.exit-openDownRight.ng-leave {
-  animation-name: openDownRight;
-  -webkit-animation-name: openDownRight;
-}
-.exit-openDownRightReturn.ng-leave {
-  animation-name: openDownRightReturn;
-  -webkit-animation-name: openDownRightReturn;
-}
-.exit-openUpLeft.ng-leave {
-  animation-name: openUpLeft;
-  -webkit-animation-name: openUpLeft;
-}
-.exit-openUpLeftReturn.ng-leave {
-  animation-name: openUpLeftReturn;
-  -webkit-animation-name: openUpLeftReturn;
-}
-.exit-openUpRight.ng-leave {
-  animation-name: openUpRight;
-  -webkit-animation-name: openUpRight;
-}
-.exit-openUpRightReturn.ng-leave {
-  animation-name: openUpRightReturn;
-  -webkit-animation-name: openUpRightReturn;
-}
-.exit-perspectiveDown.ng-leave {
-  animation-name: perspectiveDown;
-  -webkit-animation-name: perspectiveDown;
-}
-.exit-perspectiveDownReturn.ng-leave {
-  animation-name: perspectiveDownReturn;
-  -webkit-animation-name: perspectiveDownReturn;
-}
-.exit-perspectiveLeft.ng-leave {
-  animation-name: perspectiveLeft;
-  -webkit-animation-name: perspectiveLeft;
-}
-.exit-perspectiveLeftReturn.ng-leave {
-  animation-name: perspectiveLeftReturn;
-  -webkit-animation-name: perspectiveLeftReturn;
-}
-.exit-perspectiveRight.ng-leave {
-  animation-name: perspectiveRight;
-  -webkit-animation-name: perspectiveRight;
-}
-.exit-perspectiveRightReturn.ng-leave {
-  animation-name: perspectiveRightReturn;
-  -webkit-animation-name: perspectiveRightReturn;
-}
-.exit-perspectiveUp.ng-leave {
-  animation-name: perspectiveUp;
-  -webkit-animation-name: perspectiveUp;
-}
-.exit-perspectiveUpReturn.ng-leave {
-  animation-name: perspectiveUpReturn;
-  -webkit-animation-name: perspectiveUpReturn;
-}
-.exit-pulse.ng-leave {
-  animation-name: pulse;
-  -webkit-animation-name: pulse;
-}
-.exit-rotateDown.ng-leave {
-  animation-name: rotateDown;
-  -webkit-animation-name: rotateDown;
-}
-.exit-rotateLeft.ng-leave {
-  animation-name: rotateLeft;
-  -webkit-animation-name: rotateLeft;
-}
-.exit-rotateRight.ng-leave {
-  animation-name: rotateRight;
-  -webkit-animation-name: rotateRight;
-}
-.exit-rotateUp.ng-leave {
-  animation-name: rotateUp;
-  -webkit-animation-name: rotateUp;
-}
-.exit-rubberBand.ng-leave {
-  animation-name: rubberBand;
-  -webkit-animation-name: rubberBand;
-}
-.exit-shake.ng-leave {
-  animation-name: shake;
-  -webkit-animation-name: shake;
-}
-.exit-slideDown.ng-leave {
-  animation-name: slideDown;
-  -webkit-animation-name: slideDown;
-}
-.exit-slideDownReturn.ng-leave {
-  animation-name: slideDownReturn;
-  -webkit-animation-name: slideDownReturn;
-}
-.exit-slideLeft.ng-leave {
-  animation-name: slideLeft;
-  -webkit-animation-name: slideLeft;
-}
-.exit-slideLeftReturn.ng-leave {
-  animation-name: slideLeftReturn;
-  -webkit-animation-name: slideLeftReturn;
-}
-.exit-slideRight.ng-leave {
-  animation-name: slideRight;
-  -webkit-animation-name: slideRight;
-}
-.exit-slideRightReturn.ng-leave {
-  animation-name: slideRightReturn;
-  -webkit-animation-name: slideRightReturn;
-}
-.exit-slideUp.ng-leave {
-  animation-name: slideUp;
-  -webkit-animation-name: slideUp;
-}
-.exit-slideUpReturn.ng-leave {
-  animation-name: slideUpReturn;
-  -webkit-animation-name: slideUpReturn;
-}
-.exit-swap.ng-leave {
-  animation-name: swap;
-  -webkit-animation-name: swap;
-}
-.exit-swing.ng-leave {
-  animation-name: swing;
-  -webkit-animation-name: swing;
-}
-.exit-tada.ng-leave {
-  animation-name: tada;
-  -webkit-animation-name: tada;
-}
-.exit-wobble.ng-leave {
-  animation-name: wobble;
-  -webkit-animation-name: wobble;
-}
-.exit-bounceIn.ng-leave {
-  animation-name: bounceIn;
-  -webkit-animation-name: bounceIn;
-}
-.exit-bounceInDown.ng-leave {
-  animation-name: bounceInDown;
-  -webkit-animation-name: bounceInDown;
-}
-.exit-bounceInLeft.ng-leave {
-  animation-name: bounceInLeft;
-  -webkit-animation-name: bounceInLeft;
-}
-.exit-bounceInRight.ng-leave {
-  animation-name: bounceInRight;
-  -webkit-animation-name: bounceInRight;
-}
-.exit-bounceInUp.ng-leave {
-  animation-name: bounceInUp;
-  -webkit-animation-name: bounceInUp;
-}
-.exit-fadeIn.ng-leave {
-  animation-name: fadeIn;
-  -webkit-animation-name: fadeIn;
-}
-.exit-fadeInDown.ng-leave {
-  animation-name: fadeInDown;
-  -webkit-animation-name: fadeInDown;
-}
-.exit-fadeInDownBig.ng-leave {
-  animation-name: fadeInDownBig;
-  -webkit-animation-name: fadeInDownBig;
-}
-.exit-fadeInLeft.ng-leave {
-  animation-name: fadeInLeft;
-  -webkit-animation-name: fadeInLeft;
-}
-.exit-fadeInLeftBig.ng-leave {
-  animation-name: fadeInLeftBig;
-  -webkit-animation-name: fadeInLeftBig;
-}
-.exit-fadeInRight.ng-leave {
-  animation-name: fadeInRight;
-  -webkit-animation-name: fadeInRight;
-}
-.exit-fadeInRightBig.ng-leave {
-  animation-name: fadeInRightBig;
-  -webkit-animation-name: fadeInRightBig;
-}
-.exit-fadeInUp.ng-leave {
-  animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp;
-}
-.exit-fadeInUpBig.ng-leave {
-  animation-name: fadeInUpBig;
-  -webkit-animation-name: fadeInUpBig;
-}
-.exit-flipInX.ng-leave {
-  animation-name: flipInX;
-  -webkit-animation-name: flipInX;
-}
-.exit-flipInY.ng-leave {
-  animation-name: flipInY;
-  -webkit-animation-name: flipInY;
-}
-.exit-foolishIn.ng-leave {
-  animation-name: foolishIn;
-  -webkit-animation-name: foolishIn;
-}
-.exit-lightSpeedIn.ng-leave {
-  animation-name: lightSpeedIn;
-  -webkit-animation-name: lightSpeedIn;
-}
-.exit-puffIn.ng-leave {
-  animation-name: puffIn;
-  -webkit-animation-name: puffIn;
-}
-.exit-rollIn.ng-leave {
-  animation-name: rollIn;
-  -webkit-animation-name: rollIn;
-}
-.exit-rotateIn.ng-leave {
-  animation-name: rotateIn;
-  -webkit-animation-name: rotateIn;
-}
-.exit-rotateInDownLeft.ng-leave {
-  animation-name: rotateInDownLeft;
-  -webkit-animation-name: rotateInDownLeft;
-}
-.exit-rotateInDownRight.ng-leave {
-  animation-name: rotateInDownRight;
-  -webkit-animation-name: rotateInDownRight;
-}
-.exit-rotateInUpLeft.ng-leave {
-  animation-name: rotateInUpLeft;
-  -webkit-animation-name: rotateInUpLeft;
-}
-.exit-rotateInUpRight.ng-leave {
-  animation-name: rotateInUpRight;
-  -webkit-animation-name: rotateInUpRight;
-}
-.exit-slideInDown.ng-leave {
-  animation-name: slideInDown;
-  -webkit-animation-name: slideInDown;
-}
-.exit-slideInLeft.ng-leave {
-  animation-name: slideInLeft;
-  -webkit-animation-name: slideInLeft;
-}
-.exit-slideInRight.ng-leave {
-  animation-name: slideInRight;
-  -webkit-animation-name: slideInRight;
-}
-.exit-slideInUp.ng-leave {
-  animation-name: slideInUp;
-  -webkit-animation-name: slideInUp;
-}
-.exit-swashIn.ng-leave {
-  animation-name: swashIn;
-  -webkit-animation-name: swashIn;
-}
-.exit-tinDownIn.ng-leave {
-  animation-name: tinDownIn;
-  -webkit-animation-name: tinDownIn;
-}
-.exit-tinLeftIn.ng-leave {
-  animation-name: tinLeftIn;
-  -webkit-animation-name: tinLeftIn;
-}
-.exit-tinRightIn.ng-leave {
-  animation-name: tinRightIn;
-  -webkit-animation-name: tinRightIn;
-}
-.exit-tinUpIn.ng-leave {
-  animation-name: tinUpIn;
-  -webkit-animation-name: tinUpIn;
-}
-.exit-twisterInDown.ng-leave {
-  animation-name: twisterInDown;
-  -webkit-animation-name: twisterInDown;
-}
-.exit-twisterInUp.ng-leave {
-  animation-name: twisterInUp;
-  -webkit-animation-name: twisterInUp;
-}
-.exit-vanishIn.ng-leave {
-  animation-name: vanishIn;
-  -webkit-animation-name: vanishIn;
-}
-.exit-bombLeftOut.ng-leave {
-  animation-name: bombLeftOut;
-  -webkit-animation-name: bombLeftOut;
-}
-.exit-bombRightOut.ng-leave {
-  animation-name: bombRightOut;
-  -webkit-animation-name: bombRightOut;
-}
-.exit-bounceOut.ng-leave {
-  animation-name: bounceOut;
-  -webkit-animation-name: bounceOut;
-}
-.exit-bounceOutDown.ng-leave {
-  animation-name: bounceOutDown;
-  -webkit-animation-name: bounceOutDown;
-}
-.exit-bounceOutLeft.ng-leave {
-  animation-name: bounceOutLeft;
-  -webkit-animation-name: bounceOutLeft;
-}
-.exit-bounceOutRight.ng-leave {
-  animation-name: bounceOutRight;
-  -webkit-animation-name: bounceOutRight;
-}
-.exit-bounceOutUp.ng-leave {
-  animation-name: bounceOutUp;
-  -webkit-animation-name: bounceOutUp;
-}
-.exit-fadeOut.ng-leave {
-  animation-name: fadeOut;
-  -webkit-animation-name: fadeOut;
-}
-.exit-fadeOutDown.ng-leave {
-  animation-name: fadeOutDown;
-  -webkit-animation-name: fadeOutDown;
-}
-.exit-fadeOutDownBig.ng-leave {
-  animation-name: fadeOutDownBig;
-  -webkit-animation-name: fadeOutDownBig;
-}
-.exit-fadeOutLeft.ng-leave {
-  animation-name: fadeOutLeft;
-  -webkit-animation-name: fadeOutLeft;
-}
-.exit-fadeOutLeftBig.ng-leave {
-  animation-name: fadeOutLeftBig;
-  -webkit-animation-name: fadeOutLeftBig;
-}
-.exit-fadeOutRight.ng-leave {
-  animation-name: fadeOutRight;
-  -webkit-animation-name: fadeOutRight;
-}
-.exit-fadeOutRightBig.ng-leave {
-  animation-name: fadeOutRightBig;
-  -webkit-animation-name: fadeOutRightBig;
-}
-.exit-fadeOutUp.ng-leave {
-  animation-name: fadeOutUp;
-  -webkit-animation-name: fadeOutUp;
-}
-.exit-fadeOutUpBig.ng-leave {
-  animation-name: fadeOutUpBig;
-  -webkit-animation-name: fadeOutUpBig;
-}
-.exit-flipOutX.ng-leave {
-  animation-name: flipOutX;
-  -webkit-animation-name: flipOutX;
-}
-.exit-flipOutY.ng-leave {
-  animation-name: flipOutY;
-  -webkit-animation-name: flipOutY;
-}
-.exit-foolishOut.ng-leave {
-  animation-name: foolishOut;
-  -webkit-animation-name: foolishOut;
-}
-.exit-holeOut.ng-leave {
-  animation-name: holeOut;
-  -webkit-animation-name: holeOut;
-}
-.exit-lightSpeedOut.ng-leave {
-  animation-name: lightSpeedOut;
-  -webkit-animation-name: lightSpeedOut;
-}
-.exit-openDownLeftOut.ng-leave {
-  animation-name: openDownLeftOut;
-  -webkit-animation-name: openDownLeftOut;
-}
-.exit-openDownRightOut.ng-leave {
-  animation-name: openDownRightOut;
-  -webkit-animation-name: openDownRightOut;
-}
-.exit-openUpLeftOut.ng-leave {
-  animation-name: openUpLeftOut;
-  -webkit-animation-name: openUpLeftOut;
-}
-.exit-openUpRightOut.ng-leave {
-  animation-name: openUpRightOut;
-  -webkit-animation-name: openUpRightOut;
-}
-.exit-puffOut.ng-leave {
-  animation-name: puffOut;
-  -webkit-animation-name: puffOut;
-}
-.exit-rollOut.ng-leave {
-  animation-name: rollOut;
-  -webkit-animation-name: rollOut;
-}
-.exit-rotateOut.ng-leave {
-  animation-name: rotateOut;
-  -webkit-animation-name: rotateOut;
-}
-.exit-rotateOutDownLeft.ng-leave {
-  animation-name: rotateOutDownLeft;
-  -webkit-animation-name: rotateOutDownLeft;
-}
-.exit-rotateOutDownRight.ng-leave {
-  animation-name: rotateOutDownRight;
-  -webkit-animation-name: rotateOutDownRight;
-}
-.exit-rotateOutUpLeft.ng-leave {
-  animation-name: rotateOutUpLeft;
-  -webkit-animation-name: rotateOutUpLeft;
-}
-.exit-rotateOutUpRight.ng-leave {
-  animation-name: rotateOutUpRight;
-  -webkit-animation-name: rotateOutUpRight;
-}
-.exit-slideOutDown.ng-leave {
-  animation-name: slideOutDown;
-  -webkit-animation-name: slideOutDown;
-}
-.exit-slideOutLeft.ng-leave {
-  animation-name: slideOutLeft;
-  -webkit-animation-name: slideOutLeft;
-}
-.exit-slideOutRight.ng-leave {
-  animation-name: slideOutRight;
-  -webkit-animation-name: slideOutRight;
-}
-.exit-slideOutUp.ng-leave {
-  animation-name: slideOutUp;
-  -webkit-animation-name: slideOutUp;
-}
-.exit-swashOut.ng-leave {
-  animation-name: swashOut;
-  -webkit-animation-name: swashOut;
-}
-.exit-tinDownOut.ng-leave {
-  animation-name: tinDownOut;
-  -webkit-animation-name: tinDownOut;
-}
-.exit-tinLeftOut.ng-leave {
-  animation-name: tinLeftOut;
-  -webkit-animation-name: tinLeftOut;
-}
-.exit-tinRightOut.ng-leave {
-  animation-name: tinRightOut;
-  -webkit-animation-name: tinRightOut;
-}
-.exit-tinUpOut.ng-leave {
-  animation-name: tinUpOut;
-  -webkit-animation-name: tinUpOut;
-}
-.exit-vanishOut.ng-leave {
+.exit-vanishOut.ng-leave,
+.exit-vanishOut.ng-hide-add {
   animation-name: vanishOut;
   -webkit-animation-name: vanishOut;
 }
