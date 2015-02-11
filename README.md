@@ -59,6 +59,8 @@ Using all of these together, everything will animate on creation, exit, re-entry
 
 Simply edit `/src/config.hjson` to your liking!
 
+*Hint: For a smaller file size, limit animations to specific ones you'll use.*
+
 ```javascript
 {
   speed: {
