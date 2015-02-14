@@ -1,6 +1,7 @@
 {
     "name": "nz-animate",
     "version": "0.9.1",
+    "main": "/dist/nzAnimate.min.css",
     "homepage": "https://github.com/nozzle/nzAnimate",
     "authors": [
         "Tanner Linsley <tannerlinsley@gmail.com>"
