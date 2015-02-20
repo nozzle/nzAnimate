@@ -86,9 +86,6 @@ Then:
 
 ## Roadmap & Contributing
 
-1. Integrate the rest of the animations available from Animate.css (not too many). 
-Our animate-stylus repo is currently forked at https://github.com/tannerlinsley/animate-stylus, 
-
-2. Lessen the size of the default build.
+1. Lessen the size of the default build. (See Issue [Here](https://github.com/nozzle/nzAnimate/issues/2))
 
 All PR's and contributions are more than welcome!
