@@ -2,37 +2,1527 @@ vendor-prefixes = {{vendors}}
 vendors = {{vendors}}
 support-for-ie = {{ieSupport}}
 @import 'nib/vendor'
-@import 'node_modules/animate-stylus/index.styl'
 
 animations = {{animations}}
 
 .animate
 	animation-duration: {{defaultSpeed}}ms
 	&.infinite
-		animation-iteration-count: infinite;
+		animation-iteration-count: infinite
+
+for animation_name in animations
+	.{animation_name}
+		animation-name: animation_name
 
 .enter
 	for animation_name in animations
 		&-{animation_name}
 			&.ng-enter,
 			&.ng-hide-remove
-				animation-name: animation_name;
+				animation-name: animation_name		
 .exit
 	for animation_name in animations
 		&-{animation_name}
 			&.ng-leave,
 			&.ng-hide-add
-				animation-name: animation_name;
+				animation-name: animation_name
 .stagger
 	for stagger in ({{staggerStart}}..{{staggerEnd}})
 		&-{stagger * 50}
 			&.ng-enter-stagger,
 			&.ng-leave-stagger
-				animation-delay:(stagger * {{staggerIncrement}})ms;
-				animation-duration:0;
+				animation-delay:(stagger * {{staggerIncrement}})ms
+				animation-duration:0
 		stagger += 1
 .speed
 	for speed in ({{speedStart}}..{{speedEnd}})
 		&-{speed * 50}
-			animation-duration:(speed * {{speedIncrement}})ms;
+			animation-duration:(speed * {{speedIncrement}})ms
 		speed += 1
+		
+
+
+
+
+
+
+
+
+
+/*  ------------------ Attention Seekers -----------------  */
+
+
+
+
+if bounce in animations
+	@keyframes bounce
+		0%, 20%, 50%, 80%, 100%
+			transform: translateY(0)
+		40%
+			transform: translateY(-30px)
+		60%
+			transform: translateY(-15px)
+
+
+if flash in animations
+	@keyframes flash
+		0%, 50%, 100%
+			opacity: 1
+		25%, 75%
+			opacity: 0
+
+if flip in animations
+	@keyframes flip
+		0%
+			transform: perspective(400px) translateZ(0) rotateY(0) scale(1)
+			animation-timing-function: ease-out
+		40%
+			transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1)
+			animation-timing-function: ease-out
+		50%
+			transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1)
+			animation-timing-function: ease-in
+		80%
+			transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95)
+			animation-timing-function: ease-in
+		100%
+			transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1)
+			animation-timing-function: ease-in
+
+if pulse in animations
+	@keyframes pulse
+		0%
+			transform: scale(1)
+		50%
+			transform: scale(1.1)
+		100%
+			transform: scale(1)
+
+
+if rubberBand in animations
+	@keyframes rubberBand
+		0%
+			transform: scale(1)
+		30%
+			transform: scaleX(1.25) scaleY(0.75)
+		40%
+			transform: scaleX(0.75) scaleY(1.25)
+		60%
+			transform: scaleX(1.15) scaleY(0.85)
+		100%
+			transform: scale(1)
+
+
+if shake in animations
+	@keyframes shake
+		0%, 100%
+			transform: translateX(0)
+		10%, 30%, 50%, 70%, 90%
+			transform: translateX(-10px)
+		20%, 40%, 60%, 80%
+			transform: translateX(10px)
+
+
+if swing in animations
+	@keyframes swing
+		20%
+			transform: rotate(15deg)
+		40%
+			transform: rotate(-10deg)
+		60%
+			transform: rotate(5deg)
+		80%
+			transform: rotate(-5deg)
+		100%
+			transform: rotate(0deg)
+
+
+if tada in animations
+	@keyframes tada
+		0%
+			transform: scale(1)
+		10%, 20%
+			transform: scale(0.9) rotate(-3deg)
+		30%, 50%, 70%, 90%
+			transform: scale(1.1) rotate(3deg)
+		40%, 60%, 80%
+			transform: scale(1.1) rotate(-3deg)
+		100%
+			transform: scale(1) rotate(0)
+
+
+if wobble in animations
+	@keyframes wobble
+		0%
+			transform: translateX(0%)
+		15%
+			transform: translateX(-25%) rotate(-5deg)
+		30%
+			transform: translateX(20%) rotate(3deg)
+		45%
+			transform: translateX(-15%) rotate(-3deg)
+		60%
+			transform: translateX(10%) rotate(2deg)
+		75%
+			transform: translateX(-5%) rotate(-1deg)
+		100%
+			transform: translateX(0%)
+		
+
+
+
+/*  ------------------ Attention Seekers -----------------  */
+
+
+
+
+if bounce in animations
+	@keyframes bounce
+		0%, 20%, 50%, 80%, 100%
+			transform: translateY(0)
+		40%
+			transform: translateY(-30px)
+		60%
+			transform: translateY(-15px)
+if flash in animations
+	@keyframes flash
+		0%, 50%, 100%
+			opacity: 1
+		25%, 75%
+			opacity: 0
+if pulse in animations
+	@keyframes pulse
+		0%
+			transform: scale(1)
+		50%
+			transform: scale(1.1)
+		100%
+			transform: scale(1)
+if rubberBand in animations
+	@keyframes rubberBand
+		0%
+			transform: scale(1)
+		30%
+			transform: scaleX(1.25) scaleY(0.75)
+		40%
+			transform: scaleX(0.75) scaleY(1.25)
+		60%
+			transform: scaleX(1.15) scaleY(0.85)
+		100%
+			transform: scale(1)
+if shake in animations
+	@keyframes shake
+		0%, 100%
+			transform: translateX(0)
+		10%, 30%, 50%, 70%, 90%
+			transform: translateX(-10px)
+		20%, 40%, 60%, 80%
+			transform: translateX(10px)
+if swing in animations
+	@keyframes swing
+		20%
+			transform: rotate(15deg)
+		40%
+			transform: rotate(-10deg)
+		60%
+			transform: rotate(5deg)
+		80%
+			transform: rotate(-5deg)
+		100%
+			transform: rotate(0deg)
+if tada in animations
+	@keyframes tada
+		0%
+			transform: scale(1)
+		10%, 20%
+			transform: scale(0.9) rotate(-3deg)
+		30%, 50%, 70%, 90%
+			transform: scale(1.1) rotate(3deg)
+		40%, 60%, 80%
+			transform: scale(1.1) rotate(-3deg)
+		100%
+			transform: scale(1) rotate(0)
+if wobble in animations
+	@keyframes wobble
+		0%
+			transform: translateX(0%)
+		15%
+			transform: translateX(-25%) rotate(-5deg)
+		30%
+			transform: translateX(20%) rotate(3deg)
+		45%
+			transform: translateX(-15%) rotate(-3deg)
+		60%
+			transform: translateX(10%) rotate(2deg)
+		75%
+			transform: translateX(-5%) rotate(-1deg)
+		100%
+			transform: translateX(0%)
+			
+
+
+
+
+/* ------------------ Enters/Exits ----------------- */
+
+
+
+
+// Puff
+
+if puffIn in animations
+	@keyframes puffIn
+		0%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(2, 2)
+			filter: blur(2px)
+		100%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1)
+if puffOut in animations
+	@keyframes puffOut
+		0%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1)
+		100%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(2, 2)
+			filter: blur(2px)
+
+
+
+
+// Vanish
+
+if vanishIn in animations
+	@keyframes vanishIn
+		0%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(2, 2)
+			filter: blur(90px)
+		100%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1)
+if vanishOut in animations
+	@keyframes vanishOut
+		0%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1)
+		100%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(2, 2)
+			filter: blur(20px)
+
+
+
+
+// Bomb
+
+if bombLeftOut in animations
+	@keyframes bombLeftOut
+		0%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: rotate(0deg)
+			filter: blur(0px)
+		50%
+			opacity: 1
+			transform-origin: -100% 50%
+			transform: rotate(-160deg)
+			filter: blur(0px)
+		100%
+			opacity: 0
+			transform-origin: -100% 50%
+			transform: rotate(-160deg)
+			filter: blur(20px)
+if bombRightOut in animations
+	@keyframes bombRightOut
+		0%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: rotate(0deg)
+			filter: blur(0px)
+		50%
+			opacity: 1
+			transform-origin: 200% 50%
+			transform: rotate(160deg)
+			filter: blur(0px)
+		100%
+			opacity: 0
+			transform-origin: 200% 50%
+			transform: rotate(160deg)
+			filter: blur(20px)
+
+
+
+
+// Bounce
+
+if bounceIn in animations
+	@keyframes bounceIn
+		0%
+			opacity: 0
+			transform: scale(0.3)
+		50%
+			opacity: 1
+			transform: scale(1.05)
+		70%
+			transform: scale(0.9)
+		100%
+			opacity: 1
+			transform: scale(1)
+if bounceInDown in animations
+	@keyframes bounceInDown
+		0%
+			opacity: 0
+			transform: translateY(-2000px)
+		60%
+			opacity: 1
+			transform: translateY(30px)
+		80%
+			transform: translateY(-10px)
+		100%
+			transform: translateY(0)
+if bounceInLeft in animations
+	@keyframes bounceInLeft
+		0%
+			opacity: 0
+			transform: translateX(-2000px)
+		60%
+			opacity: 1
+			transform: translateX(30px)
+		80%
+			transform: translateX(-10px)
+		100%
+			transform: translateX(0)
+if bounceInRight in animations
+	@keyframes bounceInRight
+		0%
+			opacity: 0
+			transform: translateX(2000px)
+		60%
+			opacity: 1
+			transform: translateX(-30px)
+		80%
+			transform: translateX(10px)
+		100%
+			transform: translateX(0)
+if bounceInUp in animations
+	@keyframes bounceInUp
+		0%
+			opacity: 0
+			transform: translateY(2000px)
+		60%
+			opacity: 1
+			transform: translateY(-30px)
+		80%
+			transform: translateY(10px)
+		100%
+			transform: translateY(0)
+if bounceOut in animations
+	@keyframes bounceOut
+		0%
+			transform: scale(1)
+		25%
+			transform: scale(0.95)
+		50%
+			opacity: 1
+			transform: scale(1.1)
+		100%
+			opacity: 0
+			transform: scale(0.3)
+if bounceOutDown in animations
+	@keyframes bounceOutDown
+		0%
+			transform: translateY(0)
+		20%
+			opacity: 1
+			transform: translateY(-20px)
+		100%
+			opacity: 0
+			transform: translateY(2000px)
+if bounceOutLeft in animations
+	@keyframes bounceOutLeft
+		0%
+			transform: translateX(0)
+		20%
+			opacity: 1
+			transform: translateX(20px)
+		100%
+			opacity: 0
+			transform: translateX(-2000px)
+if bounceOutRight in animations
+	@keyframes bounceOutRight
+		0%
+			transform: translateX(0)
+		20%
+			opacity: 1
+			transform: translateX(-20px)
+		100%
+			opacity: 0
+			transform: translateX(2000px)
+if bounceOutUp in animations
+	@keyframes bounceOutUp
+		0%
+			transform: translateY(0)
+		20%
+			opacity: 1
+			transform: translateY(20px)
+		100%
+			opacity: 0
+			transform: translateY(-2000px)
+
+
+
+
+// Fade
+
+if fadeIn in animations
+	@keyframes fadeIn
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+if fadeInDown in animations
+	@keyframes fadeInDown
+		0%
+			opacity: 0
+			transform: translateY(-20px)
+		100%
+			opacity: 1
+			transform: translateY(0)
+if fadeInDownBig in animations
+	@keyframes fadeInDownBig
+		0%
+			opacity: 0
+			transform: translateY(-2000px)
+		100%
+			opacity: 1
+			transform: translateY(0)
+if fadeInLeft in animations
+	@keyframes fadeInLeft
+		0%
+			opacity: 0
+			transform: translateX(-20px)
+		100%
+			opacity: 1
+			transform: translateX(0)
+if fadeInLeftBig in animations
+	@keyframes fadeInLeftBig
+		0%
+			opacity: 0
+			transform: translateX(-2000px)
+		100%
+			opacity: 1
+			transform: translateX(0)
+if fadeInRight in animations
+	@keyframes fadeInRight
+		0%
+			opacity: 0
+			transform: translateX(20px)
+		100%
+			opacity: 1
+			transform: translateX(0)
+if fadeInRightBig in animations
+	@keyframes fadeInRightBig
+		0%
+			opacity: 0
+			transform: translateX(2000px)
+		100%
+			opacity: 1
+			transform: translateX(0)
+if fadeInUp in animations
+	@keyframes fadeInUp
+		0%
+			opacity: 0
+			transform: translateY(20px)
+		100%
+			opacity: 1
+			transform: translateY(0)
+if fadeInUpBig in animations
+	@keyframes fadeInUpBig
+		0%
+			opacity: 0
+			transform: translateY(2000px)
+		100%
+			opacity: 1
+			transform: translateY(0)
+if fadeOut in animations
+	@keyframes fadeOut
+		0%
+			opacity: 1
+		100%
+			opacity: 0
+if fadeOutDown in animations
+	@keyframes fadeOutDown
+		0%
+			opacity: 1
+			transform: translateY(0)
+		100%
+			opacity: 0
+			transform: translateY(20px)
+if fadeOutDownBig in animations
+	@keyframes fadeOutDownBig
+		0%
+			opacity: 1
+			transform: translateY(0)
+		100%
+			opacity: 0
+			transform: translateY(2000px)
+if fadeOutLeft in animations
+	@keyframes fadeOutLeft
+		0%
+			opacity: 1
+			transform: translateX(0)
+		100%
+			opacity: 0
+			transform: translateX(-20px)
+if fadeOutLeftBig in animations
+	@keyframes fadeOutLeftBig
+		0%
+			opacity: 1
+			transform: translateX(0)
+		100%
+			opacity: 0
+			transform: translateX(-2000px)
+if fadeOutRight in animations
+	@keyframes fadeOutRight
+		0%
+			opacity: 1
+			transform: translateX(0)
+		100%
+			opacity: 0
+			transform: translateX(20px)
+if fadeOutRightBig in animations
+	@keyframes fadeOutRightBig
+		0%
+			opacity: 1
+			transform: translateX(0)
+		100%
+			opacity: 0
+			transform: translateX(2000px)
+if fadeOutUp in animations
+	@keyframes fadeOutUp
+		0%
+			opacity: 1
+			transform: translateY(0)
+		100%
+			opacity: 0
+			transform: translateY(-20px)
+if fadeOutUpBig in animations
+	@keyframes fadeOutUpBig
+		0%
+			opacity: 1
+			transform: translateY(0)
+		100%
+			opacity: 0
+			transform: translateY(-2000px)
+
+
+
+
+// Flip
+
+if flipInX in animations
+	@keyframes flipInX
+		0%
+			transform: perspective(400px) rotateX(90deg)
+			opacity: 0
+		40%
+			transform: perspective(400px) rotateX(-10deg)
+		70%
+			transform: perspective(400px) rotateX(10deg)
+		100%
+			transform: perspective(400px) rotateX(0deg)
+			opacity: 1
+if flipInY in animations
+	@keyframes flipInY
+		0%
+			transform: perspective(400px) rotateY(90deg)
+			opacity: 0
+		40%
+			transform: perspective(400px) rotateY(-10deg)
+		70%
+			transform: perspective(400px) rotateY(10deg)
+		100%
+			transform: perspective(400px) rotateY(0deg)
+			opacity: 1
+if flipOutX in animations
+	@keyframes flipOutX
+		0%
+			transform: perspective(400px) rotateX(0deg)
+			opacity: 1
+		100%
+			transform: perspective(400px) rotateX(90deg)
+			opacity: 0
+if flipOutY in animations
+	@keyframes flipOutY
+		0%
+			transform: perspective(400px) rotateY(0deg)
+			opacity: 1
+		100%
+			transform: perspective(400px) rotateY(90deg)
+			opacity: 0
+
+
+
+
+// Lighspeed
+
+if lightSpeedIn in animations
+	@keyframes lightSpeedIn
+		0%
+			transform: translateX(100%) skewX(-30deg)
+			opacity: 0
+		60%
+			transform: translateX(-20%) skewX(30deg)
+			opacity: 1
+		80%
+			transform: translateX(0%) skewX(-15deg)
+			opacity: 1
+		100%
+			transform: translateX(0%) skewX(0deg)
+			opacity: 1
+if lightSpeedOut in animations
+	@keyframes lightSpeedOut
+		0%
+			transform: translateX(0%) skewX(0deg)
+			opacity: 1
+		100%
+			transform: translateX(100%) skewX(-30deg)
+			opacity: 0
+
+
+
+
+// Magic
+
+if magicOut in animations
+	@keyframes magicOut
+		0%
+			opacity: 1
+			transform-origin: 100% 200%
+			transform: scale(1, 1) rotate(0deg)
+		100%
+			opacity: 0
+			transform-origin: 200% 500%
+			transform: scale(0, 0) rotate(270deg)
+
+
+
+
+// Swap
+
+if swapIn in animations
+	@keyframes swapIn
+		0%
+			opacity: 0
+			transform-origin: 0 100%
+			transform: scale(0, 0) translate(-700px, 0px)
+		100%
+			opacity: 1
+			transform-origin: 100% 100%
+			transform: scale(1, 1) translate(0px, 0px)
+if swapOut in animations
+	@keyframes swapOut
+		0%
+			opacity: 1
+			transform-origin: 100% 100%
+			transform: scale(1, 1) translate(0px, 0px)
+		100%
+			opacity: 0
+			transform-origin: 0 100%
+			transform: scale(0, 0) translate(-700px, 0px)
+
+
+
+
+// Twister
+
+if twisterInDown in animations
+	@keyframes twisterInDown
+		0%
+			opacity: 0
+			transform-origin: 0 100%
+			transform: scale(0, 0) rotate(360deg) translateY(-100%)
+		30%
+			transform-origin: 0 100%
+			transform: scale(0, 0) rotate(360deg) translateY(-100%)
+		100%
+			opacity: 1
+			transform-origin: 100% 100%
+			transform: scale(1, 1) rotate(0deg) translateY(0%)
+if twisterInUp in animations
+	@keyframes twisterInUp
+		0%
+			opacity: 0
+			transform-origin: 100% 0
+			transform: scale(0, 0) rotate(360deg) translateY(100%)
+		30%
+			transform-origin: 100% 0
+			transform: scale(0, 0) rotate(360deg) translateY(100%)
+		100%
+			opacity: 1
+			transform-origin: 0 0
+			transform: scale(1, 1) rotate(0deg) translateY(0)
+
+
+
+
+// Foolish
+
+if foolishIn in animations
+	@keyframes foolishIn
+		0%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(0, 0) rotate(360deg)
+		20%
+			opacity: 1
+			transform-origin: 0% 100%
+			transform: scale(0.5, 0.5) rotate(0deg)
+		40%
+			opacity: 1
+			transform-origin: 100% 100%
+			transform: scale(0.5, 0.5) rotate(0deg)
+		60%
+			opacity: 1
+			transform-origin: 0%
+			transform: scale(0.5, 0.5) rotate(0deg)
+		80%
+			opacity: 1
+			transform-origin: 0% 0%
+			transform: scale(0.5, 0.5) rotate(0deg)
+		100%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1) rotate(0deg)
+if foolishOut in animations
+	@keyframes foolishOut
+		0%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1) rotate(360deg)
+		20%
+			opacity: 1
+			transform-origin: 0% 0%
+			transform: scale(0.5, 0.5) rotate(0deg)
+		40%
+			opacity: 1
+			transform-origin: 100% 0%
+			transform: scale(0.5, 0.5) rotate(0deg)
+		60%
+			opacity: 1
+			transform-origin: 0%
+			transform: scale(0.5, 0.5) rotate(0deg)
+		80%
+			opacity: 1
+			transform-origin: 0% 100%
+			transform: scale(0.5, 0.5) rotate(0deg)
+		100%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(0, 0) rotate(0deg)
+
+
+
+
+// Hole
+
+if holeIn in animations
+	@keyframes holeIn
+		0%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(0, 0) rotateY(180deg)
+		100%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1) rotateY(0deg)
+if holeOut in animations
+	@keyframes holeOut
+		0%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1) rotateY(0deg)
+		100%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(0, 0) rotateY(180deg)
+
+
+
+
+// Swash
+
+if swashIn in animations
+	@keyframes swashIn
+		0%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(0, 0)
+		90%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(0.9, 0.9)
+		100%
+			transform-origin: 50% 50%
+			transform: scale(1, 1)
+if swashOut in animations
+	@keyframes swashOut
+		0%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(1, 1)
+		80%
+			opacity: 1
+			transform-origin: 50% 50%
+			transform: scale(0.9, 0.9)
+		100%
+			opacity: 0
+			transform-origin: 50% 50%
+			transform: scale(0, 0)
+
+
+
+
+// Perspective
+
+if perspectiveDown in animations
+	@keyframes perspectiveDown
+		0%
+			transform-origin: 0 100%
+			transform: perspective(800px) rotateX(0deg)
+		100%
+			transform-origin: 0 100%
+			transform: perspective(800px) rotateX(-180deg)
+if perspectiveDownReturn in animations
+	@keyframes perspectiveDownReturn
+		0%
+			transform-origin: 0 100%
+			transform: perspective(800px) rotateX(-180deg)
+		100%
+			transform-origin: 0 100%
+			transform: perspective(800px) rotateX(0deg)
+if perspectiveLeft in animations
+	@keyframes perspectiveLeft
+		0%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateY(0deg)
+		100%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateY(-180deg)
+if perspectiveLeftReturn in animations
+	@keyframes perspectiveLeftReturn
+		0%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateY(-180deg)
+		100%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateY(0deg)
+if perspectiveRight in animations
+	@keyframes perspectiveRight
+		0%
+			transform-origin: 100% 0
+			transform: perspective(800px) rotateY(0deg)
+		100%
+			transform-origin: 100% 0
+			transform: perspective(800px) rotateY(180deg)
+if perspectiveRightReturn in animations
+	@keyframes perspectiveRightReturn
+		0%
+			transform-origin: 100% 0
+			transform: perspective(800px) rotateY(180deg)
+		100%
+			transform-origin: 100% 0
+			transform: perspective(800px) rotateY(0deg)
+if perspectiveUp in animations
+	@keyframes perspectiveUp
+		0%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateX(0deg)
+		100%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateX(180deg)
+if perspectiveUpReturn in animations
+	@keyframes perspectiveUpReturn
+		0%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateX(180deg)
+		100%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateX(0deg)
+
+
+
+
+// Flop
+
+if flopInDown in animations
+	@keyframes flopInDown
+		0%
+			opacity: 0
+			transform-origin: 50% 0
+			transform: perspective(800px) rotateX(180deg) translateZ(100px)
+		100%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateX(0deg) translateZ(0px)
+if flopInLeft in animations
+	@keyframes flopInLeft
+		0%
+			opacity: 0
+			transform-origin: 50% 0
+			transform: perspective(800px) rotateY(-180deg) translateZ(150px)
+		100%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateY(0deg) translate3d(0px)
+if flopInRight in animations
+	@keyframes flopInRight
+		0%
+			opacity: 0
+			transform-origin: 50% 0
+			transform: perspective(800px) rotateY(180deg) translateZ(300px)
+		100%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateY(0deg) translateZ(0px)
+if flopInUp in animations
+	@keyframes flopInUp
+		0%
+			opacity: 0
+			transform-origin: 50% 100%
+			transform: perspective(800px) rotateX(-180deg) translateZ(300px)
+		100%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateX(0deg) translateZ(0px)
+if flopOutDown in animations
+	@keyframes flopOutDown
+		0%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateX(0deg) translateZ(0px)
+		100%
+			opacity: 0
+			transform-origin: 50% 100%
+			transform: perspective(800px) rotateX(-180deg) translateZ(300px)
+if flopOutLeft in animations
+	@keyframes flopOutLeft
+		0%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateY(0deg) translateZ(0px)
+		100%
+			opacity: 0
+			transform-origin: 50% 0
+			transform: perspective(800px) rotateY(180deg) translateZ(300px)
+if flopOutRight in animations
+	@keyframes flopOutRight
+		0%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateY(0deg) translate3d(0px)
+		100%
+			opacity: 0
+			transform-origin: 50% 0
+			transform: perspective(800px) rotateY(-180deg) translateZ(150px)
+if flopOutUp in animations
+	@keyframes flopOutUp
+		0%
+			transform-origin: 0 0
+			transform: perspective(800px) rotateX(0deg) translateZ(0px)
+		100%
+			opacity: 0
+			transform-origin: 50% 0
+			transform: perspective(800px) rotateX(180deg) translateZ(100px)
+
+
+
+
+// Rotate
+
+if rotateIn in animations
+	@keyframes rotateIn
+		0%
+			transform-origin: center center
+			transform: rotate(-200deg)
+			opacity: 0
+		100%
+			transform-origin: center center
+			transform: rotate(0)
+			opacity: 1
+if rotateInDownLeft in animations
+	@keyframes rotateInDownLeft
+		0%
+			transform-origin: left bottom
+			transform: rotate(-90deg)
+			opacity: 0
+		100%
+			transform-origin: left bottom
+			transform: rotate(0)
+			opacity: 1
+if rotateInDownRight in animations
+	@keyframes rotateInDownRight
+		0%
+			transform-origin: right bottom
+			transform: rotate(90deg)
+			opacity: 0
+		100%
+			transform-origin: right bottom
+			transform: rotate(0)
+			opacity: 1
+if rotateInUpLeft in animations
+	@keyframes rotateInUpLeft
+		0%
+			transform-origin: left bottom
+			transform: rotate(90deg)
+			opacity: 0
+		100%
+			transform-origin: left bottom
+			transform: rotate(0)
+			opacity: 1
+if rotateInUpRight in animations
+	@keyframes rotateInUpRight
+		0%
+			transform-origin: right bottom
+			transform: rotate(-90deg)
+			opacity: 0
+		100%
+			transform-origin: right bottom
+			transform: rotate(0)
+			opacity: 1
+if rotateOut in animations
+	@keyframes rotateOut
+		0%
+			transform-origin: center center
+			transform: rotate(0)
+			opacity: 1
+		100%
+			transform-origin: center center
+			transform: rotate(200deg)
+			opacity: 0
+if rotateOutDownLeft in animations
+	@keyframes rotateOutDownLeft
+		0%
+			transform-origin: left bottom
+			transform: rotate(0)
+			opacity: 1
+		100%
+			transform-origin: left bottom
+			transform: rotate(90deg)
+			opacity: 0
+if rotateOutDownRight in animations
+	@keyframes rotateOutDownRight
+		0%
+			transform-origin: right bottom
+			transform: rotate(0)
+			opacity: 1
+		100%
+			transform-origin: right bottom
+			transform: rotate(-90deg)
+			opacity: 0
+if rotateOutUpLeft in animations
+	@keyframes rotateOutUpLeft
+		0%
+			transform-origin: left bottom
+			transform: rotate(0)
+			opacity: 1
+		100%
+			transform-origin: left bottom
+			transform: rotate(-90deg)
+			opacity: 0
+if rotateOutUpRight in animations
+	@keyframes rotateOutUpRight
+		0%
+			transform-origin: right bottom
+			transform: rotate(0)
+			opacity: 1
+		100%
+			transform-origin: right bottom
+			transform: rotate(90deg)
+			opacity: 0
+
+
+
+
+// Slide
+
+if slideDown in animations
+	@keyframes slideDown
+		0%
+			transform-origin: 0 0
+			transform: translateY(0%)
+		100%
+			transform-origin: 0 0
+			transform: translateY(100%)
+if slideDownReturn in animations
+	@keyframes slideDownReturn
+		0%
+			transform-origin: 0 0
+			transform: translateY(100%)
+		100%
+			transform-origin: 0 0
+			transform: translateY(0%)
+if slideInDown in animations
+	@keyframes slideInDown
+		0%
+			opacity: 0
+			transform: translateY(-2000px)
+		100%
+			transform: translateY(0)
+if slideInLeft in animations
+	@keyframes slideInLeft
+		0%
+			opacity: 0
+			transform: translateX(-2000px)
+		100%
+			transform: translateX(0)
+if slideInRight in animations
+	@keyframes slideInRight
+		0%
+			opacity: 0
+			transform: translateX(2000px)
+		100%
+			transform: translateX(0)
+if slideInUp in animations
+	@keyframes slideInUp
+		0%
+			transform: translateY(2000px)
+		100%
+			opacity: 0
+			transform: translateY(0)
+if slideLeft in animations
+	@keyframes slideLeft
+		0%
+			transform-origin: 0 0
+			transform: translateX(0%)
+		100%
+			transform-origin: 0 0
+			transform: translateX(-100%)
+if slideLeftReturn in animations
+	@keyframes slideLeftReturn
+		0%
+			transform-origin: 0 0
+			transform: translateX(-100%)
+		100%
+			transform-origin: 0 0
+			transform: translateX(0%)
+if slideOutDown in animations
+	@keyframes slideOutDown
+		0%
+			transform: translateY(0)
+		100%
+			opacity: 0
+			transform: translateY(2000px)
+if slideOutLeft in animations
+	@keyframes slideOutLeft
+		0%
+			transform: translateX(0)
+		100%
+			opacity: 0
+			transform: translateX(-2000px)
+if slideOutRight in animations
+	@keyframes slideOutRight
+		0%
+			transform: translateX(0)
+		100%
+			opacity: 0
+			transform: translateX(2000px)
+if slideOutUp in animations
+	@keyframes slideOutUp
+		0%
+			transform: translateY(0)
+		100%
+			opacity: 0
+			transform: translateY(-2000px)
+if slideRight in animations
+	@keyframes slideRight
+		0%
+			transform-origin: 0 0
+			transform: translateX(0%)
+		100%
+			transform-origin: 0 0
+			transform: translateX(100%)
+if slideRightReturn in animations
+	@keyframes slideRightReturn
+		0%
+			transform-origin: 0 0
+			transform: translateX(100%)
+		100%
+			transform-origin: 0 0
+			transform: translateX(0%)
+if slideUp in animations
+	@keyframes slideUp
+		0%
+			transform-origin: 0 0
+			transform: translateY(0%)
+		100%
+			transform-origin: 0 0
+			transform: translateY(-100%)
+if slideUpReturn in animations
+	@keyframes slideUpReturn
+		0%
+			transform-origin: 0 0
+			transform: translateY(-100%)
+		100%
+			transform-origin: 0 0
+			transform: translateY(0%)
+
+
+
+
+// Hinge
+
+if hingeOut in animations
+	@keyframes hingeOut
+		0%
+			transform: rotate(0)
+			transform-origin: top left
+			animation-timing-function: ease-in-out
+		20%, 60%
+			transform: rotate(80deg)
+			transform-origin: top left
+			animation-timing-function: ease-in-out
+		40%
+			transform: rotate(60deg)
+			transform-origin: top left
+			animation-timing-function: ease-in-out
+		80%
+			transform: rotate(60deg) translateY(0)
+			transform-origin: top left
+			animation-timing-function: ease-in-out
+			opacity: 1
+		100%
+			transform: translateY(700px)
+			opacity: 0
+
+
+
+
+// Roll
+
+if rollIn in animations
+	@keyframes rollIn
+		0%
+			opacity: 0
+			transform: translateX(-100%) rotate(-120deg)
+		100%
+			opacity: 1
+			transform: translateX(0px) rotate(0deg)
+if rollOut in animations
+	@keyframes rollOut
+		0%
+			opacity: 1
+			transform: translateX(0px) rotate(0deg)
+		100%
+			opacity: 0
+			transform: translateX(100%) rotate(120deg)
+
+
+
+
+// Tin
+
+if tinDownIn in animations
+	@keyframes tinDownIn
+		0%
+			opacity: 0
+			transform: scale(1, 1) translateY(900%)
+		50%, 70%, 90%
+			opacity: 1
+			transform: scale(1.1, 1.1) translateY(0)
+		60%, 80%, 100%
+			opacity: 1
+			transform: scale(1, 1) translateY(0)
+if tinDownOut in animations
+	@keyframes tinDownOut
+		0%, 20%, 40%, 50%
+			opacity: 1
+			transform: scale(1, 1) translateY(0)
+		10%, 30%
+			opacity: 1
+			transform: scale(1.1, 1.1) translateY(0)
+		100%
+			opacity: 0
+			transform: scale(1, 1) translateY(900%)
+if tinLeftIn in animations
+	@keyframes tinLeftIn
+		0%
+			opacity: 0
+			transform: scale(1, 1) translateX(-900%)
+		50%, 70%, 90%
+			opacity: 1
+			transform: scale(1.1, 1.1) translateX(0)
+		60%, 80%, 100%
+			opacity: 1
+			transform: scale(1, 1) translateX(0)
+if tinLeftOut in animations
+	@keyframes tinLeftOut
+		0%, 20%, 40%, 50%
+			opacity: 1
+			transform: scale(1, 1) translateX(0)
+		10%, 30%
+			opacity: 1
+			transform: scale(1.1, 1.1) translateX(0)
+		100%
+			opacity: 0
+			transform: scale(1, 1) translateX(-900%)
+if tinRightIn in animations
+	@keyframes tinRightIn
+		0%
+			opacity: 0
+			transform: scale(1, 1) translateX(900%)
+		50%, 70%, 90%
+			opacity: 1
+			transform: scale(1.1, 1.1) translateX(0)
+		60%, 80%, 100%
+			opacity: 1
+			transform: scale(1, 1) translateX(0)
+if tinRightOut in animations
+	@keyframes tinRightOut
+		0%, 20%, 40%, 50%
+			opacity: 1
+			transform: scale(1, 1) translateX(0)
+		10%, 30%
+			opacity: 1
+			transform: scale(1.1, 1.1) translateX(0)
+		100%
+			opacity: 0
+			transform: scale(1, 1) translateX(900%)
+if tinUpIn in animations
+	@keyframes tinUpIn
+		0%
+			opacity: 0
+			transform: scale(1, 1) translateY(-900%)
+		50%, 70%, 90%
+			opacity: 1
+			transform: scale(1.1, 1.1) translateY(0)
+		60%, 80%, 100%
+			opacity: 1
+			transform: scale(1, 1) translateY(0)
+if tinUpOut in animations
+	@keyframes tinUpOut
+		0%, 20%, 40%, 50%
+			opacity: 1
+			transform: scale(1, 1) translateY(0)
+		10%, 30%
+			opacity: 1
+			transform: scale(1.1, 1.1) translateY(0)
+		100%
+			opacity: 0
+			transform: scale(1, 1) translateY(-900%)
+
+
+
+
+// Zoom
+
+if zoomIn in animations
+	@keyframes zoomIn
+		0%
+			opacity: 0
+			transform: scale3d(.3, .3, .3)
+		50%
+			opacity: 1
+if zoomInDown in animations
+	@keyframes zoomInDown
+		0%
+			opacity: 0
+			transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0)
+			animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+		60%
+			opacity: 1
+			transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0)
+			animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)
+if zoomInLeft in animations
+	@keyframes zoomInLeft
+		0%
+			opacity: 0
+			transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0)
+			animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+		60%
+			opacity: 1
+			transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0)
+			animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)
+if zoomInRight in animations
+	@keyframes zoomInRight
+		0%
+			opacity: 0
+			transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0)
+			animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+		60%
+			opacity: 1
+			transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0)
+			animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)
+if zoomInUp in animations
+	@keyframes zoomInUp
+		0%
+			opacity: 0
+			transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0)
+			animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+		60%
+			opacity: 1
+			transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0)
+			animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)
+if zoomOut in animations
+	@keyframes zoomOut
+		0%
+			opacity: 1
+
+		50%
+			opacity: 0
+			transform: scale3d(.3, .3, .3)
+
+		100%
+			opacity: 0
+if zoomOutDown in animations
+	@keyframes zoomOutDown
+		40%
+			opacity: 1
+			transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0)
+			animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+		100%
+			opacity: 0
+			transform: scale3d(.1, .1, .1) translate3d(0, 2000px, 0)
+			transform-origin: center bottom
+			animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)
+if zoomOutLeft in animations
+	@keyframes zoomOutLeft
+		40%
+			opacity: 1
+			transform: scale3d(.475, .475, .475) translate3d(42px, 0, 0)
+
+		100%
+			opacity: 0
+			transform: scale(.1) translate3d(-2000px, 0, 0)
+			transform-origin: left center
+if zoomOutRight in animations
+	@keyframes zoomOutRight
+		40%
+			opacity: 1
+			transform: scale3d(.475, .475, .475) translate3d(-42px, 0, 0)
+
+		100%
+			opacity: 0
+			transform: scale(.1) translate3d(2000px, 0, 0)
+			transform-origin: right center
+if zoomOutUp in animations
+	@keyframes zoomOutUp
+		40%
+			opacity: 1
+			transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0)
+			animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+		100%
+			opacity: 0
+			transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0)
+			transform-origin: center bottom
+			animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)

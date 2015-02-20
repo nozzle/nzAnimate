@@ -1,3 +1,2337 @@
+.animate {
+  animation-duration: 700ms;
+  -webkit-animation-duration: 700ms;
+}
+.animate.infinite {
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.bounce {
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+}
+.flash {
+  animation-name: flash;
+  -webkit-animation-name: flash;
+}
+.flip {
+  animation-name: flip;
+  -webkit-animation-name: flip;
+}
+.pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+}
+.rubberBand {
+  animation-name: rubberBand;
+  -webkit-animation-name: rubberBand;
+}
+.shake {
+  animation-name: shake;
+  -webkit-animation-name: shake;
+}
+.swing {
+  animation-name: swing;
+  -webkit-animation-name: swing;
+}
+.tada {
+  animation-name: tada;
+  -webkit-animation-name: tada;
+}
+.wobble {
+  animation-name: wobble;
+  -webkit-animation-name: wobble;
+}
+.puffIn {
+  animation-name: puffIn;
+  -webkit-animation-name: puffIn;
+}
+.puffOut {
+  animation-name: puffOut;
+  -webkit-animation-name: puffOut;
+}
+.vanishIn {
+  animation-name: vanishIn;
+  -webkit-animation-name: vanishIn;
+}
+.vanishOut {
+  animation-name: vanishOut;
+  -webkit-animation-name: vanishOut;
+}
+.bombLeftOut {
+  animation-name: bombLeftOut;
+  -webkit-animation-name: bombLeftOut;
+}
+.bombRightOut {
+  animation-name: bombRightOut;
+  -webkit-animation-name: bombRightOut;
+}
+.bounceIn {
+  animation-name: bounceIn;
+  -webkit-animation-name: bounceIn;
+}
+.bounceInDown {
+  animation-name: bounceInDown;
+  -webkit-animation-name: bounceInDown;
+}
+.bounceInLeft {
+  animation-name: bounceInLeft;
+  -webkit-animation-name: bounceInLeft;
+}
+.bounceInRight {
+  animation-name: bounceInRight;
+  -webkit-animation-name: bounceInRight;
+}
+.bounceInUp {
+  animation-name: bounceInUp;
+  -webkit-animation-name: bounceInUp;
+}
+.bounceOut {
+  animation-name: bounceOut;
+  -webkit-animation-name: bounceOut;
+}
+.bounceOutDown {
+  animation-name: bounceOutDown;
+  -webkit-animation-name: bounceOutDown;
+}
+.bounceOutLeft {
+  animation-name: bounceOutLeft;
+  -webkit-animation-name: bounceOutLeft;
+}
+.bounceOutRight {
+  animation-name: bounceOutRight;
+  -webkit-animation-name: bounceOutRight;
+}
+.bounceOutUp {
+  animation-name: bounceOutUp;
+  -webkit-animation-name: bounceOutUp;
+}
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+}
+.fadeInDown {
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+}
+.fadeInDownBig {
+  animation-name: fadeInDownBig;
+  -webkit-animation-name: fadeInDownBig;
+}
+.fadeInLeft {
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+}
+.fadeInLeftBig {
+  animation-name: fadeInLeftBig;
+  -webkit-animation-name: fadeInLeftBig;
+}
+.fadeInRight {
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+}
+.fadeInRightBig {
+  animation-name: fadeInRightBig;
+  -webkit-animation-name: fadeInRightBig;
+}
+.fadeInUp {
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+.fadeInUpBig {
+  animation-name: fadeInUpBig;
+  -webkit-animation-name: fadeInUpBig;
+}
+.fadeOut {
+  animation-name: fadeOut;
+  -webkit-animation-name: fadeOut;
+}
+.fadeOutDown {
+  animation-name: fadeOutDown;
+  -webkit-animation-name: fadeOutDown;
+}
+.fadeOutDownBig {
+  animation-name: fadeOutDownBig;
+  -webkit-animation-name: fadeOutDownBig;
+}
+.fadeOutLeft {
+  animation-name: fadeOutLeft;
+  -webkit-animation-name: fadeOutLeft;
+}
+.fadeOutLeftBig {
+  animation-name: fadeOutLeftBig;
+  -webkit-animation-name: fadeOutLeftBig;
+}
+.fadeOutRight {
+  animation-name: fadeOutRight;
+  -webkit-animation-name: fadeOutRight;
+}
+.fadeOutRightBig {
+  animation-name: fadeOutRightBig;
+  -webkit-animation-name: fadeOutRightBig;
+}
+.fadeOutUp {
+  animation-name: fadeOutUp;
+  -webkit-animation-name: fadeOutUp;
+}
+.fadeOutUpBig {
+  animation-name: fadeOutUpBig;
+  -webkit-animation-name: fadeOutUpBig;
+}
+.flipInX {
+  animation-name: flipInX;
+  -webkit-animation-name: flipInX;
+}
+.flipInY {
+  animation-name: flipInY;
+  -webkit-animation-name: flipInY;
+}
+.flipOutX {
+  animation-name: flipOutX;
+  -webkit-animation-name: flipOutX;
+}
+.flipOutY {
+  animation-name: flipOutY;
+  -webkit-animation-name: flipOutY;
+}
+.lightSpeedIn {
+  animation-name: lightSpeedIn;
+  -webkit-animation-name: lightSpeedIn;
+}
+.lightSpeedOut {
+  animation-name: lightSpeedOut;
+  -webkit-animation-name: lightSpeedOut;
+}
+.magicOut {
+  animation-name: magicOut;
+  -webkit-animation-name: magicOut;
+}
+.swapIn {
+  animation-name: swapIn;
+  -webkit-animation-name: swapIn;
+}
+.swapOut {
+  animation-name: swapOut;
+  -webkit-animation-name: swapOut;
+}
+.twisterInDown {
+  animation-name: twisterInDown;
+  -webkit-animation-name: twisterInDown;
+}
+.twisterInUp {
+  animation-name: twisterInUp;
+  -webkit-animation-name: twisterInUp;
+}
+.foolishIn {
+  animation-name: foolishIn;
+  -webkit-animation-name: foolishIn;
+}
+.foolishOut {
+  animation-name: foolishOut;
+  -webkit-animation-name: foolishOut;
+}
+.holeIn {
+  animation-name: holeIn;
+  -webkit-animation-name: holeIn;
+}
+.holeOut {
+  animation-name: holeOut;
+  -webkit-animation-name: holeOut;
+}
+.swashIn {
+  animation-name: swashIn;
+  -webkit-animation-name: swashIn;
+}
+.swashOut {
+  animation-name: swashOut;
+  -webkit-animation-name: swashOut;
+}
+.flopInDown {
+  animation-name: flopInDown;
+  -webkit-animation-name: flopInDown;
+}
+.flopInLeft {
+  animation-name: flopInLeft;
+  -webkit-animation-name: flopInLeft;
+}
+.flopInRight {
+  animation-name: flopInRight;
+  -webkit-animation-name: flopInRight;
+}
+.flopInUp {
+  animation-name: flopInUp;
+  -webkit-animation-name: flopInUp;
+}
+.flopOutDown {
+  animation-name: flopOutDown;
+  -webkit-animation-name: flopOutDown;
+}
+.flopOutLeft {
+  animation-name: flopOutLeft;
+  -webkit-animation-name: flopOutLeft;
+}
+.flopOutRight {
+  animation-name: flopOutRight;
+  -webkit-animation-name: flopOutRight;
+}
+.flopOutUp {
+  animation-name: flopOutUp;
+  -webkit-animation-name: flopOutUp;
+}
+.rotateIn {
+  animation-name: rotateIn;
+  -webkit-animation-name: rotateIn;
+}
+.rotateInDownLeft {
+  animation-name: rotateInDownLeft;
+  -webkit-animation-name: rotateInDownLeft;
+}
+.rotateInDownRight {
+  animation-name: rotateInDownRight;
+  -webkit-animation-name: rotateInDownRight;
+}
+.rotateInUpLeft {
+  animation-name: rotateInUpLeft;
+  -webkit-animation-name: rotateInUpLeft;
+}
+.rotateInUpRight {
+  animation-name: rotateInUpRight;
+  -webkit-animation-name: rotateInUpRight;
+}
+.rotateOut {
+  animation-name: rotateOut;
+  -webkit-animation-name: rotateOut;
+}
+.rotateOutDownLeft {
+  animation-name: rotateOutDownLeft;
+  -webkit-animation-name: rotateOutDownLeft;
+}
+.rotateOutDownRight {
+  animation-name: rotateOutDownRight;
+  -webkit-animation-name: rotateOutDownRight;
+}
+.rotateOutUpLeft {
+  animation-name: rotateOutUpLeft;
+  -webkit-animation-name: rotateOutUpLeft;
+}
+.rotateOutUpRight {
+  animation-name: rotateOutUpRight;
+  -webkit-animation-name: rotateOutUpRight;
+}
+.slideInDown {
+  animation-name: slideInDown;
+  -webkit-animation-name: slideInDown;
+}
+.slideInLeft {
+  animation-name: slideInLeft;
+  -webkit-animation-name: slideInLeft;
+}
+.slideInRight {
+  animation-name: slideInRight;
+  -webkit-animation-name: slideInRight;
+}
+.slideInUp {
+  animation-name: slideInUp;
+  -webkit-animation-name: slideInUp;
+}
+.slideOutDown {
+  animation-name: slideOutDown;
+  -webkit-animation-name: slideOutDown;
+}
+.slideOutLeft {
+  animation-name: slideOutLeft;
+  -webkit-animation-name: slideOutLeft;
+}
+.slideOutRight {
+  animation-name: slideOutRight;
+  -webkit-animation-name: slideOutRight;
+}
+.slideOutUp {
+  animation-name: slideOutUp;
+  -webkit-animation-name: slideOutUp;
+}
+.hingeOut {
+  animation-name: hingeOut;
+  -webkit-animation-name: hingeOut;
+}
+.rollIn {
+  animation-name: rollIn;
+  -webkit-animation-name: rollIn;
+}
+.rollOut {
+  animation-name: rollOut;
+  -webkit-animation-name: rollOut;
+}
+.tinInDown {
+  animation-name: tinInDown;
+  -webkit-animation-name: tinInDown;
+}
+.tinInLeft {
+  animation-name: tinInLeft;
+  -webkit-animation-name: tinInLeft;
+}
+.tinInRight {
+  animation-name: tinInRight;
+  -webkit-animation-name: tinInRight;
+}
+.tinInUp {
+  animation-name: tinInUp;
+  -webkit-animation-name: tinInUp;
+}
+.tinOutDown {
+  animation-name: tinOutDown;
+  -webkit-animation-name: tinOutDown;
+}
+.tinOutLeft {
+  animation-name: tinOutLeft;
+  -webkit-animation-name: tinOutLeft;
+}
+.tinOutRight {
+  animation-name: tinOutRight;
+  -webkit-animation-name: tinOutRight;
+}
+.tinOutUp {
+  animation-name: tinOutUp;
+  -webkit-animation-name: tinOutUp;
+}
+.zoomIn {
+  animation-name: zoomIn;
+  -webkit-animation-name: zoomIn;
+}
+.zoomInDown {
+  animation-name: zoomInDown;
+  -webkit-animation-name: zoomInDown;
+}
+.zoomInLeft {
+  animation-name: zoomInLeft;
+  -webkit-animation-name: zoomInLeft;
+}
+.zoomInRight {
+  animation-name: zoomInRight;
+  -webkit-animation-name: zoomInRight;
+}
+.zoomInUp {
+  animation-name: zoomInUp;
+  -webkit-animation-name: zoomInUp;
+}
+.zoomOut {
+  animation-name: zoomOut;
+  -webkit-animation-name: zoomOut;
+}
+.zoomOutDown {
+  animation-name: zoomOutDown;
+  -webkit-animation-name: zoomOutDown;
+}
+.zoomOutLeft {
+  animation-name: zoomOutLeft;
+  -webkit-animation-name: zoomOutLeft;
+}
+.zoomOutRight {
+  animation-name: zoomOutRight;
+  -webkit-animation-name: zoomOutRight;
+}
+.zoomOutUp {
+  animation-name: zoomOutUp;
+  -webkit-animation-name: zoomOutUp;
+}
+.enter-bounce.ng-enter,
+.enter-bounce.ng-hide-remove {
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+}
+.enter-flash.ng-enter,
+.enter-flash.ng-hide-remove {
+  animation-name: flash;
+  -webkit-animation-name: flash;
+}
+.enter-flip.ng-enter,
+.enter-flip.ng-hide-remove {
+  animation-name: flip;
+  -webkit-animation-name: flip;
+}
+.enter-pulse.ng-enter,
+.enter-pulse.ng-hide-remove {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+}
+.enter-rubberBand.ng-enter,
+.enter-rubberBand.ng-hide-remove {
+  animation-name: rubberBand;
+  -webkit-animation-name: rubberBand;
+}
+.enter-shake.ng-enter,
+.enter-shake.ng-hide-remove {
+  animation-name: shake;
+  -webkit-animation-name: shake;
+}
+.enter-swing.ng-enter,
+.enter-swing.ng-hide-remove {
+  animation-name: swing;
+  -webkit-animation-name: swing;
+}
+.enter-tada.ng-enter,
+.enter-tada.ng-hide-remove {
+  animation-name: tada;
+  -webkit-animation-name: tada;
+}
+.enter-wobble.ng-enter,
+.enter-wobble.ng-hide-remove {
+  animation-name: wobble;
+  -webkit-animation-name: wobble;
+}
+.enter-puffIn.ng-enter,
+.enter-puffIn.ng-hide-remove {
+  animation-name: puffIn;
+  -webkit-animation-name: puffIn;
+}
+.enter-puffOut.ng-enter,
+.enter-puffOut.ng-hide-remove {
+  animation-name: puffOut;
+  -webkit-animation-name: puffOut;
+}
+.enter-vanishIn.ng-enter,
+.enter-vanishIn.ng-hide-remove {
+  animation-name: vanishIn;
+  -webkit-animation-name: vanishIn;
+}
+.enter-vanishOut.ng-enter,
+.enter-vanishOut.ng-hide-remove {
+  animation-name: vanishOut;
+  -webkit-animation-name: vanishOut;
+}
+.enter-bombLeftOut.ng-enter,
+.enter-bombLeftOut.ng-hide-remove {
+  animation-name: bombLeftOut;
+  -webkit-animation-name: bombLeftOut;
+}
+.enter-bombRightOut.ng-enter,
+.enter-bombRightOut.ng-hide-remove {
+  animation-name: bombRightOut;
+  -webkit-animation-name: bombRightOut;
+}
+.enter-bounceIn.ng-enter,
+.enter-bounceIn.ng-hide-remove {
+  animation-name: bounceIn;
+  -webkit-animation-name: bounceIn;
+}
+.enter-bounceInDown.ng-enter,
+.enter-bounceInDown.ng-hide-remove {
+  animation-name: bounceInDown;
+  -webkit-animation-name: bounceInDown;
+}
+.enter-bounceInLeft.ng-enter,
+.enter-bounceInLeft.ng-hide-remove {
+  animation-name: bounceInLeft;
+  -webkit-animation-name: bounceInLeft;
+}
+.enter-bounceInRight.ng-enter,
+.enter-bounceInRight.ng-hide-remove {
+  animation-name: bounceInRight;
+  -webkit-animation-name: bounceInRight;
+}
+.enter-bounceInUp.ng-enter,
+.enter-bounceInUp.ng-hide-remove {
+  animation-name: bounceInUp;
+  -webkit-animation-name: bounceInUp;
+}
+.enter-bounceOut.ng-enter,
+.enter-bounceOut.ng-hide-remove {
+  animation-name: bounceOut;
+  -webkit-animation-name: bounceOut;
+}
+.enter-bounceOutDown.ng-enter,
+.enter-bounceOutDown.ng-hide-remove {
+  animation-name: bounceOutDown;
+  -webkit-animation-name: bounceOutDown;
+}
+.enter-bounceOutLeft.ng-enter,
+.enter-bounceOutLeft.ng-hide-remove {
+  animation-name: bounceOutLeft;
+  -webkit-animation-name: bounceOutLeft;
+}
+.enter-bounceOutRight.ng-enter,
+.enter-bounceOutRight.ng-hide-remove {
+  animation-name: bounceOutRight;
+  -webkit-animation-name: bounceOutRight;
+}
+.enter-bounceOutUp.ng-enter,
+.enter-bounceOutUp.ng-hide-remove {
+  animation-name: bounceOutUp;
+  -webkit-animation-name: bounceOutUp;
+}
+.enter-fadeIn.ng-enter,
+.enter-fadeIn.ng-hide-remove {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+}
+.enter-fadeInDown.ng-enter,
+.enter-fadeInDown.ng-hide-remove {
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+}
+.enter-fadeInDownBig.ng-enter,
+.enter-fadeInDownBig.ng-hide-remove {
+  animation-name: fadeInDownBig;
+  -webkit-animation-name: fadeInDownBig;
+}
+.enter-fadeInLeft.ng-enter,
+.enter-fadeInLeft.ng-hide-remove {
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+}
+.enter-fadeInLeftBig.ng-enter,
+.enter-fadeInLeftBig.ng-hide-remove {
+  animation-name: fadeInLeftBig;
+  -webkit-animation-name: fadeInLeftBig;
+}
+.enter-fadeInRight.ng-enter,
+.enter-fadeInRight.ng-hide-remove {
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+}
+.enter-fadeInRightBig.ng-enter,
+.enter-fadeInRightBig.ng-hide-remove {
+  animation-name: fadeInRightBig;
+  -webkit-animation-name: fadeInRightBig;
+}
+.enter-fadeInUp.ng-enter,
+.enter-fadeInUp.ng-hide-remove {
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+.enter-fadeInUpBig.ng-enter,
+.enter-fadeInUpBig.ng-hide-remove {
+  animation-name: fadeInUpBig;
+  -webkit-animation-name: fadeInUpBig;
+}
+.enter-fadeOut.ng-enter,
+.enter-fadeOut.ng-hide-remove {
+  animation-name: fadeOut;
+  -webkit-animation-name: fadeOut;
+}
+.enter-fadeOutDown.ng-enter,
+.enter-fadeOutDown.ng-hide-remove {
+  animation-name: fadeOutDown;
+  -webkit-animation-name: fadeOutDown;
+}
+.enter-fadeOutDownBig.ng-enter,
+.enter-fadeOutDownBig.ng-hide-remove {
+  animation-name: fadeOutDownBig;
+  -webkit-animation-name: fadeOutDownBig;
+}
+.enter-fadeOutLeft.ng-enter,
+.enter-fadeOutLeft.ng-hide-remove {
+  animation-name: fadeOutLeft;
+  -webkit-animation-name: fadeOutLeft;
+}
+.enter-fadeOutLeftBig.ng-enter,
+.enter-fadeOutLeftBig.ng-hide-remove {
+  animation-name: fadeOutLeftBig;
+  -webkit-animation-name: fadeOutLeftBig;
+}
+.enter-fadeOutRight.ng-enter,
+.enter-fadeOutRight.ng-hide-remove {
+  animation-name: fadeOutRight;
+  -webkit-animation-name: fadeOutRight;
+}
+.enter-fadeOutRightBig.ng-enter,
+.enter-fadeOutRightBig.ng-hide-remove {
+  animation-name: fadeOutRightBig;
+  -webkit-animation-name: fadeOutRightBig;
+}
+.enter-fadeOutUp.ng-enter,
+.enter-fadeOutUp.ng-hide-remove {
+  animation-name: fadeOutUp;
+  -webkit-animation-name: fadeOutUp;
+}
+.enter-fadeOutUpBig.ng-enter,
+.enter-fadeOutUpBig.ng-hide-remove {
+  animation-name: fadeOutUpBig;
+  -webkit-animation-name: fadeOutUpBig;
+}
+.enter-flipInX.ng-enter,
+.enter-flipInX.ng-hide-remove {
+  animation-name: flipInX;
+  -webkit-animation-name: flipInX;
+}
+.enter-flipInY.ng-enter,
+.enter-flipInY.ng-hide-remove {
+  animation-name: flipInY;
+  -webkit-animation-name: flipInY;
+}
+.enter-flipOutX.ng-enter,
+.enter-flipOutX.ng-hide-remove {
+  animation-name: flipOutX;
+  -webkit-animation-name: flipOutX;
+}
+.enter-flipOutY.ng-enter,
+.enter-flipOutY.ng-hide-remove {
+  animation-name: flipOutY;
+  -webkit-animation-name: flipOutY;
+}
+.enter-lightSpeedIn.ng-enter,
+.enter-lightSpeedIn.ng-hide-remove {
+  animation-name: lightSpeedIn;
+  -webkit-animation-name: lightSpeedIn;
+}
+.enter-lightSpeedOut.ng-enter,
+.enter-lightSpeedOut.ng-hide-remove {
+  animation-name: lightSpeedOut;
+  -webkit-animation-name: lightSpeedOut;
+}
+.enter-magicOut.ng-enter,
+.enter-magicOut.ng-hide-remove {
+  animation-name: magicOut;
+  -webkit-animation-name: magicOut;
+}
+.enter-swapIn.ng-enter,
+.enter-swapIn.ng-hide-remove {
+  animation-name: swapIn;
+  -webkit-animation-name: swapIn;
+}
+.enter-swapOut.ng-enter,
+.enter-swapOut.ng-hide-remove {
+  animation-name: swapOut;
+  -webkit-animation-name: swapOut;
+}
+.enter-twisterInDown.ng-enter,
+.enter-twisterInDown.ng-hide-remove {
+  animation-name: twisterInDown;
+  -webkit-animation-name: twisterInDown;
+}
+.enter-twisterInUp.ng-enter,
+.enter-twisterInUp.ng-hide-remove {
+  animation-name: twisterInUp;
+  -webkit-animation-name: twisterInUp;
+}
+.enter-foolishIn.ng-enter,
+.enter-foolishIn.ng-hide-remove {
+  animation-name: foolishIn;
+  -webkit-animation-name: foolishIn;
+}
+.enter-foolishOut.ng-enter,
+.enter-foolishOut.ng-hide-remove {
+  animation-name: foolishOut;
+  -webkit-animation-name: foolishOut;
+}
+.enter-holeIn.ng-enter,
+.enter-holeIn.ng-hide-remove {
+  animation-name: holeIn;
+  -webkit-animation-name: holeIn;
+}
+.enter-holeOut.ng-enter,
+.enter-holeOut.ng-hide-remove {
+  animation-name: holeOut;
+  -webkit-animation-name: holeOut;
+}
+.enter-swashIn.ng-enter,
+.enter-swashIn.ng-hide-remove {
+  animation-name: swashIn;
+  -webkit-animation-name: swashIn;
+}
+.enter-swashOut.ng-enter,
+.enter-swashOut.ng-hide-remove {
+  animation-name: swashOut;
+  -webkit-animation-name: swashOut;
+}
+.enter-flopInDown.ng-enter,
+.enter-flopInDown.ng-hide-remove {
+  animation-name: flopInDown;
+  -webkit-animation-name: flopInDown;
+}
+.enter-flopInLeft.ng-enter,
+.enter-flopInLeft.ng-hide-remove {
+  animation-name: flopInLeft;
+  -webkit-animation-name: flopInLeft;
+}
+.enter-flopInRight.ng-enter,
+.enter-flopInRight.ng-hide-remove {
+  animation-name: flopInRight;
+  -webkit-animation-name: flopInRight;
+}
+.enter-flopInUp.ng-enter,
+.enter-flopInUp.ng-hide-remove {
+  animation-name: flopInUp;
+  -webkit-animation-name: flopInUp;
+}
+.enter-flopOutDown.ng-enter,
+.enter-flopOutDown.ng-hide-remove {
+  animation-name: flopOutDown;
+  -webkit-animation-name: flopOutDown;
+}
+.enter-flopOutLeft.ng-enter,
+.enter-flopOutLeft.ng-hide-remove {
+  animation-name: flopOutLeft;
+  -webkit-animation-name: flopOutLeft;
+}
+.enter-flopOutRight.ng-enter,
+.enter-flopOutRight.ng-hide-remove {
+  animation-name: flopOutRight;
+  -webkit-animation-name: flopOutRight;
+}
+.enter-flopOutUp.ng-enter,
+.enter-flopOutUp.ng-hide-remove {
+  animation-name: flopOutUp;
+  -webkit-animation-name: flopOutUp;
+}
+.enter-rotateIn.ng-enter,
+.enter-rotateIn.ng-hide-remove {
+  animation-name: rotateIn;
+  -webkit-animation-name: rotateIn;
+}
+.enter-rotateInDownLeft.ng-enter,
+.enter-rotateInDownLeft.ng-hide-remove {
+  animation-name: rotateInDownLeft;
+  -webkit-animation-name: rotateInDownLeft;
+}
+.enter-rotateInDownRight.ng-enter,
+.enter-rotateInDownRight.ng-hide-remove {
+  animation-name: rotateInDownRight;
+  -webkit-animation-name: rotateInDownRight;
+}
+.enter-rotateInUpLeft.ng-enter,
+.enter-rotateInUpLeft.ng-hide-remove {
+  animation-name: rotateInUpLeft;
+  -webkit-animation-name: rotateInUpLeft;
+}
+.enter-rotateInUpRight.ng-enter,
+.enter-rotateInUpRight.ng-hide-remove {
+  animation-name: rotateInUpRight;
+  -webkit-animation-name: rotateInUpRight;
+}
+.enter-rotateOut.ng-enter,
+.enter-rotateOut.ng-hide-remove {
+  animation-name: rotateOut;
+  -webkit-animation-name: rotateOut;
+}
+.enter-rotateOutDownLeft.ng-enter,
+.enter-rotateOutDownLeft.ng-hide-remove {
+  animation-name: rotateOutDownLeft;
+  -webkit-animation-name: rotateOutDownLeft;
+}
+.enter-rotateOutDownRight.ng-enter,
+.enter-rotateOutDownRight.ng-hide-remove {
+  animation-name: rotateOutDownRight;
+  -webkit-animation-name: rotateOutDownRight;
+}
+.enter-rotateOutUpLeft.ng-enter,
+.enter-rotateOutUpLeft.ng-hide-remove {
+  animation-name: rotateOutUpLeft;
+  -webkit-animation-name: rotateOutUpLeft;
+}
+.enter-rotateOutUpRight.ng-enter,
+.enter-rotateOutUpRight.ng-hide-remove {
+  animation-name: rotateOutUpRight;
+  -webkit-animation-name: rotateOutUpRight;
+}
+.enter-slideInDown.ng-enter,
+.enter-slideInDown.ng-hide-remove {
+  animation-name: slideInDown;
+  -webkit-animation-name: slideInDown;
+}
+.enter-slideInLeft.ng-enter,
+.enter-slideInLeft.ng-hide-remove {
+  animation-name: slideInLeft;
+  -webkit-animation-name: slideInLeft;
+}
+.enter-slideInRight.ng-enter,
+.enter-slideInRight.ng-hide-remove {
+  animation-name: slideInRight;
+  -webkit-animation-name: slideInRight;
+}
+.enter-slideInUp.ng-enter,
+.enter-slideInUp.ng-hide-remove {
+  animation-name: slideInUp;
+  -webkit-animation-name: slideInUp;
+}
+.enter-slideOutDown.ng-enter,
+.enter-slideOutDown.ng-hide-remove {
+  animation-name: slideOutDown;
+  -webkit-animation-name: slideOutDown;
+}
+.enter-slideOutLeft.ng-enter,
+.enter-slideOutLeft.ng-hide-remove {
+  animation-name: slideOutLeft;
+  -webkit-animation-name: slideOutLeft;
+}
+.enter-slideOutRight.ng-enter,
+.enter-slideOutRight.ng-hide-remove {
+  animation-name: slideOutRight;
+  -webkit-animation-name: slideOutRight;
+}
+.enter-slideOutUp.ng-enter,
+.enter-slideOutUp.ng-hide-remove {
+  animation-name: slideOutUp;
+  -webkit-animation-name: slideOutUp;
+}
+.enter-hingeOut.ng-enter,
+.enter-hingeOut.ng-hide-remove {
+  animation-name: hingeOut;
+  -webkit-animation-name: hingeOut;
+}
+.enter-rollIn.ng-enter,
+.enter-rollIn.ng-hide-remove {
+  animation-name: rollIn;
+  -webkit-animation-name: rollIn;
+}
+.enter-rollOut.ng-enter,
+.enter-rollOut.ng-hide-remove {
+  animation-name: rollOut;
+  -webkit-animation-name: rollOut;
+}
+.enter-tinInDown.ng-enter,
+.enter-tinInDown.ng-hide-remove {
+  animation-name: tinInDown;
+  -webkit-animation-name: tinInDown;
+}
+.enter-tinInLeft.ng-enter,
+.enter-tinInLeft.ng-hide-remove {
+  animation-name: tinInLeft;
+  -webkit-animation-name: tinInLeft;
+}
+.enter-tinInRight.ng-enter,
+.enter-tinInRight.ng-hide-remove {
+  animation-name: tinInRight;
+  -webkit-animation-name: tinInRight;
+}
+.enter-tinInUp.ng-enter,
+.enter-tinInUp.ng-hide-remove {
+  animation-name: tinInUp;
+  -webkit-animation-name: tinInUp;
+}
+.enter-tinOutDown.ng-enter,
+.enter-tinOutDown.ng-hide-remove {
+  animation-name: tinOutDown;
+  -webkit-animation-name: tinOutDown;
+}
+.enter-tinOutLeft.ng-enter,
+.enter-tinOutLeft.ng-hide-remove {
+  animation-name: tinOutLeft;
+  -webkit-animation-name: tinOutLeft;
+}
+.enter-tinOutRight.ng-enter,
+.enter-tinOutRight.ng-hide-remove {
+  animation-name: tinOutRight;
+  -webkit-animation-name: tinOutRight;
+}
+.enter-tinOutUp.ng-enter,
+.enter-tinOutUp.ng-hide-remove {
+  animation-name: tinOutUp;
+  -webkit-animation-name: tinOutUp;
+}
+.enter-zoomIn.ng-enter,
+.enter-zoomIn.ng-hide-remove {
+  animation-name: zoomIn;
+  -webkit-animation-name: zoomIn;
+}
+.enter-zoomInDown.ng-enter,
+.enter-zoomInDown.ng-hide-remove {
+  animation-name: zoomInDown;
+  -webkit-animation-name: zoomInDown;
+}
+.enter-zoomInLeft.ng-enter,
+.enter-zoomInLeft.ng-hide-remove {
+  animation-name: zoomInLeft;
+  -webkit-animation-name: zoomInLeft;
+}
+.enter-zoomInRight.ng-enter,
+.enter-zoomInRight.ng-hide-remove {
+  animation-name: zoomInRight;
+  -webkit-animation-name: zoomInRight;
+}
+.enter-zoomInUp.ng-enter,
+.enter-zoomInUp.ng-hide-remove {
+  animation-name: zoomInUp;
+  -webkit-animation-name: zoomInUp;
+}
+.enter-zoomOut.ng-enter,
+.enter-zoomOut.ng-hide-remove {
+  animation-name: zoomOut;
+  -webkit-animation-name: zoomOut;
+}
+.enter-zoomOutDown.ng-enter,
+.enter-zoomOutDown.ng-hide-remove {
+  animation-name: zoomOutDown;
+  -webkit-animation-name: zoomOutDown;
+}
+.enter-zoomOutLeft.ng-enter,
+.enter-zoomOutLeft.ng-hide-remove {
+  animation-name: zoomOutLeft;
+  -webkit-animation-name: zoomOutLeft;
+}
+.enter-zoomOutRight.ng-enter,
+.enter-zoomOutRight.ng-hide-remove {
+  animation-name: zoomOutRight;
+  -webkit-animation-name: zoomOutRight;
+}
+.enter-zoomOutUp.ng-enter,
+.enter-zoomOutUp.ng-hide-remove {
+  animation-name: zoomOutUp;
+  -webkit-animation-name: zoomOutUp;
+}
+.exit-bounce.ng-leave,
+.exit-bounce.ng-hide-add {
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+}
+.exit-flash.ng-leave,
+.exit-flash.ng-hide-add {
+  animation-name: flash;
+  -webkit-animation-name: flash;
+}
+.exit-flip.ng-leave,
+.exit-flip.ng-hide-add {
+  animation-name: flip;
+  -webkit-animation-name: flip;
+}
+.exit-pulse.ng-leave,
+.exit-pulse.ng-hide-add {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+}
+.exit-rubberBand.ng-leave,
+.exit-rubberBand.ng-hide-add {
+  animation-name: rubberBand;
+  -webkit-animation-name: rubberBand;
+}
+.exit-shake.ng-leave,
+.exit-shake.ng-hide-add {
+  animation-name: shake;
+  -webkit-animation-name: shake;
+}
+.exit-swing.ng-leave,
+.exit-swing.ng-hide-add {
+  animation-name: swing;
+  -webkit-animation-name: swing;
+}
+.exit-tada.ng-leave,
+.exit-tada.ng-hide-add {
+  animation-name: tada;
+  -webkit-animation-name: tada;
+}
+.exit-wobble.ng-leave,
+.exit-wobble.ng-hide-add {
+  animation-name: wobble;
+  -webkit-animation-name: wobble;
+}
+.exit-puffIn.ng-leave,
+.exit-puffIn.ng-hide-add {
+  animation-name: puffIn;
+  -webkit-animation-name: puffIn;
+}
+.exit-puffOut.ng-leave,
+.exit-puffOut.ng-hide-add {
+  animation-name: puffOut;
+  -webkit-animation-name: puffOut;
+}
+.exit-vanishIn.ng-leave,
+.exit-vanishIn.ng-hide-add {
+  animation-name: vanishIn;
+  -webkit-animation-name: vanishIn;
+}
+.exit-vanishOut.ng-leave,
+.exit-vanishOut.ng-hide-add {
+  animation-name: vanishOut;
+  -webkit-animation-name: vanishOut;
+}
+.exit-bombLeftOut.ng-leave,
+.exit-bombLeftOut.ng-hide-add {
+  animation-name: bombLeftOut;
+  -webkit-animation-name: bombLeftOut;
+}
+.exit-bombRightOut.ng-leave,
+.exit-bombRightOut.ng-hide-add {
+  animation-name: bombRightOut;
+  -webkit-animation-name: bombRightOut;
+}
+.exit-bounceIn.ng-leave,
+.exit-bounceIn.ng-hide-add {
+  animation-name: bounceIn;
+  -webkit-animation-name: bounceIn;
+}
+.exit-bounceInDown.ng-leave,
+.exit-bounceInDown.ng-hide-add {
+  animation-name: bounceInDown;
+  -webkit-animation-name: bounceInDown;
+}
+.exit-bounceInLeft.ng-leave,
+.exit-bounceInLeft.ng-hide-add {
+  animation-name: bounceInLeft;
+  -webkit-animation-name: bounceInLeft;
+}
+.exit-bounceInRight.ng-leave,
+.exit-bounceInRight.ng-hide-add {
+  animation-name: bounceInRight;
+  -webkit-animation-name: bounceInRight;
+}
+.exit-bounceInUp.ng-leave,
+.exit-bounceInUp.ng-hide-add {
+  animation-name: bounceInUp;
+  -webkit-animation-name: bounceInUp;
+}
+.exit-bounceOut.ng-leave,
+.exit-bounceOut.ng-hide-add {
+  animation-name: bounceOut;
+  -webkit-animation-name: bounceOut;
+}
+.exit-bounceOutDown.ng-leave,
+.exit-bounceOutDown.ng-hide-add {
+  animation-name: bounceOutDown;
+  -webkit-animation-name: bounceOutDown;
+}
+.exit-bounceOutLeft.ng-leave,
+.exit-bounceOutLeft.ng-hide-add {
+  animation-name: bounceOutLeft;
+  -webkit-animation-name: bounceOutLeft;
+}
+.exit-bounceOutRight.ng-leave,
+.exit-bounceOutRight.ng-hide-add {
+  animation-name: bounceOutRight;
+  -webkit-animation-name: bounceOutRight;
+}
+.exit-bounceOutUp.ng-leave,
+.exit-bounceOutUp.ng-hide-add {
+  animation-name: bounceOutUp;
+  -webkit-animation-name: bounceOutUp;
+}
+.exit-fadeIn.ng-leave,
+.exit-fadeIn.ng-hide-add {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+}
+.exit-fadeInDown.ng-leave,
+.exit-fadeInDown.ng-hide-add {
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+}
+.exit-fadeInDownBig.ng-leave,
+.exit-fadeInDownBig.ng-hide-add {
+  animation-name: fadeInDownBig;
+  -webkit-animation-name: fadeInDownBig;
+}
+.exit-fadeInLeft.ng-leave,
+.exit-fadeInLeft.ng-hide-add {
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+}
+.exit-fadeInLeftBig.ng-leave,
+.exit-fadeInLeftBig.ng-hide-add {
+  animation-name: fadeInLeftBig;
+  -webkit-animation-name: fadeInLeftBig;
+}
+.exit-fadeInRight.ng-leave,
+.exit-fadeInRight.ng-hide-add {
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+}
+.exit-fadeInRightBig.ng-leave,
+.exit-fadeInRightBig.ng-hide-add {
+  animation-name: fadeInRightBig;
+  -webkit-animation-name: fadeInRightBig;
+}
+.exit-fadeInUp.ng-leave,
+.exit-fadeInUp.ng-hide-add {
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+.exit-fadeInUpBig.ng-leave,
+.exit-fadeInUpBig.ng-hide-add {
+  animation-name: fadeInUpBig;
+  -webkit-animation-name: fadeInUpBig;
+}
+.exit-fadeOut.ng-leave,
+.exit-fadeOut.ng-hide-add {
+  animation-name: fadeOut;
+  -webkit-animation-name: fadeOut;
+}
+.exit-fadeOutDown.ng-leave,
+.exit-fadeOutDown.ng-hide-add {
+  animation-name: fadeOutDown;
+  -webkit-animation-name: fadeOutDown;
+}
+.exit-fadeOutDownBig.ng-leave,
+.exit-fadeOutDownBig.ng-hide-add {
+  animation-name: fadeOutDownBig;
+  -webkit-animation-name: fadeOutDownBig;
+}
+.exit-fadeOutLeft.ng-leave,
+.exit-fadeOutLeft.ng-hide-add {
+  animation-name: fadeOutLeft;
+  -webkit-animation-name: fadeOutLeft;
+}
+.exit-fadeOutLeftBig.ng-leave,
+.exit-fadeOutLeftBig.ng-hide-add {
+  animation-name: fadeOutLeftBig;
+  -webkit-animation-name: fadeOutLeftBig;
+}
+.exit-fadeOutRight.ng-leave,
+.exit-fadeOutRight.ng-hide-add {
+  animation-name: fadeOutRight;
+  -webkit-animation-name: fadeOutRight;
+}
+.exit-fadeOutRightBig.ng-leave,
+.exit-fadeOutRightBig.ng-hide-add {
+  animation-name: fadeOutRightBig;
+  -webkit-animation-name: fadeOutRightBig;
+}
+.exit-fadeOutUp.ng-leave,
+.exit-fadeOutUp.ng-hide-add {
+  animation-name: fadeOutUp;
+  -webkit-animation-name: fadeOutUp;
+}
+.exit-fadeOutUpBig.ng-leave,
+.exit-fadeOutUpBig.ng-hide-add {
+  animation-name: fadeOutUpBig;
+  -webkit-animation-name: fadeOutUpBig;
+}
+.exit-flipInX.ng-leave,
+.exit-flipInX.ng-hide-add {
+  animation-name: flipInX;
+  -webkit-animation-name: flipInX;
+}
+.exit-flipInY.ng-leave,
+.exit-flipInY.ng-hide-add {
+  animation-name: flipInY;
+  -webkit-animation-name: flipInY;
+}
+.exit-flipOutX.ng-leave,
+.exit-flipOutX.ng-hide-add {
+  animation-name: flipOutX;
+  -webkit-animation-name: flipOutX;
+}
+.exit-flipOutY.ng-leave,
+.exit-flipOutY.ng-hide-add {
+  animation-name: flipOutY;
+  -webkit-animation-name: flipOutY;
+}
+.exit-lightSpeedIn.ng-leave,
+.exit-lightSpeedIn.ng-hide-add {
+  animation-name: lightSpeedIn;
+  -webkit-animation-name: lightSpeedIn;
+}
+.exit-lightSpeedOut.ng-leave,
+.exit-lightSpeedOut.ng-hide-add {
+  animation-name: lightSpeedOut;
+  -webkit-animation-name: lightSpeedOut;
+}
+.exit-magicOut.ng-leave,
+.exit-magicOut.ng-hide-add {
+  animation-name: magicOut;
+  -webkit-animation-name: magicOut;
+}
+.exit-swapIn.ng-leave,
+.exit-swapIn.ng-hide-add {
+  animation-name: swapIn;
+  -webkit-animation-name: swapIn;
+}
+.exit-swapOut.ng-leave,
+.exit-swapOut.ng-hide-add {
+  animation-name: swapOut;
+  -webkit-animation-name: swapOut;
+}
+.exit-twisterInDown.ng-leave,
+.exit-twisterInDown.ng-hide-add {
+  animation-name: twisterInDown;
+  -webkit-animation-name: twisterInDown;
+}
+.exit-twisterInUp.ng-leave,
+.exit-twisterInUp.ng-hide-add {
+  animation-name: twisterInUp;
+  -webkit-animation-name: twisterInUp;
+}
+.exit-foolishIn.ng-leave,
+.exit-foolishIn.ng-hide-add {
+  animation-name: foolishIn;
+  -webkit-animation-name: foolishIn;
+}
+.exit-foolishOut.ng-leave,
+.exit-foolishOut.ng-hide-add {
+  animation-name: foolishOut;
+  -webkit-animation-name: foolishOut;
+}
+.exit-holeIn.ng-leave,
+.exit-holeIn.ng-hide-add {
+  animation-name: holeIn;
+  -webkit-animation-name: holeIn;
+}
+.exit-holeOut.ng-leave,
+.exit-holeOut.ng-hide-add {
+  animation-name: holeOut;
+  -webkit-animation-name: holeOut;
+}
+.exit-swashIn.ng-leave,
+.exit-swashIn.ng-hide-add {
+  animation-name: swashIn;
+  -webkit-animation-name: swashIn;
+}
+.exit-swashOut.ng-leave,
+.exit-swashOut.ng-hide-add {
+  animation-name: swashOut;
+  -webkit-animation-name: swashOut;
+}
+.exit-flopInDown.ng-leave,
+.exit-flopInDown.ng-hide-add {
+  animation-name: flopInDown;
+  -webkit-animation-name: flopInDown;
+}
+.exit-flopInLeft.ng-leave,
+.exit-flopInLeft.ng-hide-add {
+  animation-name: flopInLeft;
+  -webkit-animation-name: flopInLeft;
+}
+.exit-flopInRight.ng-leave,
+.exit-flopInRight.ng-hide-add {
+  animation-name: flopInRight;
+  -webkit-animation-name: flopInRight;
+}
+.exit-flopInUp.ng-leave,
+.exit-flopInUp.ng-hide-add {
+  animation-name: flopInUp;
+  -webkit-animation-name: flopInUp;
+}
+.exit-flopOutDown.ng-leave,
+.exit-flopOutDown.ng-hide-add {
+  animation-name: flopOutDown;
+  -webkit-animation-name: flopOutDown;
+}
+.exit-flopOutLeft.ng-leave,
+.exit-flopOutLeft.ng-hide-add {
+  animation-name: flopOutLeft;
+  -webkit-animation-name: flopOutLeft;
+}
+.exit-flopOutRight.ng-leave,
+.exit-flopOutRight.ng-hide-add {
+  animation-name: flopOutRight;
+  -webkit-animation-name: flopOutRight;
+}
+.exit-flopOutUp.ng-leave,
+.exit-flopOutUp.ng-hide-add {
+  animation-name: flopOutUp;
+  -webkit-animation-name: flopOutUp;
+}
+.exit-rotateIn.ng-leave,
+.exit-rotateIn.ng-hide-add {
+  animation-name: rotateIn;
+  -webkit-animation-name: rotateIn;
+}
+.exit-rotateInDownLeft.ng-leave,
+.exit-rotateInDownLeft.ng-hide-add {
+  animation-name: rotateInDownLeft;
+  -webkit-animation-name: rotateInDownLeft;
+}
+.exit-rotateInDownRight.ng-leave,
+.exit-rotateInDownRight.ng-hide-add {
+  animation-name: rotateInDownRight;
+  -webkit-animation-name: rotateInDownRight;
+}
+.exit-rotateInUpLeft.ng-leave,
+.exit-rotateInUpLeft.ng-hide-add {
+  animation-name: rotateInUpLeft;
+  -webkit-animation-name: rotateInUpLeft;
+}
+.exit-rotateInUpRight.ng-leave,
+.exit-rotateInUpRight.ng-hide-add {
+  animation-name: rotateInUpRight;
+  -webkit-animation-name: rotateInUpRight;
+}
+.exit-rotateOut.ng-leave,
+.exit-rotateOut.ng-hide-add {
+  animation-name: rotateOut;
+  -webkit-animation-name: rotateOut;
+}
+.exit-rotateOutDownLeft.ng-leave,
+.exit-rotateOutDownLeft.ng-hide-add {
+  animation-name: rotateOutDownLeft;
+  -webkit-animation-name: rotateOutDownLeft;
+}
+.exit-rotateOutDownRight.ng-leave,
+.exit-rotateOutDownRight.ng-hide-add {
+  animation-name: rotateOutDownRight;
+  -webkit-animation-name: rotateOutDownRight;
+}
+.exit-rotateOutUpLeft.ng-leave,
+.exit-rotateOutUpLeft.ng-hide-add {
+  animation-name: rotateOutUpLeft;
+  -webkit-animation-name: rotateOutUpLeft;
+}
+.exit-rotateOutUpRight.ng-leave,
+.exit-rotateOutUpRight.ng-hide-add {
+  animation-name: rotateOutUpRight;
+  -webkit-animation-name: rotateOutUpRight;
+}
+.exit-slideInDown.ng-leave,
+.exit-slideInDown.ng-hide-add {
+  animation-name: slideInDown;
+  -webkit-animation-name: slideInDown;
+}
+.exit-slideInLeft.ng-leave,
+.exit-slideInLeft.ng-hide-add {
+  animation-name: slideInLeft;
+  -webkit-animation-name: slideInLeft;
+}
+.exit-slideInRight.ng-leave,
+.exit-slideInRight.ng-hide-add {
+  animation-name: slideInRight;
+  -webkit-animation-name: slideInRight;
+}
+.exit-slideInUp.ng-leave,
+.exit-slideInUp.ng-hide-add {
+  animation-name: slideInUp;
+  -webkit-animation-name: slideInUp;
+}
+.exit-slideOutDown.ng-leave,
+.exit-slideOutDown.ng-hide-add {
+  animation-name: slideOutDown;
+  -webkit-animation-name: slideOutDown;
+}
+.exit-slideOutLeft.ng-leave,
+.exit-slideOutLeft.ng-hide-add {
+  animation-name: slideOutLeft;
+  -webkit-animation-name: slideOutLeft;
+}
+.exit-slideOutRight.ng-leave,
+.exit-slideOutRight.ng-hide-add {
+  animation-name: slideOutRight;
+  -webkit-animation-name: slideOutRight;
+}
+.exit-slideOutUp.ng-leave,
+.exit-slideOutUp.ng-hide-add {
+  animation-name: slideOutUp;
+  -webkit-animation-name: slideOutUp;
+}
+.exit-hingeOut.ng-leave,
+.exit-hingeOut.ng-hide-add {
+  animation-name: hingeOut;
+  -webkit-animation-name: hingeOut;
+}
+.exit-rollIn.ng-leave,
+.exit-rollIn.ng-hide-add {
+  animation-name: rollIn;
+  -webkit-animation-name: rollIn;
+}
+.exit-rollOut.ng-leave,
+.exit-rollOut.ng-hide-add {
+  animation-name: rollOut;
+  -webkit-animation-name: rollOut;
+}
+.exit-tinInDown.ng-leave,
+.exit-tinInDown.ng-hide-add {
+  animation-name: tinInDown;
+  -webkit-animation-name: tinInDown;
+}
+.exit-tinInLeft.ng-leave,
+.exit-tinInLeft.ng-hide-add {
+  animation-name: tinInLeft;
+  -webkit-animation-name: tinInLeft;
+}
+.exit-tinInRight.ng-leave,
+.exit-tinInRight.ng-hide-add {
+  animation-name: tinInRight;
+  -webkit-animation-name: tinInRight;
+}
+.exit-tinInUp.ng-leave,
+.exit-tinInUp.ng-hide-add {
+  animation-name: tinInUp;
+  -webkit-animation-name: tinInUp;
+}
+.exit-tinOutDown.ng-leave,
+.exit-tinOutDown.ng-hide-add {
+  animation-name: tinOutDown;
+  -webkit-animation-name: tinOutDown;
+}
+.exit-tinOutLeft.ng-leave,
+.exit-tinOutLeft.ng-hide-add {
+  animation-name: tinOutLeft;
+  -webkit-animation-name: tinOutLeft;
+}
+.exit-tinOutRight.ng-leave,
+.exit-tinOutRight.ng-hide-add {
+  animation-name: tinOutRight;
+  -webkit-animation-name: tinOutRight;
+}
+.exit-tinOutUp.ng-leave,
+.exit-tinOutUp.ng-hide-add {
+  animation-name: tinOutUp;
+  -webkit-animation-name: tinOutUp;
+}
+.exit-zoomIn.ng-leave,
+.exit-zoomIn.ng-hide-add {
+  animation-name: zoomIn;
+  -webkit-animation-name: zoomIn;
+}
+.exit-zoomInDown.ng-leave,
+.exit-zoomInDown.ng-hide-add {
+  animation-name: zoomInDown;
+  -webkit-animation-name: zoomInDown;
+}
+.exit-zoomInLeft.ng-leave,
+.exit-zoomInLeft.ng-hide-add {
+  animation-name: zoomInLeft;
+  -webkit-animation-name: zoomInLeft;
+}
+.exit-zoomInRight.ng-leave,
+.exit-zoomInRight.ng-hide-add {
+  animation-name: zoomInRight;
+  -webkit-animation-name: zoomInRight;
+}
+.exit-zoomInUp.ng-leave,
+.exit-zoomInUp.ng-hide-add {
+  animation-name: zoomInUp;
+  -webkit-animation-name: zoomInUp;
+}
+.exit-zoomOut.ng-leave,
+.exit-zoomOut.ng-hide-add {
+  animation-name: zoomOut;
+  -webkit-animation-name: zoomOut;
+}
+.exit-zoomOutDown.ng-leave,
+.exit-zoomOutDown.ng-hide-add {
+  animation-name: zoomOutDown;
+  -webkit-animation-name: zoomOutDown;
+}
+.exit-zoomOutLeft.ng-leave,
+.exit-zoomOutLeft.ng-hide-add {
+  animation-name: zoomOutLeft;
+  -webkit-animation-name: zoomOutLeft;
+}
+.exit-zoomOutRight.ng-leave,
+.exit-zoomOutRight.ng-hide-add {
+  animation-name: zoomOutRight;
+  -webkit-animation-name: zoomOutRight;
+}
+.exit-zoomOutUp.ng-leave,
+.exit-zoomOutUp.ng-hide-add {
+  animation-name: zoomOutUp;
+  -webkit-animation-name: zoomOutUp;
+}
+.stagger-0.ng-enter-stagger,
+.stagger-0.ng-leave-stagger {
+  animation-delay: 0ms;
+  -webkit-animation-delay: 0ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-50.ng-enter-stagger,
+.stagger-50.ng-leave-stagger {
+  animation-delay: 50ms;
+  -webkit-animation-delay: 50ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-100.ng-enter-stagger,
+.stagger-100.ng-leave-stagger {
+  animation-delay: 100ms;
+  -webkit-animation-delay: 100ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-150.ng-enter-stagger,
+.stagger-150.ng-leave-stagger {
+  animation-delay: 150ms;
+  -webkit-animation-delay: 150ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-200.ng-enter-stagger,
+.stagger-200.ng-leave-stagger {
+  animation-delay: 200ms;
+  -webkit-animation-delay: 200ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-250.ng-enter-stagger,
+.stagger-250.ng-leave-stagger {
+  animation-delay: 250ms;
+  -webkit-animation-delay: 250ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-300.ng-enter-stagger,
+.stagger-300.ng-leave-stagger {
+  animation-delay: 300ms;
+  -webkit-animation-delay: 300ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-350.ng-enter-stagger,
+.stagger-350.ng-leave-stagger {
+  animation-delay: 350ms;
+  -webkit-animation-delay: 350ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-400.ng-enter-stagger,
+.stagger-400.ng-leave-stagger {
+  animation-delay: 400ms;
+  -webkit-animation-delay: 400ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-450.ng-enter-stagger,
+.stagger-450.ng-leave-stagger {
+  animation-delay: 450ms;
+  -webkit-animation-delay: 450ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-500.ng-enter-stagger,
+.stagger-500.ng-leave-stagger {
+  animation-delay: 500ms;
+  -webkit-animation-delay: 500ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-550.ng-enter-stagger,
+.stagger-550.ng-leave-stagger {
+  animation-delay: 550ms;
+  -webkit-animation-delay: 550ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-600.ng-enter-stagger,
+.stagger-600.ng-leave-stagger {
+  animation-delay: 600ms;
+  -webkit-animation-delay: 600ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-650.ng-enter-stagger,
+.stagger-650.ng-leave-stagger {
+  animation-delay: 650ms;
+  -webkit-animation-delay: 650ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-700.ng-enter-stagger,
+.stagger-700.ng-leave-stagger {
+  animation-delay: 700ms;
+  -webkit-animation-delay: 700ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-750.ng-enter-stagger,
+.stagger-750.ng-leave-stagger {
+  animation-delay: 750ms;
+  -webkit-animation-delay: 750ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-800.ng-enter-stagger,
+.stagger-800.ng-leave-stagger {
+  animation-delay: 800ms;
+  -webkit-animation-delay: 800ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-850.ng-enter-stagger,
+.stagger-850.ng-leave-stagger {
+  animation-delay: 850ms;
+  -webkit-animation-delay: 850ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-900.ng-enter-stagger,
+.stagger-900.ng-leave-stagger {
+  animation-delay: 900ms;
+  -webkit-animation-delay: 900ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-950.ng-enter-stagger,
+.stagger-950.ng-leave-stagger {
+  animation-delay: 950ms;
+  -webkit-animation-delay: 950ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.stagger-1000.ng-enter-stagger,
+.stagger-1000.ng-leave-stagger {
+  animation-delay: 1000ms;
+  -webkit-animation-delay: 1000ms;
+  animation-duration: 0;
+  -webkit-animation-duration: 0;
+}
+.speed-0 {
+  animation-duration: 0ms;
+  -webkit-animation-duration: 0ms;
+}
+.speed-50 {
+  animation-duration: 50ms;
+  -webkit-animation-duration: 50ms;
+}
+.speed-100 {
+  animation-duration: 100ms;
+  -webkit-animation-duration: 100ms;
+}
+.speed-150 {
+  animation-duration: 150ms;
+  -webkit-animation-duration: 150ms;
+}
+.speed-200 {
+  animation-duration: 200ms;
+  -webkit-animation-duration: 200ms;
+}
+.speed-250 {
+  animation-duration: 250ms;
+  -webkit-animation-duration: 250ms;
+}
+.speed-300 {
+  animation-duration: 300ms;
+  -webkit-animation-duration: 300ms;
+}
+.speed-350 {
+  animation-duration: 350ms;
+  -webkit-animation-duration: 350ms;
+}
+.speed-400 {
+  animation-duration: 400ms;
+  -webkit-animation-duration: 400ms;
+}
+.speed-450 {
+  animation-duration: 450ms;
+  -webkit-animation-duration: 450ms;
+}
+.speed-500 {
+  animation-duration: 500ms;
+  -webkit-animation-duration: 500ms;
+}
+.speed-550 {
+  animation-duration: 550ms;
+  -webkit-animation-duration: 550ms;
+}
+.speed-600 {
+  animation-duration: 600ms;
+  -webkit-animation-duration: 600ms;
+}
+.speed-650 {
+  animation-duration: 650ms;
+  -webkit-animation-duration: 650ms;
+}
+.speed-700 {
+  animation-duration: 700ms;
+  -webkit-animation-duration: 700ms;
+}
+.speed-750 {
+  animation-duration: 750ms;
+  -webkit-animation-duration: 750ms;
+}
+.speed-800 {
+  animation-duration: 800ms;
+  -webkit-animation-duration: 800ms;
+}
+.speed-850 {
+  animation-duration: 850ms;
+  -webkit-animation-duration: 850ms;
+}
+.speed-900 {
+  animation-duration: 900ms;
+  -webkit-animation-duration: 900ms;
+}
+.speed-950 {
+  animation-duration: 950ms;
+  -webkit-animation-duration: 950ms;
+}
+.speed-1000 {
+  animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+}
+.speed-1050 {
+  animation-duration: 1050ms;
+  -webkit-animation-duration: 1050ms;
+}
+.speed-1100 {
+  animation-duration: 1100ms;
+  -webkit-animation-duration: 1100ms;
+}
+.speed-1150 {
+  animation-duration: 1150ms;
+  -webkit-animation-duration: 1150ms;
+}
+.speed-1200 {
+  animation-duration: 1200ms;
+  -webkit-animation-duration: 1200ms;
+}
+.speed-1250 {
+  animation-duration: 1250ms;
+  -webkit-animation-duration: 1250ms;
+}
+.speed-1300 {
+  animation-duration: 1300ms;
+  -webkit-animation-duration: 1300ms;
+}
+.speed-1350 {
+  animation-duration: 1350ms;
+  -webkit-animation-duration: 1350ms;
+}
+.speed-1400 {
+  animation-duration: 1400ms;
+  -webkit-animation-duration: 1400ms;
+}
+.speed-1450 {
+  animation-duration: 1450ms;
+  -webkit-animation-duration: 1450ms;
+}
+.speed-1500 {
+  animation-duration: 1500ms;
+  -webkit-animation-duration: 1500ms;
+}
+.speed-1550 {
+  animation-duration: 1550ms;
+  -webkit-animation-duration: 1550ms;
+}
+.speed-1600 {
+  animation-duration: 1600ms;
+  -webkit-animation-duration: 1600ms;
+}
+.speed-1650 {
+  animation-duration: 1650ms;
+  -webkit-animation-duration: 1650ms;
+}
+.speed-1700 {
+  animation-duration: 1700ms;
+  -webkit-animation-duration: 1700ms;
+}
+.speed-1750 {
+  animation-duration: 1750ms;
+  -webkit-animation-duration: 1750ms;
+}
+.speed-1800 {
+  animation-duration: 1800ms;
+  -webkit-animation-duration: 1800ms;
+}
+.speed-1850 {
+  animation-duration: 1850ms;
+  -webkit-animation-duration: 1850ms;
+}
+.speed-1900 {
+  animation-duration: 1900ms;
+  -webkit-animation-duration: 1900ms;
+}
+.speed-1950 {
+  animation-duration: 1950ms;
+  -webkit-animation-duration: 1950ms;
+}
+.speed-2000 {
+  animation-duration: 2000ms;
+  -webkit-animation-duration: 2000ms;
+}
+.speed-2050 {
+  animation-duration: 2050ms;
+  -webkit-animation-duration: 2050ms;
+}
+.speed-2100 {
+  animation-duration: 2100ms;
+  -webkit-animation-duration: 2100ms;
+}
+.speed-2150 {
+  animation-duration: 2150ms;
+  -webkit-animation-duration: 2150ms;
+}
+.speed-2200 {
+  animation-duration: 2200ms;
+  -webkit-animation-duration: 2200ms;
+}
+.speed-2250 {
+  animation-duration: 2250ms;
+  -webkit-animation-duration: 2250ms;
+}
+.speed-2300 {
+  animation-duration: 2300ms;
+  -webkit-animation-duration: 2300ms;
+}
+.speed-2350 {
+  animation-duration: 2350ms;
+  -webkit-animation-duration: 2350ms;
+}
+.speed-2400 {
+  animation-duration: 2400ms;
+  -webkit-animation-duration: 2400ms;
+}
+.speed-2450 {
+  animation-duration: 2450ms;
+  -webkit-animation-duration: 2450ms;
+}
+.speed-2500 {
+  animation-duration: 2500ms;
+  -webkit-animation-duration: 2500ms;
+}
+.speed-2550 {
+  animation-duration: 2550ms;
+  -webkit-animation-duration: 2550ms;
+}
+.speed-2600 {
+  animation-duration: 2600ms;
+  -webkit-animation-duration: 2600ms;
+}
+.speed-2650 {
+  animation-duration: 2650ms;
+  -webkit-animation-duration: 2650ms;
+}
+.speed-2700 {
+  animation-duration: 2700ms;
+  -webkit-animation-duration: 2700ms;
+}
+.speed-2750 {
+  animation-duration: 2750ms;
+  -webkit-animation-duration: 2750ms;
+}
+.speed-2800 {
+  animation-duration: 2800ms;
+  -webkit-animation-duration: 2800ms;
+}
+.speed-2850 {
+  animation-duration: 2850ms;
+  -webkit-animation-duration: 2850ms;
+}
+.speed-2900 {
+  animation-duration: 2900ms;
+  -webkit-animation-duration: 2900ms;
+}
+.speed-2950 {
+  animation-duration: 2950ms;
+  -webkit-animation-duration: 2950ms;
+}
+.speed-3000 {
+  animation-duration: 3000ms;
+  -webkit-animation-duration: 3000ms;
+}
+.speed-3050 {
+  animation-duration: 3050ms;
+  -webkit-animation-duration: 3050ms;
+}
+.speed-3100 {
+  animation-duration: 3100ms;
+  -webkit-animation-duration: 3100ms;
+}
+.speed-3150 {
+  animation-duration: 3150ms;
+  -webkit-animation-duration: 3150ms;
+}
+.speed-3200 {
+  animation-duration: 3200ms;
+  -webkit-animation-duration: 3200ms;
+}
+.speed-3250 {
+  animation-duration: 3250ms;
+  -webkit-animation-duration: 3250ms;
+}
+.speed-3300 {
+  animation-duration: 3300ms;
+  -webkit-animation-duration: 3300ms;
+}
+.speed-3350 {
+  animation-duration: 3350ms;
+  -webkit-animation-duration: 3350ms;
+}
+.speed-3400 {
+  animation-duration: 3400ms;
+  -webkit-animation-duration: 3400ms;
+}
+.speed-3450 {
+  animation-duration: 3450ms;
+  -webkit-animation-duration: 3450ms;
+}
+.speed-3500 {
+  animation-duration: 3500ms;
+  -webkit-animation-duration: 3500ms;
+}
+.speed-3550 {
+  animation-duration: 3550ms;
+  -webkit-animation-duration: 3550ms;
+}
+.speed-3600 {
+  animation-duration: 3600ms;
+  -webkit-animation-duration: 3600ms;
+}
+.speed-3650 {
+  animation-duration: 3650ms;
+  -webkit-animation-duration: 3650ms;
+}
+.speed-3700 {
+  animation-duration: 3700ms;
+  -webkit-animation-duration: 3700ms;
+}
+.speed-3750 {
+  animation-duration: 3750ms;
+  -webkit-animation-duration: 3750ms;
+}
+.speed-3800 {
+  animation-duration: 3800ms;
+  -webkit-animation-duration: 3800ms;
+}
+.speed-3850 {
+  animation-duration: 3850ms;
+  -webkit-animation-duration: 3850ms;
+}
+.speed-3900 {
+  animation-duration: 3900ms;
+  -webkit-animation-duration: 3900ms;
+}
+.speed-3950 {
+  animation-duration: 3950ms;
+  -webkit-animation-duration: 3950ms;
+}
+.speed-4000 {
+  animation-duration: 4000ms;
+  -webkit-animation-duration: 4000ms;
+}
+/*  ------------------ Attention Seekers -----------------  */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+  }
+}
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+@keyframes flip {
+  0% {
+    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+  }
+  40% {
+    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+  80% {
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+  100% {
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+@-webkit-keyframes flip {
+  0% {
+    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+  }
+  40% {
+    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+  80% {
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+  100% {
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes rubberBand {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  30% {
+    transform: scaleX(1.25) scaleY(0.75);
+    -webkit-transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    transform: scaleX(0.75) scaleY(1.25);
+    -webkit-transform: scaleX(0.75) scaleY(1.25);
+  }
+  60% {
+    transform: scaleX(1.15) scaleY(0.85);
+    -webkit-transform: scaleX(1.15) scaleY(0.85);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes rubberBand {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  30% {
+    transform: scaleX(1.25) scaleY(0.75);
+    -webkit-transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    transform: scaleX(0.75) scaleY(1.25);
+    -webkit-transform: scaleX(0.75) scaleY(1.25);
+  }
+  60% {
+    transform: scaleX(1.15) scaleY(0.85);
+    -webkit-transform: scaleX(1.15) scaleY(0.85);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+  }
+}
+@-webkit-keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+  }
+}
+@keyframes swing {
+  20% {
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes swing {
+  20% {
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+@keyframes tada {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  10%, 20% {
+    transform: scale(0.9) rotate(-3deg);
+    -webkit-transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale(1.1) rotate(3deg);
+    -webkit-transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale(1.1) rotate(-3deg);
+    -webkit-transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+    -webkit-transform: scale(1) rotate(0);
+  }
+}
+@-webkit-keyframes tada {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  10%, 20% {
+    transform: scale(0.9) rotate(-3deg);
+    -webkit-transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale(1.1) rotate(3deg);
+    -webkit-transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale(1.1) rotate(-3deg);
+    -webkit-transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+    -webkit-transform: scale(1) rotate(0);
+  }
+}
+@keyframes wobble {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+  15% {
+    transform: translateX(-25%) rotate(-5deg);
+    -webkit-transform: translateX(-25%) rotate(-5deg);
+  }
+  30% {
+    transform: translateX(20%) rotate(3deg);
+    -webkit-transform: translateX(20%) rotate(3deg);
+  }
+  45% {
+    transform: translateX(-15%) rotate(-3deg);
+    -webkit-transform: translateX(-15%) rotate(-3deg);
+  }
+  60% {
+    transform: translateX(10%) rotate(2deg);
+    -webkit-transform: translateX(10%) rotate(2deg);
+  }
+  75% {
+    transform: translateX(-5%) rotate(-1deg);
+    -webkit-transform: translateX(-5%) rotate(-1deg);
+  }
+  100% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+}
+@-webkit-keyframes wobble {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+  15% {
+    transform: translateX(-25%) rotate(-5deg);
+    -webkit-transform: translateX(-25%) rotate(-5deg);
+  }
+  30% {
+    transform: translateX(20%) rotate(3deg);
+    -webkit-transform: translateX(20%) rotate(3deg);
+  }
+  45% {
+    transform: translateX(-15%) rotate(-3deg);
+    -webkit-transform: translateX(-15%) rotate(-3deg);
+  }
+  60% {
+    transform: translateX(10%) rotate(2deg);
+    -webkit-transform: translateX(10%) rotate(2deg);
+  }
+  75% {
+    transform: translateX(-5%) rotate(-1deg);
+    -webkit-transform: translateX(-5%) rotate(-1deg);
+  }
+  100% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+}
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
@@ -1316,70 +3650,6 @@
     -webkit-transform: translateY(-2000px);
   }
 }
-@keyframes flip {
-  0% {
-    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  40% {
-    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
-    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  50% {
-    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
-    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
-    animation-timing-function: ease-in;
-    -webkit-animation-timing-function: ease-in;
-  }
-  80% {
-    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
-    animation-timing-function: ease-in;
-    -webkit-animation-timing-function: ease-in;
-  }
-  100% {
-    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
-    animation-timing-function: ease-in;
-    -webkit-animation-timing-function: ease-in;
-  }
-}
-@-webkit-keyframes flip {
-  0% {
-    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  40% {
-    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
-    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  50% {
-    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
-    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
-    animation-timing-function: ease-in;
-    -webkit-animation-timing-function: ease-in;
-  }
-  80% {
-    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
-    animation-timing-function: ease-in;
-    -webkit-animation-timing-function: ease-in;
-  }
-  100% {
-    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
-    animation-timing-function: ease-in;
-    -webkit-animation-timing-function: ease-in;
-  }
-}
 @keyframes flipInX {
   0% {
     transform: perspective(400px) rotateX(90deg);
@@ -1576,7 +3846,7 @@
     opacity: 0;
   }
 }
-@keyframes magic {
+@keyframes magicOut {
   0% {
     opacity: 1;
     transform-origin: 100% 200%;
@@ -1592,7 +3862,7 @@
     -webkit-transform: scale(0, 0) rotate(270deg);
   }
 }
-@-webkit-keyframes magic {
+@-webkit-keyframes magicOut {
   0% {
     opacity: 1;
     transform-origin: 100% 200%;
@@ -1608,7 +3878,7 @@
     -webkit-transform: scale(0, 0) rotate(270deg);
   }
 }
-@keyframes swap {
+@keyframes swapIn {
   0% {
     opacity: 0;
     transform-origin: 0 100%;
@@ -1624,7 +3894,7 @@
     -webkit-transform: scale(1, 1) translate(0px, 0px);
   }
 }
-@-webkit-keyframes swap {
+@-webkit-keyframes swapIn {
   0% {
     opacity: 0;
     transform-origin: 0 100%;
@@ -1638,6 +3908,38 @@
     -webkit-transform-origin: 100% 100%;
     transform: scale(1, 1) translate(0px, 0px);
     -webkit-transform: scale(1, 1) translate(0px, 0px);
+  }
+}
+@keyframes swapOut {
+  0% {
+    opacity: 1;
+    transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform: scale(1, 1) translate(0px, 0px);
+    -webkit-transform: scale(1, 1) translate(0px, 0px);
+  }
+  100% {
+    opacity: 0;
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    transform: scale(0, 0) translate(-700px, 0px);
+    -webkit-transform: scale(0, 0) translate(-700px, 0px);
+  }
+}
+@-webkit-keyframes swapOut {
+  0% {
+    opacity: 1;
+    transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform: scale(1, 1) translate(0px, 0px);
+    -webkit-transform: scale(1, 1) translate(0px, 0px);
+  }
+  100% {
+    opacity: 0;
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    transform: scale(0, 0) translate(-700px, 0px);
+    -webkit-transform: scale(0, 0) translate(-700px, 0px);
   }
 }
 @keyframes twisterInDown {
@@ -1752,8 +4054,8 @@
   }
   60% {
     opacity: 1;
-    transform-origin: NaN%;
-    -webkit-transform-origin: NaN%;
+    transform-origin: 0%;
+    -webkit-transform-origin: 0%;
     transform: scale(0.5, 0.5) rotate(0deg);
     -webkit-transform: scale(0.5, 0.5) rotate(0deg);
   }
@@ -1796,8 +4098,8 @@
   }
   60% {
     opacity: 1;
-    transform-origin: NaN%;
-    -webkit-transform-origin: NaN%;
+    transform-origin: 0%;
+    -webkit-transform-origin: 0%;
     transform: scale(0.5, 0.5) rotate(0deg);
     -webkit-transform: scale(0.5, 0.5) rotate(0deg);
   }
@@ -1902,6 +4204,38 @@
     -webkit-transform-origin: 50% 50%;
     transform: scale(0, 0) rotate(0deg);
     -webkit-transform: scale(0, 0) rotate(0deg);
+  }
+}
+@keyframes holeIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform: scale(0, 0) rotateY(180deg);
+    -webkit-transform: scale(0, 0) rotateY(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform: scale(1, 1) rotateY(0deg);
+    -webkit-transform: scale(1, 1) rotateY(0deg);
+  }
+}
+@-webkit-keyframes holeIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform: scale(0, 0) rotateY(180deg);
+    -webkit-transform: scale(0, 0) rotateY(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform: scale(1, 1) rotateY(0deg);
+    -webkit-transform: scale(1, 1) rotateY(0deg);
   }
 }
 @keyframes holeOut {
@@ -2026,231 +4360,127 @@
     -webkit-transform: scale(0, 0);
   }
 }
-@keyframes perspectiveDown {
+@keyframes flopInDown {
   0% {
-    transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    transform: perspective(800px) rotateX(0deg);
-    -webkit-transform: perspective(800px) rotateX(0deg);
-  }
-  100% {
-    transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    transform: perspective(800px) rotateX(-180deg);
-    -webkit-transform: perspective(800px) rotateX(-180deg);
-  }
-}
-@-webkit-keyframes perspectiveDown {
-  0% {
-    transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    transform: perspective(800px) rotateX(0deg);
-    -webkit-transform: perspective(800px) rotateX(0deg);
-  }
-  100% {
-    transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    transform: perspective(800px) rotateX(-180deg);
-    -webkit-transform: perspective(800px) rotateX(-180deg);
-  }
-}
-@keyframes perspectiveDownReturn {
-  0% {
-    transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    transform: perspective(800px) rotateX(-180deg);
-    -webkit-transform: perspective(800px) rotateX(-180deg);
-  }
-  100% {
-    transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    transform: perspective(800px) rotateX(0deg);
-    -webkit-transform: perspective(800px) rotateX(0deg);
-  }
-}
-@-webkit-keyframes perspectiveDownReturn {
-  0% {
-    transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    transform: perspective(800px) rotateX(-180deg);
-    -webkit-transform: perspective(800px) rotateX(-180deg);
-  }
-  100% {
-    transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    transform: perspective(800px) rotateX(0deg);
-    -webkit-transform: perspective(800px) rotateX(0deg);
-  }
-}
-@keyframes perspectiveLeft {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(0deg);
-    -webkit-transform: perspective(800px) rotateY(0deg);
+    opacity: 0;
+    transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform: perspective(800px) rotateX(180deg) translateZ(100px);
+    -webkit-transform: perspective(800px) rotateX(180deg) translateZ(100px);
   }
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(-180deg);
-    -webkit-transform: perspective(800px) rotateY(-180deg);
+    transform: perspective(800px) rotateX(0deg) translateZ(0px);
+    -webkit-transform: perspective(800px) rotateX(0deg) translateZ(0px);
   }
 }
-@-webkit-keyframes perspectiveLeft {
+@-webkit-keyframes flopInDown {
   0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(0deg);
-    -webkit-transform: perspective(800px) rotateY(0deg);
+    opacity: 0;
+    transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform: perspective(800px) rotateX(180deg) translateZ(100px);
+    -webkit-transform: perspective(800px) rotateX(180deg) translateZ(100px);
   }
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(-180deg);
-    -webkit-transform: perspective(800px) rotateY(-180deg);
+    transform: perspective(800px) rotateX(0deg) translateZ(0px);
+    -webkit-transform: perspective(800px) rotateX(0deg) translateZ(0px);
   }
 }
-@keyframes perspectiveLeftReturn {
+@keyframes flopInLeft {
   0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(-180deg);
-    -webkit-transform: perspective(800px) rotateY(-180deg);
+    opacity: 0;
+    transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform: perspective(800px) rotateY(-180deg) translateZ(150px);
+    -webkit-transform: perspective(800px) rotateY(-180deg) translateZ(150px);
   }
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(0deg);
-    -webkit-transform: perspective(800px) rotateY(0deg);
+    transform: perspective(800px) rotateY(0deg) translate3d(0px);
+    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0px);
   }
 }
-@-webkit-keyframes perspectiveLeftReturn {
+@-webkit-keyframes flopInLeft {
   0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(-180deg);
-    -webkit-transform: perspective(800px) rotateY(-180deg);
+    opacity: 0;
+    transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform: perspective(800px) rotateY(-180deg) translateZ(150px);
+    -webkit-transform: perspective(800px) rotateY(-180deg) translateZ(150px);
   }
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(0deg);
-    -webkit-transform: perspective(800px) rotateY(0deg);
+    transform: perspective(800px) rotateY(0deg) translate3d(0px);
+    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0px);
   }
 }
-@keyframes perspectiveRight {
+@keyframes flopInRight {
   0% {
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    transform: perspective(800px) rotateY(0deg);
-    -webkit-transform: perspective(800px) rotateY(0deg);
-  }
-  100% {
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    transform: perspective(800px) rotateY(180deg);
-    -webkit-transform: perspective(800px) rotateY(180deg);
-  }
-}
-@-webkit-keyframes perspectiveRight {
-  0% {
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    transform: perspective(800px) rotateY(0deg);
-    -webkit-transform: perspective(800px) rotateY(0deg);
-  }
-  100% {
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    transform: perspective(800px) rotateY(180deg);
-    -webkit-transform: perspective(800px) rotateY(180deg);
-  }
-}
-@keyframes perspectiveRightReturn {
-  0% {
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    transform: perspective(800px) rotateY(180deg);
-    -webkit-transform: perspective(800px) rotateY(180deg);
-  }
-  100% {
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    transform: perspective(800px) rotateY(0deg);
-    -webkit-transform: perspective(800px) rotateY(0deg);
-  }
-}
-@-webkit-keyframes perspectiveRightReturn {
-  0% {
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    transform: perspective(800px) rotateY(180deg);
-    -webkit-transform: perspective(800px) rotateY(180deg);
-  }
-  100% {
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    transform: perspective(800px) rotateY(0deg);
-    -webkit-transform: perspective(800px) rotateY(0deg);
-  }
-}
-@keyframes perspectiveUp {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateX(0deg);
-    -webkit-transform: perspective(800px) rotateX(0deg);
+    opacity: 0;
+    transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform: perspective(800px) rotateY(180deg) translateZ(300px);
+    -webkit-transform: perspective(800px) rotateY(180deg) translateZ(300px);
   }
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateX(180deg);
-    -webkit-transform: perspective(800px) rotateX(180deg);
+    transform: perspective(800px) rotateY(0deg) translateZ(0px);
+    -webkit-transform: perspective(800px) rotateY(0deg) translateZ(0px);
   }
 }
-@-webkit-keyframes perspectiveUp {
+@-webkit-keyframes flopInRight {
   0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateX(0deg);
-    -webkit-transform: perspective(800px) rotateX(0deg);
+    opacity: 0;
+    transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform: perspective(800px) rotateY(180deg) translateZ(300px);
+    -webkit-transform: perspective(800px) rotateY(180deg) translateZ(300px);
   }
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateX(180deg);
-    -webkit-transform: perspective(800px) rotateX(180deg);
+    transform: perspective(800px) rotateY(0deg) translateZ(0px);
+    -webkit-transform: perspective(800px) rotateY(0deg) translateZ(0px);
   }
 }
-@keyframes perspectiveUpReturn {
+@keyframes flopInUp {
   0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateX(180deg);
-    -webkit-transform: perspective(800px) rotateX(180deg);
+    opacity: 0;
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform: perspective(800px) rotateX(-180deg) translateZ(300px);
+    -webkit-transform: perspective(800px) rotateX(-180deg) translateZ(300px);
   }
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateX(0deg);
-    -webkit-transform: perspective(800px) rotateX(0deg);
+    transform: perspective(800px) rotateX(0deg) translateZ(0px);
+    -webkit-transform: perspective(800px) rotateX(0deg) translateZ(0px);
   }
 }
-@-webkit-keyframes perspectiveUpReturn {
+@-webkit-keyframes flopInUp {
   0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateX(180deg);
-    -webkit-transform: perspective(800px) rotateX(180deg);
+    opacity: 0;
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform: perspective(800px) rotateX(-180deg) translateZ(300px);
+    -webkit-transform: perspective(800px) rotateX(-180deg) translateZ(300px);
   }
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateX(0deg);
-    -webkit-transform: perspective(800px) rotateX(0deg);
+    transform: perspective(800px) rotateX(0deg) translateZ(0px);
+    -webkit-transform: perspective(800px) rotateX(0deg) translateZ(0px);
   }
 }
-@keyframes rotateDown {
+@keyframes flopOutDown {
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
@@ -2265,7 +4495,7 @@
     -webkit-transform: perspective(800px) rotateX(-180deg) translateZ(300px);
   }
 }
-@-webkit-keyframes rotateDown {
+@-webkit-keyframes flopOutDown {
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
@@ -2280,7 +4510,7 @@
     -webkit-transform: perspective(800px) rotateX(-180deg) translateZ(300px);
   }
 }
-@keyframes rotateLeft {
+@keyframes flopOutLeft {
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
@@ -2295,7 +4525,7 @@
     -webkit-transform: perspective(800px) rotateY(180deg) translateZ(300px);
   }
 }
-@-webkit-keyframes rotateLeft {
+@-webkit-keyframes flopOutLeft {
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
@@ -2310,7 +4540,7 @@
     -webkit-transform: perspective(800px) rotateY(180deg) translateZ(300px);
   }
 }
-@keyframes rotateRight {
+@keyframes flopOutRight {
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
@@ -2325,7 +4555,7 @@
     -webkit-transform: perspective(800px) rotateY(-180deg) translateZ(150px);
   }
 }
-@-webkit-keyframes rotateRight {
+@-webkit-keyframes flopOutRight {
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
@@ -2340,7 +4570,7 @@
     -webkit-transform: perspective(800px) rotateY(-180deg) translateZ(150px);
   }
 }
-@keyframes rotateUp {
+@keyframes flopOutUp {
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
@@ -2355,7 +4585,7 @@
     -webkit-transform: perspective(800px) rotateX(180deg) translateZ(100px);
   }
 }
-@-webkit-keyframes rotateUp {
+@-webkit-keyframes flopOutUp {
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
@@ -2690,62 +4920,6 @@
     opacity: 0;
   }
 }
-@keyframes slideDown {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-  }
-}
-@-webkit-keyframes slideDown {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-  }
-}
-@keyframes slideDownReturn {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-  }
-}
-@-webkit-keyframes slideDownReturn {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-  }
-}
 @keyframes slideInDown {
   0% {
     opacity: 0;
@@ -2832,62 +5006,6 @@
     opacity: 0;
     transform: translateY(0);
     -webkit-transform: translateY(0);
-  }
-}
-@keyframes slideLeft {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-  }
-}
-@-webkit-keyframes slideLeft {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-  }
-}
-@keyframes slideLeftReturn {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-  }
-}
-@-webkit-keyframes slideLeftReturn {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
   }
 }
 @keyframes slideOutDown {
@@ -2978,119 +5096,7 @@
     -webkit-transform: translateY(-2000px);
   }
 }
-@keyframes slideRight {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-  }
-}
-@-webkit-keyframes slideRight {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-  }
-}
-@keyframes slideRightReturn {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-  }
-}
-@-webkit-keyframes slideRightReturn {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-  }
-}
-@keyframes slideUp {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-  }
-}
-@-webkit-keyframes slideUp {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-  }
-}
-@keyframes slideUpReturn {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-  }
-}
-@-webkit-keyframes slideUpReturn {
-  0% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-  }
-  100% {
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-  }
-}
-@keyframes hinge {
+@keyframes hingeOut {
   0% {
     transform: rotate(0);
     -webkit-transform: rotate(0);
@@ -3130,7 +5136,7 @@
     opacity: 0;
   }
 }
-@-webkit-keyframes hinge {
+@-webkit-keyframes hingeOut {
   0% {
     transform: rotate(0);
     -webkit-transform: rotate(0);
@@ -3218,2392 +5224,305 @@
     -webkit-transform: translateX(100%) rotate(120deg);
   }
 }
-@keyframes openDownLeft {
+@keyframes zoomIn {
   0% {
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
   }
-  100% {
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
+  50% {
+    opacity: 1;
   }
 }
-@-webkit-keyframes openDownLeft {
+@-webkit-keyframes zoomIn {
   0% {
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
   }
-  100% {
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
+  50% {
+    opacity: 1;
   }
 }
-@keyframes openDownLeftOut {
+@keyframes zoomInDown {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+@-webkit-keyframes zoomInDown {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+@keyframes zoomInLeft {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+@-webkit-keyframes zoomInLeft {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+@keyframes zoomInRight {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+@-webkit-keyframes zoomInRight {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+@keyframes zoomInUp {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+@-webkit-keyframes zoomInUp {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+@keyframes zoomOut {
   0% {
     opacity: 1;
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
   }
   100% {
     opacity: 0;
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-o;
-    -webkit-animation-timing-function: ease-in-o;
   }
 }
-@-webkit-keyframes openDownLeftOut {
+@-webkit-keyframes zoomOut {
   0% {
     opacity: 1;
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
   }
   100% {
     opacity: 0;
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-o;
-    -webkit-animation-timing-function: ease-in-o;
   }
 }
-@keyframes openDownLeftReturn {
-  0% {
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-}
-@-webkit-keyframes openDownLeftReturn {
-  0% {
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-}
-@keyframes openDownRight {
-  0% {
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  100% {
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-}
-@-webkit-keyframes openDownRight {
-  0% {
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  100% {
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-}
-@keyframes openDownRightOut {
-  0% {
+@keyframes zoomOutDown {
+  40% {
     opacity: 1;
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
   100% {
     opacity: 0;
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-o;
-    -webkit-animation-timing-function: ease-in-o;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    transform-origin: center bottom;
+    -webkit-transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }
-@-webkit-keyframes openDownRightOut {
-  0% {
+@-webkit-keyframes zoomOutDown {
+  40% {
     opacity: 1;
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
   100% {
     opacity: 0;
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-o;
-    -webkit-animation-timing-function: ease-in-o;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    transform-origin: center bottom;
+    -webkit-transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }
-@keyframes openDownRightReturn {
-  0% {
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-}
-@-webkit-keyframes openDownRightReturn {
-  0% {
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform-origin: bottom right;
-    -webkit-transform-origin: bottom right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-}
-@keyframes openUpLeft {
-  0% {
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  100% {
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-}
-@-webkit-keyframes openUpLeft {
-  0% {
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  100% {
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-}
-@keyframes openUpLeftOut {
-  0% {
+@keyframes zoomOutLeft {
+  40% {
     opacity: 1;
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
   }
   100% {
     opacity: 0;
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-o;
-    -webkit-animation-timing-function: ease-in-o;
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+    -webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+    transform-origin: left center;
+    -webkit-transform-origin: left center;
   }
 }
-@-webkit-keyframes openUpLeftOut {
-  0% {
+@-webkit-keyframes zoomOutLeft {
+  40% {
     opacity: 1;
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
   }
   100% {
     opacity: 0;
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-o;
-    -webkit-animation-timing-function: ease-in-o;
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+    -webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+    transform-origin: left center;
+    -webkit-transform-origin: left center;
   }
 }
-@keyframes openUpLeftReturn {
-  0% {
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-}
-@-webkit-keyframes openUpLeftReturn {
-  0% {
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform-origin: top left;
-    -webkit-transform-origin: top left;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-}
-@keyframes openUpRight {
-  0% {
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  100% {
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-}
-@-webkit-keyframes openUpRight {
-  0% {
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-  100% {
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-}
-@keyframes openUpRightOut {
-  0% {
+@keyframes zoomOutRight {
+  40% {
     opacity: 1;
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
   }
   100% {
     opacity: 0;
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-o;
-    -webkit-animation-timing-function: ease-in-o;
+    transform: scale(0.1) translate3d(2000px, 0, 0);
+    -webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+    transform-origin: right center;
+    -webkit-transform-origin: right center;
   }
 }
-@-webkit-keyframes openUpRightOut {
-  0% {
+@-webkit-keyframes zoomOutRight {
+  40% {
     opacity: 1;
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
   }
   100% {
     opacity: 0;
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-o;
-    -webkit-animation-timing-function: ease-in-o;
+    transform: scale(0.1) translate3d(2000px, 0, 0);
+    -webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+    transform-origin: right center;
+    -webkit-transform-origin: right center;
   }
 }
-@keyframes openUpRightReturn {
-  0% {
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-}
-@-webkit-keyframes openUpRightReturn {
-  0% {
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(-110deg);
-    -webkit-transform: rotate(-110deg);
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform-origin: top right;
-    -webkit-transform-origin: top right;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-  }
-}
-@keyframes tinDownIn {
-  0% {
-    opacity: 0;
-    transform: scale(1, 1) translateY(900%);
-    -webkit-transform: scale(1, 1) translateY(900%);
-  }
-  50%, 70%, 90% {
+@keyframes zoomOutUp {
+  40% {
     opacity: 1;
-    transform: scale(1.1, 1.1) translateY(0);
-    -webkit-transform: scale(1.1, 1.1) translateY(0);
-  }
-  60%, 80%, 100% {
-    opacity: 1;
-    transform: scale(1, 1) translateY(0);
-    -webkit-transform: scale(1, 1) translateY(0);
-  }
-}
-@-webkit-keyframes tinDownIn {
-  0% {
-    opacity: 0;
-    transform: scale(1, 1) translateY(900%);
-    -webkit-transform: scale(1, 1) translateY(900%);
-  }
-  50%, 70%, 90% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateY(0);
-    -webkit-transform: scale(1.1, 1.1) translateY(0);
-  }
-  60%, 80%, 100% {
-    opacity: 1;
-    transform: scale(1, 1) translateY(0);
-    -webkit-transform: scale(1, 1) translateY(0);
-  }
-}
-@keyframes tinDownOut {
-  0%, 20%, 40%, 50% {
-    opacity: 1;
-    transform: scale(1, 1) translateY(0);
-    -webkit-transform: scale(1, 1) translateY(0);
-  }
-  10%, 30% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateY(0);
-    -webkit-transform: scale(1.1, 1.1) translateY(0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
   100% {
     opacity: 0;
-    transform: scale(1, 1) translateY(900%);
-    -webkit-transform: scale(1, 1) translateY(900%);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform-origin: center bottom;
+    -webkit-transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }
-@-webkit-keyframes tinDownOut {
-  0%, 20%, 40%, 50% {
+@-webkit-keyframes zoomOutUp {
+  40% {
     opacity: 1;
-    transform: scale(1, 1) translateY(0);
-    -webkit-transform: scale(1, 1) translateY(0);
-  }
-  10%, 30% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateY(0);
-    -webkit-transform: scale(1.1, 1.1) translateY(0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
   100% {
     opacity: 0;
-    transform: scale(1, 1) translateY(900%);
-    -webkit-transform: scale(1, 1) translateY(900%);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform-origin: center bottom;
+    -webkit-transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
-}
-@keyframes tinLeftIn {
-  0% {
-    opacity: 0;
-    transform: scale(1, 1) translateX(-900%);
-    -webkit-transform: scale(1, 1) translateX(-900%);
-  }
-  50%, 70%, 90% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateX(0);
-    -webkit-transform: scale(1.1, 1.1) translateX(0);
-  }
-  60%, 80%, 100% {
-    opacity: 1;
-    transform: scale(1, 1) translateX(0);
-    -webkit-transform: scale(1, 1) translateX(0);
-  }
-}
-@-webkit-keyframes tinLeftIn {
-  0% {
-    opacity: 0;
-    transform: scale(1, 1) translateX(-900%);
-    -webkit-transform: scale(1, 1) translateX(-900%);
-  }
-  50%, 70%, 90% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateX(0);
-    -webkit-transform: scale(1.1, 1.1) translateX(0);
-  }
-  60%, 80%, 100% {
-    opacity: 1;
-    transform: scale(1, 1) translateX(0);
-    -webkit-transform: scale(1, 1) translateX(0);
-  }
-}
-@keyframes tinLeftOut {
-  0%, 20%, 40%, 50% {
-    opacity: 1;
-    transform: scale(1, 1) translateX(0);
-    -webkit-transform: scale(1, 1) translateX(0);
-  }
-  10%, 30% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateX(0);
-    -webkit-transform: scale(1.1, 1.1) translateX(0);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1, 1) translateX(-900%);
-    -webkit-transform: scale(1, 1) translateX(-900%);
-  }
-}
-@-webkit-keyframes tinLeftOut {
-  0%, 20%, 40%, 50% {
-    opacity: 1;
-    transform: scale(1, 1) translateX(0);
-    -webkit-transform: scale(1, 1) translateX(0);
-  }
-  10%, 30% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateX(0);
-    -webkit-transform: scale(1.1, 1.1) translateX(0);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1, 1) translateX(-900%);
-    -webkit-transform: scale(1, 1) translateX(-900%);
-  }
-}
-@keyframes tinRightIn {
-  0% {
-    opacity: 0;
-    transform: scale(1, 1) translateX(900%);
-    -webkit-transform: scale(1, 1) translateX(900%);
-  }
-  50%, 70%, 90% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateX(0);
-    -webkit-transform: scale(1.1, 1.1) translateX(0);
-  }
-  60%, 80%, 100% {
-    opacity: 1;
-    transform: scale(1, 1) translateX(0);
-    -webkit-transform: scale(1, 1) translateX(0);
-  }
-}
-@-webkit-keyframes tinRightIn {
-  0% {
-    opacity: 0;
-    transform: scale(1, 1) translateX(900%);
-    -webkit-transform: scale(1, 1) translateX(900%);
-  }
-  50%, 70%, 90% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateX(0);
-    -webkit-transform: scale(1.1, 1.1) translateX(0);
-  }
-  60%, 80%, 100% {
-    opacity: 1;
-    transform: scale(1, 1) translateX(0);
-    -webkit-transform: scale(1, 1) translateX(0);
-  }
-}
-@keyframes tinRightOut {
-  0%, 20%, 40%, 50% {
-    opacity: 1;
-    transform: scale(1, 1) translateX(0);
-    -webkit-transform: scale(1, 1) translateX(0);
-  }
-  10%, 30% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateX(0);
-    -webkit-transform: scale(1.1, 1.1) translateX(0);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1, 1) translateX(900%);
-    -webkit-transform: scale(1, 1) translateX(900%);
-  }
-}
-@-webkit-keyframes tinRightOut {
-  0%, 20%, 40%, 50% {
-    opacity: 1;
-    transform: scale(1, 1) translateX(0);
-    -webkit-transform: scale(1, 1) translateX(0);
-  }
-  10%, 30% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateX(0);
-    -webkit-transform: scale(1.1, 1.1) translateX(0);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1, 1) translateX(900%);
-    -webkit-transform: scale(1, 1) translateX(900%);
-  }
-}
-@keyframes tinUpIn {
-  0% {
-    opacity: 0;
-    transform: scale(1, 1) translateY(-900%);
-    -webkit-transform: scale(1, 1) translateY(-900%);
-  }
-  50%, 70%, 90% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateY(0);
-    -webkit-transform: scale(1.1, 1.1) translateY(0);
-  }
-  60%, 80%, 100% {
-    opacity: 1;
-    transform: scale(1, 1) translateY(0);
-    -webkit-transform: scale(1, 1) translateY(0);
-  }
-}
-@-webkit-keyframes tinUpIn {
-  0% {
-    opacity: 0;
-    transform: scale(1, 1) translateY(-900%);
-    -webkit-transform: scale(1, 1) translateY(-900%);
-  }
-  50%, 70%, 90% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateY(0);
-    -webkit-transform: scale(1.1, 1.1) translateY(0);
-  }
-  60%, 80%, 100% {
-    opacity: 1;
-    transform: scale(1, 1) translateY(0);
-    -webkit-transform: scale(1, 1) translateY(0);
-  }
-}
-@keyframes tinUpOut {
-  0%, 20%, 40%, 50% {
-    opacity: 1;
-    transform: scale(1, 1) translateY(0);
-    -webkit-transform: scale(1, 1) translateY(0);
-  }
-  10%, 30% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateY(0);
-    -webkit-transform: scale(1.1, 1.1) translateY(0);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1, 1) translateY(-900%);
-    -webkit-transform: scale(1, 1) translateY(-900%);
-  }
-}
-@-webkit-keyframes tinUpOut {
-  0%, 20%, 40%, 50% {
-    opacity: 1;
-    transform: scale(1, 1) translateY(0);
-    -webkit-transform: scale(1, 1) translateY(0);
-  }
-  10%, 30% {
-    opacity: 1;
-    transform: scale(1.1, 1.1) translateY(0);
-    -webkit-transform: scale(1.1, 1.1) translateY(0);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1, 1) translateY(-900%);
-    -webkit-transform: scale(1, 1) translateY(-900%);
-  }
-}
-.animate {
-  animation-duration: 700ms;
-  -webkit-animation-duration: 700ms;
-}
-.animate.infinite {
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-}
-.enter-bounce.ng-enter,
-.enter-bounce.ng-hide-remove {
-  animation-name: bounce;
-  -webkit-animation-name: bounce;
-}
-.enter-flash.ng-enter,
-.enter-flash.ng-hide-remove {
-  animation-name: flash;
-  -webkit-animation-name: flash;
-}
-.enter-flip.ng-enter,
-.enter-flip.ng-hide-remove {
-  animation-name: flip;
-  -webkit-animation-name: flip;
-}
-.enter-hinge.ng-enter,
-.enter-hinge.ng-hide-remove {
-  animation-name: hinge;
-  -webkit-animation-name: hinge;
-}
-.enter-magic.ng-enter,
-.enter-magic.ng-hide-remove {
-  animation-name: magic;
-  -webkit-animation-name: magic;
-}
-.enter-openDownLeft.ng-enter,
-.enter-openDownLeft.ng-hide-remove {
-  animation-name: openDownLeft;
-  -webkit-animation-name: openDownLeft;
-}
-.enter-openDownLeftReturn.ng-enter,
-.enter-openDownLeftReturn.ng-hide-remove {
-  animation-name: openDownLeftReturn;
-  -webkit-animation-name: openDownLeftReturn;
-}
-.enter-openDownRight.ng-enter,
-.enter-openDownRight.ng-hide-remove {
-  animation-name: openDownRight;
-  -webkit-animation-name: openDownRight;
-}
-.enter-openDownRightReturn.ng-enter,
-.enter-openDownRightReturn.ng-hide-remove {
-  animation-name: openDownRightReturn;
-  -webkit-animation-name: openDownRightReturn;
-}
-.enter-openUpLeft.ng-enter,
-.enter-openUpLeft.ng-hide-remove {
-  animation-name: openUpLeft;
-  -webkit-animation-name: openUpLeft;
-}
-.enter-openUpLeftReturn.ng-enter,
-.enter-openUpLeftReturn.ng-hide-remove {
-  animation-name: openUpLeftReturn;
-  -webkit-animation-name: openUpLeftReturn;
-}
-.enter-openUpRight.ng-enter,
-.enter-openUpRight.ng-hide-remove {
-  animation-name: openUpRight;
-  -webkit-animation-name: openUpRight;
-}
-.enter-openUpRightReturn.ng-enter,
-.enter-openUpRightReturn.ng-hide-remove {
-  animation-name: openUpRightReturn;
-  -webkit-animation-name: openUpRightReturn;
-}
-.enter-perspectiveDown.ng-enter,
-.enter-perspectiveDown.ng-hide-remove {
-  animation-name: perspectiveDown;
-  -webkit-animation-name: perspectiveDown;
-}
-.enter-perspectiveDownReturn.ng-enter,
-.enter-perspectiveDownReturn.ng-hide-remove {
-  animation-name: perspectiveDownReturn;
-  -webkit-animation-name: perspectiveDownReturn;
-}
-.enter-perspectiveLeft.ng-enter,
-.enter-perspectiveLeft.ng-hide-remove {
-  animation-name: perspectiveLeft;
-  -webkit-animation-name: perspectiveLeft;
-}
-.enter-perspectiveLeftReturn.ng-enter,
-.enter-perspectiveLeftReturn.ng-hide-remove {
-  animation-name: perspectiveLeftReturn;
-  -webkit-animation-name: perspectiveLeftReturn;
-}
-.enter-perspectiveRight.ng-enter,
-.enter-perspectiveRight.ng-hide-remove {
-  animation-name: perspectiveRight;
-  -webkit-animation-name: perspectiveRight;
-}
-.enter-perspectiveRightReturn.ng-enter,
-.enter-perspectiveRightReturn.ng-hide-remove {
-  animation-name: perspectiveRightReturn;
-  -webkit-animation-name: perspectiveRightReturn;
-}
-.enter-perspectiveUp.ng-enter,
-.enter-perspectiveUp.ng-hide-remove {
-  animation-name: perspectiveUp;
-  -webkit-animation-name: perspectiveUp;
-}
-.enter-perspectiveUpReturn.ng-enter,
-.enter-perspectiveUpReturn.ng-hide-remove {
-  animation-name: perspectiveUpReturn;
-  -webkit-animation-name: perspectiveUpReturn;
-}
-.enter-pulse.ng-enter,
-.enter-pulse.ng-hide-remove {
-  animation-name: pulse;
-  -webkit-animation-name: pulse;
-}
-.enter-rotateDown.ng-enter,
-.enter-rotateDown.ng-hide-remove {
-  animation-name: rotateDown;
-  -webkit-animation-name: rotateDown;
-}
-.enter-rotateLeft.ng-enter,
-.enter-rotateLeft.ng-hide-remove {
-  animation-name: rotateLeft;
-  -webkit-animation-name: rotateLeft;
-}
-.enter-rotateRight.ng-enter,
-.enter-rotateRight.ng-hide-remove {
-  animation-name: rotateRight;
-  -webkit-animation-name: rotateRight;
-}
-.enter-rotateUp.ng-enter,
-.enter-rotateUp.ng-hide-remove {
-  animation-name: rotateUp;
-  -webkit-animation-name: rotateUp;
-}
-.enter-rubberBand.ng-enter,
-.enter-rubberBand.ng-hide-remove {
-  animation-name: rubberBand;
-  -webkit-animation-name: rubberBand;
-}
-.enter-shake.ng-enter,
-.enter-shake.ng-hide-remove {
-  animation-name: shake;
-  -webkit-animation-name: shake;
-}
-.enter-slideDown.ng-enter,
-.enter-slideDown.ng-hide-remove {
-  animation-name: slideDown;
-  -webkit-animation-name: slideDown;
-}
-.enter-slideDownReturn.ng-enter,
-.enter-slideDownReturn.ng-hide-remove {
-  animation-name: slideDownReturn;
-  -webkit-animation-name: slideDownReturn;
-}
-.enter-slideLeft.ng-enter,
-.enter-slideLeft.ng-hide-remove {
-  animation-name: slideLeft;
-  -webkit-animation-name: slideLeft;
-}
-.enter-slideLeftReturn.ng-enter,
-.enter-slideLeftReturn.ng-hide-remove {
-  animation-name: slideLeftReturn;
-  -webkit-animation-name: slideLeftReturn;
-}
-.enter-slideRight.ng-enter,
-.enter-slideRight.ng-hide-remove {
-  animation-name: slideRight;
-  -webkit-animation-name: slideRight;
-}
-.enter-slideRightReturn.ng-enter,
-.enter-slideRightReturn.ng-hide-remove {
-  animation-name: slideRightReturn;
-  -webkit-animation-name: slideRightReturn;
-}
-.enter-slideUp.ng-enter,
-.enter-slideUp.ng-hide-remove {
-  animation-name: slideUp;
-  -webkit-animation-name: slideUp;
-}
-.enter-slideUpReturn.ng-enter,
-.enter-slideUpReturn.ng-hide-remove {
-  animation-name: slideUpReturn;
-  -webkit-animation-name: slideUpReturn;
-}
-.enter-swap.ng-enter,
-.enter-swap.ng-hide-remove {
-  animation-name: swap;
-  -webkit-animation-name: swap;
-}
-.enter-swing.ng-enter,
-.enter-swing.ng-hide-remove {
-  animation-name: swing;
-  -webkit-animation-name: swing;
-}
-.enter-tada.ng-enter,
-.enter-tada.ng-hide-remove {
-  animation-name: tada;
-  -webkit-animation-name: tada;
-}
-.enter-wobble.ng-enter,
-.enter-wobble.ng-hide-remove {
-  animation-name: wobble;
-  -webkit-animation-name: wobble;
-}
-.enter-bounceIn.ng-enter,
-.enter-bounceIn.ng-hide-remove {
-  animation-name: bounceIn;
-  -webkit-animation-name: bounceIn;
-}
-.enter-bounceInDown.ng-enter,
-.enter-bounceInDown.ng-hide-remove {
-  animation-name: bounceInDown;
-  -webkit-animation-name: bounceInDown;
-}
-.enter-bounceInLeft.ng-enter,
-.enter-bounceInLeft.ng-hide-remove {
-  animation-name: bounceInLeft;
-  -webkit-animation-name: bounceInLeft;
-}
-.enter-bounceInRight.ng-enter,
-.enter-bounceInRight.ng-hide-remove {
-  animation-name: bounceInRight;
-  -webkit-animation-name: bounceInRight;
-}
-.enter-bounceInUp.ng-enter,
-.enter-bounceInUp.ng-hide-remove {
-  animation-name: bounceInUp;
-  -webkit-animation-name: bounceInUp;
-}
-.enter-fadeIn.ng-enter,
-.enter-fadeIn.ng-hide-remove {
-  animation-name: fadeIn;
-  -webkit-animation-name: fadeIn;
-}
-.enter-fadeInDown.ng-enter,
-.enter-fadeInDown.ng-hide-remove {
-  animation-name: fadeInDown;
-  -webkit-animation-name: fadeInDown;
-}
-.enter-fadeInDownBig.ng-enter,
-.enter-fadeInDownBig.ng-hide-remove {
-  animation-name: fadeInDownBig;
-  -webkit-animation-name: fadeInDownBig;
-}
-.enter-fadeInLeft.ng-enter,
-.enter-fadeInLeft.ng-hide-remove {
-  animation-name: fadeInLeft;
-  -webkit-animation-name: fadeInLeft;
-}
-.enter-fadeInLeftBig.ng-enter,
-.enter-fadeInLeftBig.ng-hide-remove {
-  animation-name: fadeInLeftBig;
-  -webkit-animation-name: fadeInLeftBig;
-}
-.enter-fadeInRight.ng-enter,
-.enter-fadeInRight.ng-hide-remove {
-  animation-name: fadeInRight;
-  -webkit-animation-name: fadeInRight;
-}
-.enter-fadeInRightBig.ng-enter,
-.enter-fadeInRightBig.ng-hide-remove {
-  animation-name: fadeInRightBig;
-  -webkit-animation-name: fadeInRightBig;
-}
-.enter-fadeInUp.ng-enter,
-.enter-fadeInUp.ng-hide-remove {
-  animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp;
-}
-.enter-fadeInUpBig.ng-enter,
-.enter-fadeInUpBig.ng-hide-remove {
-  animation-name: fadeInUpBig;
-  -webkit-animation-name: fadeInUpBig;
-}
-.enter-flipInX.ng-enter,
-.enter-flipInX.ng-hide-remove {
-  animation-name: flipInX;
-  -webkit-animation-name: flipInX;
-}
-.enter-flipInY.ng-enter,
-.enter-flipInY.ng-hide-remove {
-  animation-name: flipInY;
-  -webkit-animation-name: flipInY;
-}
-.enter-foolishIn.ng-enter,
-.enter-foolishIn.ng-hide-remove {
-  animation-name: foolishIn;
-  -webkit-animation-name: foolishIn;
-}
-.enter-lightSpeedIn.ng-enter,
-.enter-lightSpeedIn.ng-hide-remove {
-  animation-name: lightSpeedIn;
-  -webkit-animation-name: lightSpeedIn;
-}
-.enter-puffIn.ng-enter,
-.enter-puffIn.ng-hide-remove {
-  animation-name: puffIn;
-  -webkit-animation-name: puffIn;
-}
-.enter-rollIn.ng-enter,
-.enter-rollIn.ng-hide-remove {
-  animation-name: rollIn;
-  -webkit-animation-name: rollIn;
-}
-.enter-rotateIn.ng-enter,
-.enter-rotateIn.ng-hide-remove {
-  animation-name: rotateIn;
-  -webkit-animation-name: rotateIn;
-}
-.enter-rotateInDownLeft.ng-enter,
-.enter-rotateInDownLeft.ng-hide-remove {
-  animation-name: rotateInDownLeft;
-  -webkit-animation-name: rotateInDownLeft;
-}
-.enter-rotateInDownRight.ng-enter,
-.enter-rotateInDownRight.ng-hide-remove {
-  animation-name: rotateInDownRight;
-  -webkit-animation-name: rotateInDownRight;
-}
-.enter-rotateInUpLeft.ng-enter,
-.enter-rotateInUpLeft.ng-hide-remove {
-  animation-name: rotateInUpLeft;
-  -webkit-animation-name: rotateInUpLeft;
-}
-.enter-rotateInUpRight.ng-enter,
-.enter-rotateInUpRight.ng-hide-remove {
-  animation-name: rotateInUpRight;
-  -webkit-animation-name: rotateInUpRight;
-}
-.enter-slideInDown.ng-enter,
-.enter-slideInDown.ng-hide-remove {
-  animation-name: slideInDown;
-  -webkit-animation-name: slideInDown;
-}
-.enter-slideInLeft.ng-enter,
-.enter-slideInLeft.ng-hide-remove {
-  animation-name: slideInLeft;
-  -webkit-animation-name: slideInLeft;
-}
-.enter-slideInRight.ng-enter,
-.enter-slideInRight.ng-hide-remove {
-  animation-name: slideInRight;
-  -webkit-animation-name: slideInRight;
-}
-.enter-slideInUp.ng-enter,
-.enter-slideInUp.ng-hide-remove {
-  animation-name: slideInUp;
-  -webkit-animation-name: slideInUp;
-}
-.enter-swashIn.ng-enter,
-.enter-swashIn.ng-hide-remove {
-  animation-name: swashIn;
-  -webkit-animation-name: swashIn;
-}
-.enter-tinDownIn.ng-enter,
-.enter-tinDownIn.ng-hide-remove {
-  animation-name: tinDownIn;
-  -webkit-animation-name: tinDownIn;
-}
-.enter-tinLeftIn.ng-enter,
-.enter-tinLeftIn.ng-hide-remove {
-  animation-name: tinLeftIn;
-  -webkit-animation-name: tinLeftIn;
-}
-.enter-tinRightIn.ng-enter,
-.enter-tinRightIn.ng-hide-remove {
-  animation-name: tinRightIn;
-  -webkit-animation-name: tinRightIn;
-}
-.enter-tinUpIn.ng-enter,
-.enter-tinUpIn.ng-hide-remove {
-  animation-name: tinUpIn;
-  -webkit-animation-name: tinUpIn;
-}
-.enter-twisterInDown.ng-enter,
-.enter-twisterInDown.ng-hide-remove {
-  animation-name: twisterInDown;
-  -webkit-animation-name: twisterInDown;
-}
-.enter-twisterInUp.ng-enter,
-.enter-twisterInUp.ng-hide-remove {
-  animation-name: twisterInUp;
-  -webkit-animation-name: twisterInUp;
-}
-.enter-vanishIn.ng-enter,
-.enter-vanishIn.ng-hide-remove {
-  animation-name: vanishIn;
-  -webkit-animation-name: vanishIn;
-}
-.enter-bombLeftOut.ng-enter,
-.enter-bombLeftOut.ng-hide-remove {
-  animation-name: bombLeftOut;
-  -webkit-animation-name: bombLeftOut;
-}
-.enter-bombRightOut.ng-enter,
-.enter-bombRightOut.ng-hide-remove {
-  animation-name: bombRightOut;
-  -webkit-animation-name: bombRightOut;
-}
-.enter-bounceOut.ng-enter,
-.enter-bounceOut.ng-hide-remove {
-  animation-name: bounceOut;
-  -webkit-animation-name: bounceOut;
-}
-.enter-bounceOutDown.ng-enter,
-.enter-bounceOutDown.ng-hide-remove {
-  animation-name: bounceOutDown;
-  -webkit-animation-name: bounceOutDown;
-}
-.enter-bounceOutLeft.ng-enter,
-.enter-bounceOutLeft.ng-hide-remove {
-  animation-name: bounceOutLeft;
-  -webkit-animation-name: bounceOutLeft;
-}
-.enter-bounceOutRight.ng-enter,
-.enter-bounceOutRight.ng-hide-remove {
-  animation-name: bounceOutRight;
-  -webkit-animation-name: bounceOutRight;
-}
-.enter-bounceOutUp.ng-enter,
-.enter-bounceOutUp.ng-hide-remove {
-  animation-name: bounceOutUp;
-  -webkit-animation-name: bounceOutUp;
-}
-.enter-fadeOut.ng-enter,
-.enter-fadeOut.ng-hide-remove {
-  animation-name: fadeOut;
-  -webkit-animation-name: fadeOut;
-}
-.enter-fadeOutDown.ng-enter,
-.enter-fadeOutDown.ng-hide-remove {
-  animation-name: fadeOutDown;
-  -webkit-animation-name: fadeOutDown;
-}
-.enter-fadeOutDownBig.ng-enter,
-.enter-fadeOutDownBig.ng-hide-remove {
-  animation-name: fadeOutDownBig;
-  -webkit-animation-name: fadeOutDownBig;
-}
-.enter-fadeOutLeft.ng-enter,
-.enter-fadeOutLeft.ng-hide-remove {
-  animation-name: fadeOutLeft;
-  -webkit-animation-name: fadeOutLeft;
-}
-.enter-fadeOutLeftBig.ng-enter,
-.enter-fadeOutLeftBig.ng-hide-remove {
-  animation-name: fadeOutLeftBig;
-  -webkit-animation-name: fadeOutLeftBig;
-}
-.enter-fadeOutRight.ng-enter,
-.enter-fadeOutRight.ng-hide-remove {
-  animation-name: fadeOutRight;
-  -webkit-animation-name: fadeOutRight;
-}
-.enter-fadeOutRightBig.ng-enter,
-.enter-fadeOutRightBig.ng-hide-remove {
-  animation-name: fadeOutRightBig;
-  -webkit-animation-name: fadeOutRightBig;
-}
-.enter-fadeOutUp.ng-enter,
-.enter-fadeOutUp.ng-hide-remove {
-  animation-name: fadeOutUp;
-  -webkit-animation-name: fadeOutUp;
-}
-.enter-fadeOutUpBig.ng-enter,
-.enter-fadeOutUpBig.ng-hide-remove {
-  animation-name: fadeOutUpBig;
-  -webkit-animation-name: fadeOutUpBig;
-}
-.enter-flipOutX.ng-enter,
-.enter-flipOutX.ng-hide-remove {
-  animation-name: flipOutX;
-  -webkit-animation-name: flipOutX;
-}
-.enter-flipOutY.ng-enter,
-.enter-flipOutY.ng-hide-remove {
-  animation-name: flipOutY;
-  -webkit-animation-name: flipOutY;
-}
-.enter-foolishOut.ng-enter,
-.enter-foolishOut.ng-hide-remove {
-  animation-name: foolishOut;
-  -webkit-animation-name: foolishOut;
-}
-.enter-holeOut.ng-enter,
-.enter-holeOut.ng-hide-remove {
-  animation-name: holeOut;
-  -webkit-animation-name: holeOut;
-}
-.enter-lightSpeedOut.ng-enter,
-.enter-lightSpeedOut.ng-hide-remove {
-  animation-name: lightSpeedOut;
-  -webkit-animation-name: lightSpeedOut;
-}
-.enter-openDownLeftOut.ng-enter,
-.enter-openDownLeftOut.ng-hide-remove {
-  animation-name: openDownLeftOut;
-  -webkit-animation-name: openDownLeftOut;
-}
-.enter-openDownRightOut.ng-enter,
-.enter-openDownRightOut.ng-hide-remove {
-  animation-name: openDownRightOut;
-  -webkit-animation-name: openDownRightOut;
-}
-.enter-openUpLeftOut.ng-enter,
-.enter-openUpLeftOut.ng-hide-remove {
-  animation-name: openUpLeftOut;
-  -webkit-animation-name: openUpLeftOut;
-}
-.enter-openUpRightOut.ng-enter,
-.enter-openUpRightOut.ng-hide-remove {
-  animation-name: openUpRightOut;
-  -webkit-animation-name: openUpRightOut;
-}
-.enter-puffOut.ng-enter,
-.enter-puffOut.ng-hide-remove {
-  animation-name: puffOut;
-  -webkit-animation-name: puffOut;
-}
-.enter-rollOut.ng-enter,
-.enter-rollOut.ng-hide-remove {
-  animation-name: rollOut;
-  -webkit-animation-name: rollOut;
-}
-.enter-rotateOut.ng-enter,
-.enter-rotateOut.ng-hide-remove {
-  animation-name: rotateOut;
-  -webkit-animation-name: rotateOut;
-}
-.enter-rotateOutDownLeft.ng-enter,
-.enter-rotateOutDownLeft.ng-hide-remove {
-  animation-name: rotateOutDownLeft;
-  -webkit-animation-name: rotateOutDownLeft;
-}
-.enter-rotateOutDownRight.ng-enter,
-.enter-rotateOutDownRight.ng-hide-remove {
-  animation-name: rotateOutDownRight;
-  -webkit-animation-name: rotateOutDownRight;
-}
-.enter-rotateOutUpLeft.ng-enter,
-.enter-rotateOutUpLeft.ng-hide-remove {
-  animation-name: rotateOutUpLeft;
-  -webkit-animation-name: rotateOutUpLeft;
-}
-.enter-rotateOutUpRight.ng-enter,
-.enter-rotateOutUpRight.ng-hide-remove {
-  animation-name: rotateOutUpRight;
-  -webkit-animation-name: rotateOutUpRight;
-}
-.enter-slideOutDown.ng-enter,
-.enter-slideOutDown.ng-hide-remove {
-  animation-name: slideOutDown;
-  -webkit-animation-name: slideOutDown;
-}
-.enter-slideOutLeft.ng-enter,
-.enter-slideOutLeft.ng-hide-remove {
-  animation-name: slideOutLeft;
-  -webkit-animation-name: slideOutLeft;
-}
-.enter-slideOutRight.ng-enter,
-.enter-slideOutRight.ng-hide-remove {
-  animation-name: slideOutRight;
-  -webkit-animation-name: slideOutRight;
-}
-.enter-slideOutUp.ng-enter,
-.enter-slideOutUp.ng-hide-remove {
-  animation-name: slideOutUp;
-  -webkit-animation-name: slideOutUp;
-}
-.enter-swashOut.ng-enter,
-.enter-swashOut.ng-hide-remove {
-  animation-name: swashOut;
-  -webkit-animation-name: swashOut;
-}
-.enter-tinDownOut.ng-enter,
-.enter-tinDownOut.ng-hide-remove {
-  animation-name: tinDownOut;
-  -webkit-animation-name: tinDownOut;
-}
-.enter-tinLeftOut.ng-enter,
-.enter-tinLeftOut.ng-hide-remove {
-  animation-name: tinLeftOut;
-  -webkit-animation-name: tinLeftOut;
-}
-.enter-tinRightOut.ng-enter,
-.enter-tinRightOut.ng-hide-remove {
-  animation-name: tinRightOut;
-  -webkit-animation-name: tinRightOut;
-}
-.enter-tinUpOut.ng-enter,
-.enter-tinUpOut.ng-hide-remove {
-  animation-name: tinUpOut;
-  -webkit-animation-name: tinUpOut;
-}
-.enter-vanishOut.ng-enter,
-.enter-vanishOut.ng-hide-remove {
-  animation-name: vanishOut;
-  -webkit-animation-name: vanishOut;
-}
-.exit-bounce.ng-leave,
-.exit-bounce.ng-hide-add {
-  animation-name: bounce;
-  -webkit-animation-name: bounce;
-}
-.exit-flash.ng-leave,
-.exit-flash.ng-hide-add {
-  animation-name: flash;
-  -webkit-animation-name: flash;
-}
-.exit-flip.ng-leave,
-.exit-flip.ng-hide-add {
-  animation-name: flip;
-  -webkit-animation-name: flip;
-}
-.exit-hinge.ng-leave,
-.exit-hinge.ng-hide-add {
-  animation-name: hinge;
-  -webkit-animation-name: hinge;
-}
-.exit-magic.ng-leave,
-.exit-magic.ng-hide-add {
-  animation-name: magic;
-  -webkit-animation-name: magic;
-}
-.exit-openDownLeft.ng-leave,
-.exit-openDownLeft.ng-hide-add {
-  animation-name: openDownLeft;
-  -webkit-animation-name: openDownLeft;
-}
-.exit-openDownLeftReturn.ng-leave,
-.exit-openDownLeftReturn.ng-hide-add {
-  animation-name: openDownLeftReturn;
-  -webkit-animation-name: openDownLeftReturn;
-}
-.exit-openDownRight.ng-leave,
-.exit-openDownRight.ng-hide-add {
-  animation-name: openDownRight;
-  -webkit-animation-name: openDownRight;
-}
-.exit-openDownRightReturn.ng-leave,
-.exit-openDownRightReturn.ng-hide-add {
-  animation-name: openDownRightReturn;
-  -webkit-animation-name: openDownRightReturn;
-}
-.exit-openUpLeft.ng-leave,
-.exit-openUpLeft.ng-hide-add {
-  animation-name: openUpLeft;
-  -webkit-animation-name: openUpLeft;
-}
-.exit-openUpLeftReturn.ng-leave,
-.exit-openUpLeftReturn.ng-hide-add {
-  animation-name: openUpLeftReturn;
-  -webkit-animation-name: openUpLeftReturn;
-}
-.exit-openUpRight.ng-leave,
-.exit-openUpRight.ng-hide-add {
-  animation-name: openUpRight;
-  -webkit-animation-name: openUpRight;
-}
-.exit-openUpRightReturn.ng-leave,
-.exit-openUpRightReturn.ng-hide-add {
-  animation-name: openUpRightReturn;
-  -webkit-animation-name: openUpRightReturn;
-}
-.exit-perspectiveDown.ng-leave,
-.exit-perspectiveDown.ng-hide-add {
-  animation-name: perspectiveDown;
-  -webkit-animation-name: perspectiveDown;
-}
-.exit-perspectiveDownReturn.ng-leave,
-.exit-perspectiveDownReturn.ng-hide-add {
-  animation-name: perspectiveDownReturn;
-  -webkit-animation-name: perspectiveDownReturn;
-}
-.exit-perspectiveLeft.ng-leave,
-.exit-perspectiveLeft.ng-hide-add {
-  animation-name: perspectiveLeft;
-  -webkit-animation-name: perspectiveLeft;
-}
-.exit-perspectiveLeftReturn.ng-leave,
-.exit-perspectiveLeftReturn.ng-hide-add {
-  animation-name: perspectiveLeftReturn;
-  -webkit-animation-name: perspectiveLeftReturn;
-}
-.exit-perspectiveRight.ng-leave,
-.exit-perspectiveRight.ng-hide-add {
-  animation-name: perspectiveRight;
-  -webkit-animation-name: perspectiveRight;
-}
-.exit-perspectiveRightReturn.ng-leave,
-.exit-perspectiveRightReturn.ng-hide-add {
-  animation-name: perspectiveRightReturn;
-  -webkit-animation-name: perspectiveRightReturn;
-}
-.exit-perspectiveUp.ng-leave,
-.exit-perspectiveUp.ng-hide-add {
-  animation-name: perspectiveUp;
-  -webkit-animation-name: perspectiveUp;
-}
-.exit-perspectiveUpReturn.ng-leave,
-.exit-perspectiveUpReturn.ng-hide-add {
-  animation-name: perspectiveUpReturn;
-  -webkit-animation-name: perspectiveUpReturn;
-}
-.exit-pulse.ng-leave,
-.exit-pulse.ng-hide-add {
-  animation-name: pulse;
-  -webkit-animation-name: pulse;
-}
-.exit-rotateDown.ng-leave,
-.exit-rotateDown.ng-hide-add {
-  animation-name: rotateDown;
-  -webkit-animation-name: rotateDown;
-}
-.exit-rotateLeft.ng-leave,
-.exit-rotateLeft.ng-hide-add {
-  animation-name: rotateLeft;
-  -webkit-animation-name: rotateLeft;
-}
-.exit-rotateRight.ng-leave,
-.exit-rotateRight.ng-hide-add {
-  animation-name: rotateRight;
-  -webkit-animation-name: rotateRight;
-}
-.exit-rotateUp.ng-leave,
-.exit-rotateUp.ng-hide-add {
-  animation-name: rotateUp;
-  -webkit-animation-name: rotateUp;
-}
-.exit-rubberBand.ng-leave,
-.exit-rubberBand.ng-hide-add {
-  animation-name: rubberBand;
-  -webkit-animation-name: rubberBand;
-}
-.exit-shake.ng-leave,
-.exit-shake.ng-hide-add {
-  animation-name: shake;
-  -webkit-animation-name: shake;
-}
-.exit-slideDown.ng-leave,
-.exit-slideDown.ng-hide-add {
-  animation-name: slideDown;
-  -webkit-animation-name: slideDown;
-}
-.exit-slideDownReturn.ng-leave,
-.exit-slideDownReturn.ng-hide-add {
-  animation-name: slideDownReturn;
-  -webkit-animation-name: slideDownReturn;
-}
-.exit-slideLeft.ng-leave,
-.exit-slideLeft.ng-hide-add {
-  animation-name: slideLeft;
-  -webkit-animation-name: slideLeft;
-}
-.exit-slideLeftReturn.ng-leave,
-.exit-slideLeftReturn.ng-hide-add {
-  animation-name: slideLeftReturn;
-  -webkit-animation-name: slideLeftReturn;
-}
-.exit-slideRight.ng-leave,
-.exit-slideRight.ng-hide-add {
-  animation-name: slideRight;
-  -webkit-animation-name: slideRight;
-}
-.exit-slideRightReturn.ng-leave,
-.exit-slideRightReturn.ng-hide-add {
-  animation-name: slideRightReturn;
-  -webkit-animation-name: slideRightReturn;
-}
-.exit-slideUp.ng-leave,
-.exit-slideUp.ng-hide-add {
-  animation-name: slideUp;
-  -webkit-animation-name: slideUp;
-}
-.exit-slideUpReturn.ng-leave,
-.exit-slideUpReturn.ng-hide-add {
-  animation-name: slideUpReturn;
-  -webkit-animation-name: slideUpReturn;
-}
-.exit-swap.ng-leave,
-.exit-swap.ng-hide-add {
-  animation-name: swap;
-  -webkit-animation-name: swap;
-}
-.exit-swing.ng-leave,
-.exit-swing.ng-hide-add {
-  animation-name: swing;
-  -webkit-animation-name: swing;
-}
-.exit-tada.ng-leave,
-.exit-tada.ng-hide-add {
-  animation-name: tada;
-  -webkit-animation-name: tada;
-}
-.exit-wobble.ng-leave,
-.exit-wobble.ng-hide-add {
-  animation-name: wobble;
-  -webkit-animation-name: wobble;
-}
-.exit-bounceIn.ng-leave,
-.exit-bounceIn.ng-hide-add {
-  animation-name: bounceIn;
-  -webkit-animation-name: bounceIn;
-}
-.exit-bounceInDown.ng-leave,
-.exit-bounceInDown.ng-hide-add {
-  animation-name: bounceInDown;
-  -webkit-animation-name: bounceInDown;
-}
-.exit-bounceInLeft.ng-leave,
-.exit-bounceInLeft.ng-hide-add {
-  animation-name: bounceInLeft;
-  -webkit-animation-name: bounceInLeft;
-}
-.exit-bounceInRight.ng-leave,
-.exit-bounceInRight.ng-hide-add {
-  animation-name: bounceInRight;
-  -webkit-animation-name: bounceInRight;
-}
-.exit-bounceInUp.ng-leave,
-.exit-bounceInUp.ng-hide-add {
-  animation-name: bounceInUp;
-  -webkit-animation-name: bounceInUp;
-}
-.exit-fadeIn.ng-leave,
-.exit-fadeIn.ng-hide-add {
-  animation-name: fadeIn;
-  -webkit-animation-name: fadeIn;
-}
-.exit-fadeInDown.ng-leave,
-.exit-fadeInDown.ng-hide-add {
-  animation-name: fadeInDown;
-  -webkit-animation-name: fadeInDown;
-}
-.exit-fadeInDownBig.ng-leave,
-.exit-fadeInDownBig.ng-hide-add {
-  animation-name: fadeInDownBig;
-  -webkit-animation-name: fadeInDownBig;
-}
-.exit-fadeInLeft.ng-leave,
-.exit-fadeInLeft.ng-hide-add {
-  animation-name: fadeInLeft;
-  -webkit-animation-name: fadeInLeft;
-}
-.exit-fadeInLeftBig.ng-leave,
-.exit-fadeInLeftBig.ng-hide-add {
-  animation-name: fadeInLeftBig;
-  -webkit-animation-name: fadeInLeftBig;
-}
-.exit-fadeInRight.ng-leave,
-.exit-fadeInRight.ng-hide-add {
-  animation-name: fadeInRight;
-  -webkit-animation-name: fadeInRight;
-}
-.exit-fadeInRightBig.ng-leave,
-.exit-fadeInRightBig.ng-hide-add {
-  animation-name: fadeInRightBig;
-  -webkit-animation-name: fadeInRightBig;
-}
-.exit-fadeInUp.ng-leave,
-.exit-fadeInUp.ng-hide-add {
-  animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp;
-}
-.exit-fadeInUpBig.ng-leave,
-.exit-fadeInUpBig.ng-hide-add {
-  animation-name: fadeInUpBig;
-  -webkit-animation-name: fadeInUpBig;
-}
-.exit-flipInX.ng-leave,
-.exit-flipInX.ng-hide-add {
-  animation-name: flipInX;
-  -webkit-animation-name: flipInX;
-}
-.exit-flipInY.ng-leave,
-.exit-flipInY.ng-hide-add {
-  animation-name: flipInY;
-  -webkit-animation-name: flipInY;
-}
-.exit-foolishIn.ng-leave,
-.exit-foolishIn.ng-hide-add {
-  animation-name: foolishIn;
-  -webkit-animation-name: foolishIn;
-}
-.exit-lightSpeedIn.ng-leave,
-.exit-lightSpeedIn.ng-hide-add {
-  animation-name: lightSpeedIn;
-  -webkit-animation-name: lightSpeedIn;
-}
-.exit-puffIn.ng-leave,
-.exit-puffIn.ng-hide-add {
-  animation-name: puffIn;
-  -webkit-animation-name: puffIn;
-}
-.exit-rollIn.ng-leave,
-.exit-rollIn.ng-hide-add {
-  animation-name: rollIn;
-  -webkit-animation-name: rollIn;
-}
-.exit-rotateIn.ng-leave,
-.exit-rotateIn.ng-hide-add {
-  animation-name: rotateIn;
-  -webkit-animation-name: rotateIn;
-}
-.exit-rotateInDownLeft.ng-leave,
-.exit-rotateInDownLeft.ng-hide-add {
-  animation-name: rotateInDownLeft;
-  -webkit-animation-name: rotateInDownLeft;
-}
-.exit-rotateInDownRight.ng-leave,
-.exit-rotateInDownRight.ng-hide-add {
-  animation-name: rotateInDownRight;
-  -webkit-animation-name: rotateInDownRight;
-}
-.exit-rotateInUpLeft.ng-leave,
-.exit-rotateInUpLeft.ng-hide-add {
-  animation-name: rotateInUpLeft;
-  -webkit-animation-name: rotateInUpLeft;
-}
-.exit-rotateInUpRight.ng-leave,
-.exit-rotateInUpRight.ng-hide-add {
-  animation-name: rotateInUpRight;
-  -webkit-animation-name: rotateInUpRight;
-}
-.exit-slideInDown.ng-leave,
-.exit-slideInDown.ng-hide-add {
-  animation-name: slideInDown;
-  -webkit-animation-name: slideInDown;
-}
-.exit-slideInLeft.ng-leave,
-.exit-slideInLeft.ng-hide-add {
-  animation-name: slideInLeft;
-  -webkit-animation-name: slideInLeft;
-}
-.exit-slideInRight.ng-leave,
-.exit-slideInRight.ng-hide-add {
-  animation-name: slideInRight;
-  -webkit-animation-name: slideInRight;
-}
-.exit-slideInUp.ng-leave,
-.exit-slideInUp.ng-hide-add {
-  animation-name: slideInUp;
-  -webkit-animation-name: slideInUp;
-}
-.exit-swashIn.ng-leave,
-.exit-swashIn.ng-hide-add {
-  animation-name: swashIn;
-  -webkit-animation-name: swashIn;
-}
-.exit-tinDownIn.ng-leave,
-.exit-tinDownIn.ng-hide-add {
-  animation-name: tinDownIn;
-  -webkit-animation-name: tinDownIn;
-}
-.exit-tinLeftIn.ng-leave,
-.exit-tinLeftIn.ng-hide-add {
-  animation-name: tinLeftIn;
-  -webkit-animation-name: tinLeftIn;
-}
-.exit-tinRightIn.ng-leave,
-.exit-tinRightIn.ng-hide-add {
-  animation-name: tinRightIn;
-  -webkit-animation-name: tinRightIn;
-}
-.exit-tinUpIn.ng-leave,
-.exit-tinUpIn.ng-hide-add {
-  animation-name: tinUpIn;
-  -webkit-animation-name: tinUpIn;
-}
-.exit-twisterInDown.ng-leave,
-.exit-twisterInDown.ng-hide-add {
-  animation-name: twisterInDown;
-  -webkit-animation-name: twisterInDown;
-}
-.exit-twisterInUp.ng-leave,
-.exit-twisterInUp.ng-hide-add {
-  animation-name: twisterInUp;
-  -webkit-animation-name: twisterInUp;
-}
-.exit-vanishIn.ng-leave,
-.exit-vanishIn.ng-hide-add {
-  animation-name: vanishIn;
-  -webkit-animation-name: vanishIn;
-}
-.exit-bombLeftOut.ng-leave,
-.exit-bombLeftOut.ng-hide-add {
-  animation-name: bombLeftOut;
-  -webkit-animation-name: bombLeftOut;
-}
-.exit-bombRightOut.ng-leave,
-.exit-bombRightOut.ng-hide-add {
-  animation-name: bombRightOut;
-  -webkit-animation-name: bombRightOut;
-}
-.exit-bounceOut.ng-leave,
-.exit-bounceOut.ng-hide-add {
-  animation-name: bounceOut;
-  -webkit-animation-name: bounceOut;
-}
-.exit-bounceOutDown.ng-leave,
-.exit-bounceOutDown.ng-hide-add {
-  animation-name: bounceOutDown;
-  -webkit-animation-name: bounceOutDown;
-}
-.exit-bounceOutLeft.ng-leave,
-.exit-bounceOutLeft.ng-hide-add {
-  animation-name: bounceOutLeft;
-  -webkit-animation-name: bounceOutLeft;
-}
-.exit-bounceOutRight.ng-leave,
-.exit-bounceOutRight.ng-hide-add {
-  animation-name: bounceOutRight;
-  -webkit-animation-name: bounceOutRight;
-}
-.exit-bounceOutUp.ng-leave,
-.exit-bounceOutUp.ng-hide-add {
-  animation-name: bounceOutUp;
-  -webkit-animation-name: bounceOutUp;
-}
-.exit-fadeOut.ng-leave,
-.exit-fadeOut.ng-hide-add {
-  animation-name: fadeOut;
-  -webkit-animation-name: fadeOut;
-}
-.exit-fadeOutDown.ng-leave,
-.exit-fadeOutDown.ng-hide-add {
-  animation-name: fadeOutDown;
-  -webkit-animation-name: fadeOutDown;
-}
-.exit-fadeOutDownBig.ng-leave,
-.exit-fadeOutDownBig.ng-hide-add {
-  animation-name: fadeOutDownBig;
-  -webkit-animation-name: fadeOutDownBig;
-}
-.exit-fadeOutLeft.ng-leave,
-.exit-fadeOutLeft.ng-hide-add {
-  animation-name: fadeOutLeft;
-  -webkit-animation-name: fadeOutLeft;
-}
-.exit-fadeOutLeftBig.ng-leave,
-.exit-fadeOutLeftBig.ng-hide-add {
-  animation-name: fadeOutLeftBig;
-  -webkit-animation-name: fadeOutLeftBig;
-}
-.exit-fadeOutRight.ng-leave,
-.exit-fadeOutRight.ng-hide-add {
-  animation-name: fadeOutRight;
-  -webkit-animation-name: fadeOutRight;
-}
-.exit-fadeOutRightBig.ng-leave,
-.exit-fadeOutRightBig.ng-hide-add {
-  animation-name: fadeOutRightBig;
-  -webkit-animation-name: fadeOutRightBig;
-}
-.exit-fadeOutUp.ng-leave,
-.exit-fadeOutUp.ng-hide-add {
-  animation-name: fadeOutUp;
-  -webkit-animation-name: fadeOutUp;
-}
-.exit-fadeOutUpBig.ng-leave,
-.exit-fadeOutUpBig.ng-hide-add {
-  animation-name: fadeOutUpBig;
-  -webkit-animation-name: fadeOutUpBig;
-}
-.exit-flipOutX.ng-leave,
-.exit-flipOutX.ng-hide-add {
-  animation-name: flipOutX;
-  -webkit-animation-name: flipOutX;
-}
-.exit-flipOutY.ng-leave,
-.exit-flipOutY.ng-hide-add {
-  animation-name: flipOutY;
-  -webkit-animation-name: flipOutY;
-}
-.exit-foolishOut.ng-leave,
-.exit-foolishOut.ng-hide-add {
-  animation-name: foolishOut;
-  -webkit-animation-name: foolishOut;
-}
-.exit-holeOut.ng-leave,
-.exit-holeOut.ng-hide-add {
-  animation-name: holeOut;
-  -webkit-animation-name: holeOut;
-}
-.exit-lightSpeedOut.ng-leave,
-.exit-lightSpeedOut.ng-hide-add {
-  animation-name: lightSpeedOut;
-  -webkit-animation-name: lightSpeedOut;
-}
-.exit-openDownLeftOut.ng-leave,
-.exit-openDownLeftOut.ng-hide-add {
-  animation-name: openDownLeftOut;
-  -webkit-animation-name: openDownLeftOut;
-}
-.exit-openDownRightOut.ng-leave,
-.exit-openDownRightOut.ng-hide-add {
-  animation-name: openDownRightOut;
-  -webkit-animation-name: openDownRightOut;
-}
-.exit-openUpLeftOut.ng-leave,
-.exit-openUpLeftOut.ng-hide-add {
-  animation-name: openUpLeftOut;
-  -webkit-animation-name: openUpLeftOut;
-}
-.exit-openUpRightOut.ng-leave,
-.exit-openUpRightOut.ng-hide-add {
-  animation-name: openUpRightOut;
-  -webkit-animation-name: openUpRightOut;
-}
-.exit-puffOut.ng-leave,
-.exit-puffOut.ng-hide-add {
-  animation-name: puffOut;
-  -webkit-animation-name: puffOut;
-}
-.exit-rollOut.ng-leave,
-.exit-rollOut.ng-hide-add {
-  animation-name: rollOut;
-  -webkit-animation-name: rollOut;
-}
-.exit-rotateOut.ng-leave,
-.exit-rotateOut.ng-hide-add {
-  animation-name: rotateOut;
-  -webkit-animation-name: rotateOut;
-}
-.exit-rotateOutDownLeft.ng-leave,
-.exit-rotateOutDownLeft.ng-hide-add {
-  animation-name: rotateOutDownLeft;
-  -webkit-animation-name: rotateOutDownLeft;
-}
-.exit-rotateOutDownRight.ng-leave,
-.exit-rotateOutDownRight.ng-hide-add {
-  animation-name: rotateOutDownRight;
-  -webkit-animation-name: rotateOutDownRight;
-}
-.exit-rotateOutUpLeft.ng-leave,
-.exit-rotateOutUpLeft.ng-hide-add {
-  animation-name: rotateOutUpLeft;
-  -webkit-animation-name: rotateOutUpLeft;
-}
-.exit-rotateOutUpRight.ng-leave,
-.exit-rotateOutUpRight.ng-hide-add {
-  animation-name: rotateOutUpRight;
-  -webkit-animation-name: rotateOutUpRight;
-}
-.exit-slideOutDown.ng-leave,
-.exit-slideOutDown.ng-hide-add {
-  animation-name: slideOutDown;
-  -webkit-animation-name: slideOutDown;
-}
-.exit-slideOutLeft.ng-leave,
-.exit-slideOutLeft.ng-hide-add {
-  animation-name: slideOutLeft;
-  -webkit-animation-name: slideOutLeft;
-}
-.exit-slideOutRight.ng-leave,
-.exit-slideOutRight.ng-hide-add {
-  animation-name: slideOutRight;
-  -webkit-animation-name: slideOutRight;
-}
-.exit-slideOutUp.ng-leave,
-.exit-slideOutUp.ng-hide-add {
-  animation-name: slideOutUp;
-  -webkit-animation-name: slideOutUp;
-}
-.exit-swashOut.ng-leave,
-.exit-swashOut.ng-hide-add {
-  animation-name: swashOut;
-  -webkit-animation-name: swashOut;
-}
-.exit-tinDownOut.ng-leave,
-.exit-tinDownOut.ng-hide-add {
-  animation-name: tinDownOut;
-  -webkit-animation-name: tinDownOut;
-}
-.exit-tinLeftOut.ng-leave,
-.exit-tinLeftOut.ng-hide-add {
-  animation-name: tinLeftOut;
-  -webkit-animation-name: tinLeftOut;
-}
-.exit-tinRightOut.ng-leave,
-.exit-tinRightOut.ng-hide-add {
-  animation-name: tinRightOut;
-  -webkit-animation-name: tinRightOut;
-}
-.exit-tinUpOut.ng-leave,
-.exit-tinUpOut.ng-hide-add {
-  animation-name: tinUpOut;
-  -webkit-animation-name: tinUpOut;
-}
-.exit-vanishOut.ng-leave,
-.exit-vanishOut.ng-hide-add {
-  animation-name: vanishOut;
-  -webkit-animation-name: vanishOut;
-}
-.stagger-0.ng-enter-stagger,
-.stagger-0.ng-leave-stagger {
-  animation-delay: 0ms;
-  -webkit-animation-delay: 0ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-50.ng-enter-stagger,
-.stagger-50.ng-leave-stagger {
-  animation-delay: 50ms;
-  -webkit-animation-delay: 50ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-100.ng-enter-stagger,
-.stagger-100.ng-leave-stagger {
-  animation-delay: 100ms;
-  -webkit-animation-delay: 100ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-150.ng-enter-stagger,
-.stagger-150.ng-leave-stagger {
-  animation-delay: 150ms;
-  -webkit-animation-delay: 150ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-200.ng-enter-stagger,
-.stagger-200.ng-leave-stagger {
-  animation-delay: 200ms;
-  -webkit-animation-delay: 200ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-250.ng-enter-stagger,
-.stagger-250.ng-leave-stagger {
-  animation-delay: 250ms;
-  -webkit-animation-delay: 250ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-300.ng-enter-stagger,
-.stagger-300.ng-leave-stagger {
-  animation-delay: 300ms;
-  -webkit-animation-delay: 300ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-350.ng-enter-stagger,
-.stagger-350.ng-leave-stagger {
-  animation-delay: 350ms;
-  -webkit-animation-delay: 350ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-400.ng-enter-stagger,
-.stagger-400.ng-leave-stagger {
-  animation-delay: 400ms;
-  -webkit-animation-delay: 400ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-450.ng-enter-stagger,
-.stagger-450.ng-leave-stagger {
-  animation-delay: 450ms;
-  -webkit-animation-delay: 450ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-500.ng-enter-stagger,
-.stagger-500.ng-leave-stagger {
-  animation-delay: 500ms;
-  -webkit-animation-delay: 500ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-550.ng-enter-stagger,
-.stagger-550.ng-leave-stagger {
-  animation-delay: 550ms;
-  -webkit-animation-delay: 550ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-600.ng-enter-stagger,
-.stagger-600.ng-leave-stagger {
-  animation-delay: 600ms;
-  -webkit-animation-delay: 600ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-650.ng-enter-stagger,
-.stagger-650.ng-leave-stagger {
-  animation-delay: 650ms;
-  -webkit-animation-delay: 650ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-700.ng-enter-stagger,
-.stagger-700.ng-leave-stagger {
-  animation-delay: 700ms;
-  -webkit-animation-delay: 700ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-750.ng-enter-stagger,
-.stagger-750.ng-leave-stagger {
-  animation-delay: 750ms;
-  -webkit-animation-delay: 750ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-800.ng-enter-stagger,
-.stagger-800.ng-leave-stagger {
-  animation-delay: 800ms;
-  -webkit-animation-delay: 800ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-850.ng-enter-stagger,
-.stagger-850.ng-leave-stagger {
-  animation-delay: 850ms;
-  -webkit-animation-delay: 850ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-900.ng-enter-stagger,
-.stagger-900.ng-leave-stagger {
-  animation-delay: 900ms;
-  -webkit-animation-delay: 900ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-950.ng-enter-stagger,
-.stagger-950.ng-leave-stagger {
-  animation-delay: 950ms;
-  -webkit-animation-delay: 950ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.stagger-1000.ng-enter-stagger,
-.stagger-1000.ng-leave-stagger {
-  animation-delay: 1000ms;
-  -webkit-animation-delay: 1000ms;
-  animation-duration: 0;
-  -webkit-animation-duration: 0;
-}
-.speed-0 {
-  animation-duration: 0ms;
-  -webkit-animation-duration: 0ms;
-}
-.speed-50 {
-  animation-duration: 50ms;
-  -webkit-animation-duration: 50ms;
-}
-.speed-100 {
-  animation-duration: 100ms;
-  -webkit-animation-duration: 100ms;
-}
-.speed-150 {
-  animation-duration: 150ms;
-  -webkit-animation-duration: 150ms;
-}
-.speed-200 {
-  animation-duration: 200ms;
-  -webkit-animation-duration: 200ms;
-}
-.speed-250 {
-  animation-duration: 250ms;
-  -webkit-animation-duration: 250ms;
-}
-.speed-300 {
-  animation-duration: 300ms;
-  -webkit-animation-duration: 300ms;
-}
-.speed-350 {
-  animation-duration: 350ms;
-  -webkit-animation-duration: 350ms;
-}
-.speed-400 {
-  animation-duration: 400ms;
-  -webkit-animation-duration: 400ms;
-}
-.speed-450 {
-  animation-duration: 450ms;
-  -webkit-animation-duration: 450ms;
-}
-.speed-500 {
-  animation-duration: 500ms;
-  -webkit-animation-duration: 500ms;
-}
-.speed-550 {
-  animation-duration: 550ms;
-  -webkit-animation-duration: 550ms;
-}
-.speed-600 {
-  animation-duration: 600ms;
-  -webkit-animation-duration: 600ms;
-}
-.speed-650 {
-  animation-duration: 650ms;
-  -webkit-animation-duration: 650ms;
-}
-.speed-700 {
-  animation-duration: 700ms;
-  -webkit-animation-duration: 700ms;
-}
-.speed-750 {
-  animation-duration: 750ms;
-  -webkit-animation-duration: 750ms;
-}
-.speed-800 {
-  animation-duration: 800ms;
-  -webkit-animation-duration: 800ms;
-}
-.speed-850 {
-  animation-duration: 850ms;
-  -webkit-animation-duration: 850ms;
-}
-.speed-900 {
-  animation-duration: 900ms;
-  -webkit-animation-duration: 900ms;
-}
-.speed-950 {
-  animation-duration: 950ms;
-  -webkit-animation-duration: 950ms;
-}
-.speed-1000 {
-  animation-duration: 1000ms;
-  -webkit-animation-duration: 1000ms;
-}
-.speed-1050 {
-  animation-duration: 1050ms;
-  -webkit-animation-duration: 1050ms;
-}
-.speed-1100 {
-  animation-duration: 1100ms;
-  -webkit-animation-duration: 1100ms;
-}
-.speed-1150 {
-  animation-duration: 1150ms;
-  -webkit-animation-duration: 1150ms;
-}
-.speed-1200 {
-  animation-duration: 1200ms;
-  -webkit-animation-duration: 1200ms;
-}
-.speed-1250 {
-  animation-duration: 1250ms;
-  -webkit-animation-duration: 1250ms;
-}
-.speed-1300 {
-  animation-duration: 1300ms;
-  -webkit-animation-duration: 1300ms;
-}
-.speed-1350 {
-  animation-duration: 1350ms;
-  -webkit-animation-duration: 1350ms;
-}
-.speed-1400 {
-  animation-duration: 1400ms;
-  -webkit-animation-duration: 1400ms;
-}
-.speed-1450 {
-  animation-duration: 1450ms;
-  -webkit-animation-duration: 1450ms;
-}
-.speed-1500 {
-  animation-duration: 1500ms;
-  -webkit-animation-duration: 1500ms;
-}
-.speed-1550 {
-  animation-duration: 1550ms;
-  -webkit-animation-duration: 1550ms;
-}
-.speed-1600 {
-  animation-duration: 1600ms;
-  -webkit-animation-duration: 1600ms;
-}
-.speed-1650 {
-  animation-duration: 1650ms;
-  -webkit-animation-duration: 1650ms;
-}
-.speed-1700 {
-  animation-duration: 1700ms;
-  -webkit-animation-duration: 1700ms;
-}
-.speed-1750 {
-  animation-duration: 1750ms;
-  -webkit-animation-duration: 1750ms;
-}
-.speed-1800 {
-  animation-duration: 1800ms;
-  -webkit-animation-duration: 1800ms;
-}
-.speed-1850 {
-  animation-duration: 1850ms;
-  -webkit-animation-duration: 1850ms;
-}
-.speed-1900 {
-  animation-duration: 1900ms;
-  -webkit-animation-duration: 1900ms;
-}
-.speed-1950 {
-  animation-duration: 1950ms;
-  -webkit-animation-duration: 1950ms;
-}
-.speed-2000 {
-  animation-duration: 2000ms;
-  -webkit-animation-duration: 2000ms;
-}
-.speed-2050 {
-  animation-duration: 2050ms;
-  -webkit-animation-duration: 2050ms;
-}
-.speed-2100 {
-  animation-duration: 2100ms;
-  -webkit-animation-duration: 2100ms;
-}
-.speed-2150 {
-  animation-duration: 2150ms;
-  -webkit-animation-duration: 2150ms;
-}
-.speed-2200 {
-  animation-duration: 2200ms;
-  -webkit-animation-duration: 2200ms;
-}
-.speed-2250 {
-  animation-duration: 2250ms;
-  -webkit-animation-duration: 2250ms;
-}
-.speed-2300 {
-  animation-duration: 2300ms;
-  -webkit-animation-duration: 2300ms;
-}
-.speed-2350 {
-  animation-duration: 2350ms;
-  -webkit-animation-duration: 2350ms;
-}
-.speed-2400 {
-  animation-duration: 2400ms;
-  -webkit-animation-duration: 2400ms;
-}
-.speed-2450 {
-  animation-duration: 2450ms;
-  -webkit-animation-duration: 2450ms;
-}
-.speed-2500 {
-  animation-duration: 2500ms;
-  -webkit-animation-duration: 2500ms;
-}
-.speed-2550 {
-  animation-duration: 2550ms;
-  -webkit-animation-duration: 2550ms;
-}
-.speed-2600 {
-  animation-duration: 2600ms;
-  -webkit-animation-duration: 2600ms;
-}
-.speed-2650 {
-  animation-duration: 2650ms;
-  -webkit-animation-duration: 2650ms;
-}
-.speed-2700 {
-  animation-duration: 2700ms;
-  -webkit-animation-duration: 2700ms;
-}
-.speed-2750 {
-  animation-duration: 2750ms;
-  -webkit-animation-duration: 2750ms;
-}
-.speed-2800 {
-  animation-duration: 2800ms;
-  -webkit-animation-duration: 2800ms;
-}
-.speed-2850 {
-  animation-duration: 2850ms;
-  -webkit-animation-duration: 2850ms;
-}
-.speed-2900 {
-  animation-duration: 2900ms;
-  -webkit-animation-duration: 2900ms;
-}
-.speed-2950 {
-  animation-duration: 2950ms;
-  -webkit-animation-duration: 2950ms;
-}
-.speed-3000 {
-  animation-duration: 3000ms;
-  -webkit-animation-duration: 3000ms;
-}
-.speed-3050 {
-  animation-duration: 3050ms;
-  -webkit-animation-duration: 3050ms;
-}
-.speed-3100 {
-  animation-duration: 3100ms;
-  -webkit-animation-duration: 3100ms;
-}
-.speed-3150 {
-  animation-duration: 3150ms;
-  -webkit-animation-duration: 3150ms;
-}
-.speed-3200 {
-  animation-duration: 3200ms;
-  -webkit-animation-duration: 3200ms;
-}
-.speed-3250 {
-  animation-duration: 3250ms;
-  -webkit-animation-duration: 3250ms;
-}
-.speed-3300 {
-  animation-duration: 3300ms;
-  -webkit-animation-duration: 3300ms;
-}
-.speed-3350 {
-  animation-duration: 3350ms;
-  -webkit-animation-duration: 3350ms;
-}
-.speed-3400 {
-  animation-duration: 3400ms;
-  -webkit-animation-duration: 3400ms;
-}
-.speed-3450 {
-  animation-duration: 3450ms;
-  -webkit-animation-duration: 3450ms;
-}
-.speed-3500 {
-  animation-duration: 3500ms;
-  -webkit-animation-duration: 3500ms;
-}
-.speed-3550 {
-  animation-duration: 3550ms;
-  -webkit-animation-duration: 3550ms;
-}
-.speed-3600 {
-  animation-duration: 3600ms;
-  -webkit-animation-duration: 3600ms;
-}
-.speed-3650 {
-  animation-duration: 3650ms;
-  -webkit-animation-duration: 3650ms;
-}
-.speed-3700 {
-  animation-duration: 3700ms;
-  -webkit-animation-duration: 3700ms;
-}
-.speed-3750 {
-  animation-duration: 3750ms;
-  -webkit-animation-duration: 3750ms;
-}
-.speed-3800 {
-  animation-duration: 3800ms;
-  -webkit-animation-duration: 3800ms;
-}
-.speed-3850 {
-  animation-duration: 3850ms;
-  -webkit-animation-duration: 3850ms;
-}
-.speed-3900 {
-  animation-duration: 3900ms;
-  -webkit-animation-duration: 3900ms;
-}
-.speed-3950 {
-  animation-duration: 3950ms;
-  -webkit-animation-duration: 3950ms;
-}
-.speed-4000 {
-  animation-duration: 4000ms;
-  -webkit-animation-duration: 4000ms;
 }
