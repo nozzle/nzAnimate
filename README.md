@@ -7,7 +7,10 @@ Built on [Animate.css](http://daneden.github.io/animate.css/) and [animate-stylu
 
 ## Installation
 
-`$ bower/npm install nz-animate --save`
+1. `$ bower/npm install nz-animate --save`
+2. Add `nzAnimate.min.css` or `nzAnimate.css`
+
+(For custom Builds, see below)
 
 ## Usage
 
