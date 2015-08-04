@@ -1,4 +1,6 @@
 # nzAnimate
+
+[![Join the chat at https://gitter.im/nozzle/nzAnimate](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nozzle/nzAnimate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A sickly simple class-based library for Angular animations.
 
 Built on [Animate.css](http://daneden.github.io/animate.css/) and [animate-stylus](https://github.com/slang800/animate-stylus), nzAnimate not only provides the regular functionality of Animate.css, but also provides easier classes for Angular animations on directives like ng-repeat (ng-enter, ng-leave), ng-hide, ng-show, or any other directives that leverage the ngAnimate module.
