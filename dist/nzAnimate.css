@@ -1,7 +1,7 @@
-.animate {
+/* .animate {
   animation-duration: 700ms;
   -webkit-animation-duration: 700ms;
-}
+} */
 .animate.infinite {
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
@@ -361,38 +361,6 @@
 .rollOut {
   animation-name: rollOut;
   -webkit-animation-name: rollOut;
-}
-.tinInDown {
-  animation-name: tinInDown;
-  -webkit-animation-name: tinInDown;
-}
-.tinInLeft {
-  animation-name: tinInLeft;
-  -webkit-animation-name: tinInLeft;
-}
-.tinInRight {
-  animation-name: tinInRight;
-  -webkit-animation-name: tinInRight;
-}
-.tinInUp {
-  animation-name: tinInUp;
-  -webkit-animation-name: tinInUp;
-}
-.tinOutDown {
-  animation-name: tinOutDown;
-  -webkit-animation-name: tinOutDown;
-}
-.tinOutLeft {
-  animation-name: tinOutLeft;
-  -webkit-animation-name: tinOutLeft;
-}
-.tinOutRight {
-  animation-name: tinOutRight;
-  -webkit-animation-name: tinOutRight;
-}
-.tinOutUp {
-  animation-name: tinOutUp;
-  -webkit-animation-name: tinOutUp;
 }
 .zoomIn {
   animation-name: zoomIn;
@@ -878,46 +846,6 @@
 .enter-rollOut.ng-hide-remove {
   animation-name: rollOut;
   -webkit-animation-name: rollOut;
-}
-.enter-tinInDown.ng-enter,
-.enter-tinInDown.ng-hide-remove {
-  animation-name: tinInDown;
-  -webkit-animation-name: tinInDown;
-}
-.enter-tinInLeft.ng-enter,
-.enter-tinInLeft.ng-hide-remove {
-  animation-name: tinInLeft;
-  -webkit-animation-name: tinInLeft;
-}
-.enter-tinInRight.ng-enter,
-.enter-tinInRight.ng-hide-remove {
-  animation-name: tinInRight;
-  -webkit-animation-name: tinInRight;
-}
-.enter-tinInUp.ng-enter,
-.enter-tinInUp.ng-hide-remove {
-  animation-name: tinInUp;
-  -webkit-animation-name: tinInUp;
-}
-.enter-tinOutDown.ng-enter,
-.enter-tinOutDown.ng-hide-remove {
-  animation-name: tinOutDown;
-  -webkit-animation-name: tinOutDown;
-}
-.enter-tinOutLeft.ng-enter,
-.enter-tinOutLeft.ng-hide-remove {
-  animation-name: tinOutLeft;
-  -webkit-animation-name: tinOutLeft;
-}
-.enter-tinOutRight.ng-enter,
-.enter-tinOutRight.ng-hide-remove {
-  animation-name: tinOutRight;
-  -webkit-animation-name: tinOutRight;
-}
-.enter-tinOutUp.ng-enter,
-.enter-tinOutUp.ng-hide-remove {
-  animation-name: tinOutUp;
-  -webkit-animation-name: tinOutUp;
 }
 .enter-zoomIn.ng-enter,
 .enter-zoomIn.ng-hide-remove {
@@ -1414,46 +1342,6 @@
   animation-name: rollOut;
   -webkit-animation-name: rollOut;
 }
-.exit-tinInDown.ng-leave,
-.exit-tinInDown.ng-hide-add {
-  animation-name: tinInDown;
-  -webkit-animation-name: tinInDown;
-}
-.exit-tinInLeft.ng-leave,
-.exit-tinInLeft.ng-hide-add {
-  animation-name: tinInLeft;
-  -webkit-animation-name: tinInLeft;
-}
-.exit-tinInRight.ng-leave,
-.exit-tinInRight.ng-hide-add {
-  animation-name: tinInRight;
-  -webkit-animation-name: tinInRight;
-}
-.exit-tinInUp.ng-leave,
-.exit-tinInUp.ng-hide-add {
-  animation-name: tinInUp;
-  -webkit-animation-name: tinInUp;
-}
-.exit-tinOutDown.ng-leave,
-.exit-tinOutDown.ng-hide-add {
-  animation-name: tinOutDown;
-  -webkit-animation-name: tinOutDown;
-}
-.exit-tinOutLeft.ng-leave,
-.exit-tinOutLeft.ng-hide-add {
-  animation-name: tinOutLeft;
-  -webkit-animation-name: tinOutLeft;
-}
-.exit-tinOutRight.ng-leave,
-.exit-tinOutRight.ng-hide-add {
-  animation-name: tinOutRight;
-  -webkit-animation-name: tinOutRight;
-}
-.exit-tinOutUp.ng-leave,
-.exit-tinOutUp.ng-hide-add {
-  animation-name: tinOutUp;
-  -webkit-animation-name: tinOutUp;
-}
 .exit-zoomIn.ng-leave,
 .exit-zoomIn.ng-hide-add {
   animation-name: zoomIn;
@@ -1651,327 +1539,489 @@
   animation-duration: 0;
   -webkit-animation-duration: 0;
 }
-.speed-0 {
+.speed-0.ng-move,
+.speed-0.ng-enter,
+.speed-0.ng-leave {
   animation-duration: 0ms;
   -webkit-animation-duration: 0ms;
 }
-.speed-50 {
+.speed-50.ng-move,
+.speed-50.ng-enter,
+.speed-50.ng-leave {
   animation-duration: 50ms;
   -webkit-animation-duration: 50ms;
 }
-.speed-100 {
+.speed-100.ng-move,
+.speed-100.ng-enter,
+.speed-100.ng-leave { 
   animation-duration: 100ms;
   -webkit-animation-duration: 100ms;
 }
-.speed-150 {
+.speed-150.ng-move,
+.speed-150.ng-enter,
+.speed-150.ng-leave {
   animation-duration: 150ms;
   -webkit-animation-duration: 150ms;
 }
-.speed-200 {
+.speed-200.ng-move,
+.speed-200.ng-enter,
+.speed-200.ng-leave {
   animation-duration: 200ms;
   -webkit-animation-duration: 200ms;
 }
-.speed-250 {
+.speed-250.ng-move,
+.speed-250.ng-enter,
+.speed-250.ng-leave {
   animation-duration: 250ms;
   -webkit-animation-duration: 250ms;
 }
-.speed-300 {
+.speed-300.ng-move,
+.speed-300.ng-enter,
+.speed-300.ng-leave { 
   animation-duration: 300ms;
   -webkit-animation-duration: 300ms;
-}
-.speed-350 {
+} 
+.speed-350.ng-move,
+.speed-350.ng-enter,
+.speed-350.ng-leave {
   animation-duration: 350ms;
   -webkit-animation-duration: 350ms;
 }
-.speed-400 {
+.speed-400.ng-move,
+.speed-400.ng-enter,
+.speed-400.ng-leave {
   animation-duration: 400ms;
   -webkit-animation-duration: 400ms;
 }
-.speed-450 {
+.speed-450.ng-move,
+.speed-450.ng-enter,
+.speed-450.ng-leave {
   animation-duration: 450ms;
   -webkit-animation-duration: 450ms;
 }
-.speed-500 {
+.speed-500.ng-move,
+.speed-500.ng-enter,
+.speed-500.ng-leave {
   animation-duration: 500ms;
   -webkit-animation-duration: 500ms;
 }
-.speed-550 {
+.speed-550.ng-move,
+.speed-550.ng-enter,
+.speed-550.ng-leave {
   animation-duration: 550ms;
   -webkit-animation-duration: 550ms;
 }
-.speed-600 {
+.speed-600.ng-move,
+.speed-600.ng-enter,
+.speed-600.ng-leave {
   animation-duration: 600ms;
   -webkit-animation-duration: 600ms;
 }
-.speed-650 {
+.speed-650.ng-move,
+.speed-650.ng-enter,
+.speed-650.ng-leave {
   animation-duration: 650ms;
   -webkit-animation-duration: 650ms;
 }
-.speed-700 {
+.speed-700.ng-move,
+.speed-700.ng-enter,
+.speed-700.ng-leave {
   animation-duration: 700ms;
   -webkit-animation-duration: 700ms;
 }
-.speed-750 {
+.speed-750.ng-move,
+.speed-750.ng-enter,
+.speed-750.ng-leave {
   animation-duration: 750ms;
   -webkit-animation-duration: 750ms;
 }
-.speed-800 {
+.speed-800.ng-move,
+.speed-800.ng-enter,
+.speed-800.ng-leave {
   animation-duration: 800ms;
   -webkit-animation-duration: 800ms;
 }
-.speed-850 {
+.speed-850.ng-move,
+.speed-850.ng-enter,
+.speed-850.ng-leave {
   animation-duration: 850ms;
   -webkit-animation-duration: 850ms;
 }
-.speed-900 {
+.speed-900.ng-move,
+.speed-900.ng-enter,
+.speed-900.ng-leave {
   animation-duration: 900ms;
   -webkit-animation-duration: 900ms;
 }
-.speed-950 {
+.speed-950.ng-move,
+.speed-950.ng-enter,
+.speed-950.ng-leave {
   animation-duration: 950ms;
   -webkit-animation-duration: 950ms;
 }
-.speed-1000 {
+.speed-1000.ng-move,
+.speed-1000.ng-enter,
+.speed-1000.ng-leave {
   animation-duration: 1000ms;
   -webkit-animation-duration: 1000ms;
 }
-.speed-1050 {
+.speed-1050.ng-move,
+.speed-1050.ng-enter,
+.speed-1050.ng-leave {
   animation-duration: 1050ms;
   -webkit-animation-duration: 1050ms;
 }
-.speed-1100 {
+.speed-1100.ng-move,
+.speed-1100.ng-enter,
+.speed-1100.ng-leave {
   animation-duration: 1100ms;
   -webkit-animation-duration: 1100ms;
 }
-.speed-1150 {
+.speed-1150.ng-move,
+.speed-1150.ng-enter,
+.speed-1150.ng-leave {
   animation-duration: 1150ms;
   -webkit-animation-duration: 1150ms;
 }
-.speed-1200 {
+.speed-1200.ng-move,
+.speed-1200.ng-enter,
+.speed-1200.ng-leave {
   animation-duration: 1200ms;
   -webkit-animation-duration: 1200ms;
 }
-.speed-1250 {
+.speed-1250.ng-move,
+.speed-1250.ng-enter,
+.speed-1250.ng-leave {
   animation-duration: 1250ms;
   -webkit-animation-duration: 1250ms;
 }
-.speed-1300 {
+.speed-1300.ng-move,
+.speed-1300.ng-enter,
+.speed-1300.ng-leave {
   animation-duration: 1300ms;
   -webkit-animation-duration: 1300ms;
 }
-.speed-1350 {
+.speed-1350.ng-move,
+.speed-1350.ng-enter,
+.speed-1350.ng-leave {
   animation-duration: 1350ms;
   -webkit-animation-duration: 1350ms;
 }
-.speed-1400 {
+.speed-1400.ng-move,
+.speed-1400.ng-enter,
+.speed-1400.ng-leave {
   animation-duration: 1400ms;
   -webkit-animation-duration: 1400ms;
 }
-.speed-1450 {
+.speed-1450.ng-move,
+.speed-1450.ng-enter,
+.speed-1450.ng-leave {
   animation-duration: 1450ms;
   -webkit-animation-duration: 1450ms;
 }
-.speed-1500 {
+.speed-1500.ng-move,
+.speed-1500.ng-enter,
+.speed-1500.ng-leave {
   animation-duration: 1500ms;
   -webkit-animation-duration: 1500ms;
 }
-.speed-1550 {
+.speed-1550.ng-move,
+.speed-1550.ng-enter,
+.speed-1550.ng-leave {
   animation-duration: 1550ms;
   -webkit-animation-duration: 1550ms;
 }
-.speed-1600 {
+.speed-1600.ng-move,
+.speed-1600.ng-enter,
+.speed-1600.ng-leave {
   animation-duration: 1600ms;
   -webkit-animation-duration: 1600ms;
 }
-.speed-1650 {
+.speed-1650.ng-move,
+.speed-1650.ng-enter,
+.speed-1650.ng-leave {
   animation-duration: 1650ms;
   -webkit-animation-duration: 1650ms;
 }
-.speed-1700 {
+.speed-1700.ng-move,
+.speed-1700.ng-enter,
+.speed-1700.ng-leave {
   animation-duration: 1700ms;
   -webkit-animation-duration: 1700ms;
 }
-.speed-1750 {
+.speed-1750.ng-move,
+.speed-1750.ng-enter,
+.speed-1750.ng-leave {
   animation-duration: 1750ms;
   -webkit-animation-duration: 1750ms;
 }
-.speed-1800 {
+.speed-1800.ng-move,
+.speed-1800.ng-enter,
+.speed-1800.ng-leave {
   animation-duration: 1800ms;
   -webkit-animation-duration: 1800ms;
 }
-.speed-1850 {
+.speed-1850.ng-move,
+.speed-1850.ng-enter,
+.speed-1850.ng-leave {
   animation-duration: 1850ms;
   -webkit-animation-duration: 1850ms;
 }
-.speed-1900 {
+.speed-1900.ng-move,
+.speed-1900.ng-enter,
+.speed-1900.ng-leave {
   animation-duration: 1900ms;
   -webkit-animation-duration: 1900ms;
 }
-.speed-1950 {
+.speed-1950.ng-move,
+.speed-1950.ng-enter,
+.speed-1950.ng-leave {
   animation-duration: 1950ms;
   -webkit-animation-duration: 1950ms;
 }
-.speed-2000 {
+.speed-2000.ng-move,
+.speed-2000.ng-enter,
+.speed-2000.ng-leave {
   animation-duration: 2000ms;
   -webkit-animation-duration: 2000ms;
 }
-.speed-2050 {
+.speed-2050.ng-move,
+.speed-2050.ng-enter,
+.speed-2050.ng-leave {
   animation-duration: 2050ms;
   -webkit-animation-duration: 2050ms;
 }
-.speed-2100 {
+.speed-2100.ng-move,
+.speed-2100.ng-enter,
+.speed-2100.ng-leave {
   animation-duration: 2100ms;
   -webkit-animation-duration: 2100ms;
 }
-.speed-2150 {
+.speed-2150.ng-move,
+.speed-2150.ng-enter,
+.speed-2150.ng-leave {
   animation-duration: 2150ms;
   -webkit-animation-duration: 2150ms;
 }
-.speed-2200 {
+.speed-2200.ng-move,
+.speed-2200.ng-enter,
+.speed-2200.ng-leave {
   animation-duration: 2200ms;
   -webkit-animation-duration: 2200ms;
 }
-.speed-2250 {
+.speed-2250.ng-move,
+.speed-2250.ng-enter,
+.speed-2250.ng-leave {
   animation-duration: 2250ms;
   -webkit-animation-duration: 2250ms;
 }
-.speed-2300 {
+.speed-2300.ng-move,
+.speed-2300.ng-enter,
+.speed-2300.ng-leave {
   animation-duration: 2300ms;
   -webkit-animation-duration: 2300ms;
 }
-.speed-2350 {
+.speed-2350.ng-move,
+.speed-2350.ng-enter,
+.speed-2350.ng-leave {
   animation-duration: 2350ms;
   -webkit-animation-duration: 2350ms;
 }
-.speed-2400 {
+.speed-2400.ng-move,
+.speed-2400.ng-enter,
+.speed-2400.ng-leave {
   animation-duration: 2400ms;
   -webkit-animation-duration: 2400ms;
 }
-.speed-2450 {
+.speed-2450.ng-move,
+.speed-2450.ng-enter,
+.speed-2450.ng-leave {
   animation-duration: 2450ms;
   -webkit-animation-duration: 2450ms;
 }
-.speed-2500 {
+.speed-2500.ng-move,
+.speed-2500.ng-enter,
+.speed-2500.ng-leave {
   animation-duration: 2500ms;
   -webkit-animation-duration: 2500ms;
 }
-.speed-2550 {
+.speed-2550.ng-move,
+.speed-2550.ng-enter,
+.speed-2550.ng-leave {
   animation-duration: 2550ms;
   -webkit-animation-duration: 2550ms;
 }
-.speed-2600 {
+.speed-2600.ng-move,
+.speed-2600.ng-enter,
+.speed-2600.ng-leave {
   animation-duration: 2600ms;
   -webkit-animation-duration: 2600ms;
 }
-.speed-2650 {
+.speed-2650.ng-move,
+.speed-2650.ng-enter,
+.speed-2650.ng-leave {
   animation-duration: 2650ms;
   -webkit-animation-duration: 2650ms;
 }
-.speed-2700 {
+.speed-2700.ng-move,
+.speed-2700.ng-enter,
+.speed-2700.ng-leave {
   animation-duration: 2700ms;
   -webkit-animation-duration: 2700ms;
 }
-.speed-2750 {
+.speed-2750.ng-move,
+.speed-2750.ng-enter,
+.speed-2750.ng-leave {
   animation-duration: 2750ms;
   -webkit-animation-duration: 2750ms;
 }
-.speed-2800 {
+.speed-2800.ng-move,
+.speed-2800.ng-enter,
+.speed-2300.ng-leave {
   animation-duration: 2800ms;
   -webkit-animation-duration: 2800ms;
 }
-.speed-2850 {
+.speed-2850.ng-move,
+.speed-2850.ng-enter,
+.speed-2850.ng-leave {
   animation-duration: 2850ms;
   -webkit-animation-duration: 2850ms;
 }
-.speed-2900 {
+.speed-2900.ng-move,
+.speed-2900.ng-enter,
+.speed-2900.ng-leave {
   animation-duration: 2900ms;
   -webkit-animation-duration: 2900ms;
 }
-.speed-2950 {
+.speed-2950.ng-move,
+.speed-2950.ng-enter,
+.speed-2950.ng-leave {
   animation-duration: 2950ms;
   -webkit-animation-duration: 2950ms;
 }
-.speed-3000 {
+.speed-3000.ng-move,
+.speed-3000.ng-enter,
+.speed-3000.ng-leave {
   animation-duration: 3000ms;
   -webkit-animation-duration: 3000ms;
 }
-.speed-3050 {
+.speed-3050.ng-move,
+.speed-3050.ng-enter,
+.speed-3050.ng-leave {
   animation-duration: 3050ms;
   -webkit-animation-duration: 3050ms;
 }
-.speed-3100 {
+.speed-3100.ng-move,
+.speed-3100.ng-enter,
+.speed-3100.ng-leave {
   animation-duration: 3100ms;
   -webkit-animation-duration: 3100ms;
 }
-.speed-3150 {
+.speed-3150.ng-move,
+.speed-3150.ng-enter,
+.speed-3150.ng-leave {
   animation-duration: 3150ms;
   -webkit-animation-duration: 3150ms;
 }
-.speed-3200 {
+.speed-3200.ng-move,
+.speed-3200.ng-enter,
+.speed-3200.ng-leave {
   animation-duration: 3200ms;
   -webkit-animation-duration: 3200ms;
 }
-.speed-3250 {
+.speed-3250.ng-move,
+.speed-3250.ng-enter,
+.speed-3250.ng-leave {
   animation-duration: 3250ms;
   -webkit-animation-duration: 3250ms;
 }
-.speed-3300 {
+.speed-3300.ng-move,
+.speed-3300.ng-enter,
+.speed-3300.ng-leave {
   animation-duration: 3300ms;
   -webkit-animation-duration: 3300ms;
 }
-.speed-3350 {
+.speed-3350.ng-move,
+.speed-3350.ng-enter,
+.speed-3350.ng-leave {
   animation-duration: 3350ms;
   -webkit-animation-duration: 3350ms;
 }
-.speed-3400 {
+.speed-3400.ng-move,
+.speed-3400.ng-enter,
+.speed-3400.ng-leave {
   animation-duration: 3400ms;
   -webkit-animation-duration: 3400ms;
 }
-.speed-3450 {
+.speed-3450.ng-move,
+.speed-3450.ng-enter,
+.speed-3450.ng-leave {
   animation-duration: 3450ms;
   -webkit-animation-duration: 3450ms;
 }
-.speed-3500 {
+.speed-3500.ng-move,
+.speed-3500.ng-enter,
+.speed-3500.ng-leave {
   animation-duration: 3500ms;
   -webkit-animation-duration: 3500ms;
 }
-.speed-3550 {
+.speed-3550.ng-move,
+.speed-3550.ng-enter,
+.speed-3550.ng-leave {
   animation-duration: 3550ms;
   -webkit-animation-duration: 3550ms;
 }
-.speed-3600 {
+.speed-3600.ng-move,
+.speed-3600.ng-enter,
+.speed-3600.ng-leave {
   animation-duration: 3600ms;
   -webkit-animation-duration: 3600ms;
 }
-.speed-3650 {
+.speed-3650.ng-move,
+.speed-3650.ng-enter,
+.speed-3650.ng-leave {
   animation-duration: 3650ms;
   -webkit-animation-duration: 3650ms;
 }
-.speed-3700 {
+.speed-3700.ng-move,
+.speed-3700.ng-enter,
+.speed-3700.ng-leave {
   animation-duration: 3700ms;
   -webkit-animation-duration: 3700ms;
 }
-.speed-3750 {
+.speed-3750.ng-move,
+.speed-3750.ng-enter,
+.speed-3750.ng-leave {
   animation-duration: 3750ms;
   -webkit-animation-duration: 3750ms;
 }
-.speed-3800 {
+.speed-3800.ng-move,
+.speed-3800.ng-enter,
+.speed-3800.ng-leave {
   animation-duration: 3800ms;
   -webkit-animation-duration: 3800ms;
 }
-.speed-3850 {
+.speed-3850.ng-move,
+.speed-3850.ng-enter,
+.speed-3850.ng-leave {
   animation-duration: 3850ms;
   -webkit-animation-duration: 3850ms;
 }
-.speed-3900 {
+.speed-3900.ng-move,
+.speed-3900.ng-enter,
+.speed-3900.ng-leave {
   animation-duration: 3900ms;
   -webkit-animation-duration: 3900ms;
 }
-.speed-3950 {
+.speed-3950.ng-move,
+.speed-3950.ng-enter,
+.speed-3950.ng-leave {
   animation-duration: 3950ms;
   -webkit-animation-duration: 3950ms;
 }
-.speed-4000 {
+.speed-4000.ng-move,
+.speed-4000.ng-enter,
+.speed-4000.ng-leave {
   animation-duration: 4000ms;
   -webkit-animation-duration: 4000ms;
 }
@@ -4401,8 +4451,8 @@
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(0deg) translate3d(0px);
-    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0px);
+    transform: perspective(800px) rotateY(0deg) translate3d(0,0,0);
+    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0,0,0);
   }
 }
 @-webkit-keyframes flopInLeft {
@@ -4416,8 +4466,8 @@
   100% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(0deg) translate3d(0px);
-    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0px);
+    transform: perspective(800px) rotateY(0deg) translate3d(0,0,0);
+    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0,0,0);
   }
 }
 @keyframes flopInRight {
@@ -4544,8 +4594,8 @@
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(0deg) translate3d(0px);
-    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0px);
+    transform: perspective(800px) rotateY(0deg) translate3d(0,0,0);
+    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0,0,0);
   }
   100% {
     opacity: 0;
@@ -4559,8 +4609,8 @@
   0% {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    transform: perspective(800px) rotateY(0deg) translate3d(0px);
-    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0px);
+    transform: perspective(800px) rotateY(0deg) translate3d(0,0,0);
+    -webkit-transform: perspective(800px) rotateY(0deg) translate3d(0,0,0);
   }
   100% {
     opacity: 0;
