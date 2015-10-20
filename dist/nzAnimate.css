@@ -1,7 +1,7 @@
-/* .animate {
-  animation-duration: 700ms;
-  -webkit-animation-duration: 700ms;
-} */
+.animate {
+  animation-duration: 300ms;
+  -webkit-animation-duration: 300ms;
+}
 .animate.infinite {
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
